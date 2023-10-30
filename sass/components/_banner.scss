@@ -1,0 +1,137 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.banner {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 45px;
+	.left-banner-main {
+		.left-banner-item {
+			width: 100%;
+			height: 490px;
+			border-radius: 10px;
+			.img {
+				height: 100%;
+				position: relative;
+				img {
+					height: 100%;
+					border-radius: 10px;
+				}
+			}
+		}
+	}
+	.right-banner-image {
+		width: 100%;
+		height: 460px;
+		background-color: #FAC251;
+		border-radius: 10px;
+		.img {
+			background-position: bottom right !important;
+			background-repeat: no-repeat !important;
+			width: 100%;
+			height: 100%;
+			border-radius: 10px;
+		}
+		.overlay {
+			padding: 70px 0 0 50px;
+			width: 100%;
+			height: 100%;
+			z-index: 99;
+			h1 {
+				margin-bottom: 33px;
+				color: #000;
+				font-size: 40px;
+				font-weight: 700;
+				line-height: 1em;
+				text-transform: uppercase;
+			}
+			p {
+				color: #000;
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 500;
+				width: 180px;
+			}
+			.shop-now {
+				color: #000;
+				padding: 12px 30px;
+				background-color: #fff;
+				font-size: 14px;
+				font-weight: 600;
+				border-radius: 5px;
+				margin-top: 70px;
+			}
+		}
+	}
+}
+.left-banner-main {
+	position: relative;
+	.icon {
+		width: 35px;
+		height: 35px;
+		background-color: #fff;
+		text-align: center;
+		line-height: 35px;
+		font-size: 16px;
+		font-weight: 700;
+		display: inline-block;
+		cursor: pointer;
+		transition: all linear .2s;
+		&:hover {
+			background-color: #FAB528;
+		}
+		&.left {
+			position: absolute;
+			bottom: 30px;
+			right: 86px;
+			z-index: 9;
+		}
+		&.right {
+			position: absolute;
+			bottom: 30px;
+			right: 40px;
+		}
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		.text {
+			padding: 70px 0 0 90px;
+			h2 {
+				font-size: 36px;
+				line-height: 48px;
+				color: #2a4356;
+				width: 360px;
+			}
+			p {
+				color: #2a4356;
+				width: 260px;
+				line-height: 26px;
+				margin-top: 40px;
+				font-weight: 500;
+			}
+			a {
+				color: #000;
+				padding: 12px 30px;
+				background-color: #fff;
+				font-size: 14px;
+				font-weight: 600;
+				border-radius: 5px;
+				margin-top: 70px;
+			}
+		}
+		&.overlay-2 {
+			h2 {
+				color: #fff;
+			}
+			p {
+				color: #fff;
+			}
+		}
+	}
+}

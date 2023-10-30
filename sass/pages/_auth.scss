@@ -1,0 +1,118 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.login-section{
+  
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+  background-color: $lightbg1;
+
+  .login-img {
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .login-form-wrap{
+
+    a{
+      color: $colortheme;
+    }
+
+    img{
+      width: 100px;
+    }
+
+    h4{
+      font-weight: 700;
+
+      span{
+        color: $colortheme;
+      }
+    }
+
+    .fs-xs{
+      a{
+        color: $colortheme !important;
+      }
+    }
+
+    .auth-input {
+      padding: 15px 24px;
+      border-radius: 4px;
+      border: 1px solid $secondarytheme;
+      width: 100%;
+
+      &::placeholder {
+        color: rgba(93,99,116,.5);
+      }
+    }
+
+    .check-password{
+      position: relative;
+
+      .eye {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+    } 
+
+    .create-btn{
+      color: $white;
+      background-color: $darktheme;
+      border-color: $darktheme;
+      transition: all .3s ease-in-out;
+      font-weight: 500;
+      padding: 15px 0;
+      border-radius: 5px;
+      border: none; 
+      font-size: 18px;
+      text-align: center;
+
+      &:hover{
+        background-color: $colortheme;
+      }
+    }
+
+    .google-btn{
+      color: $black;
+      background-color: $white;
+      border: 1px solid $secondarytheme;
+      padding: 15px 0;
+      font-weight: 500;
+      text-align: center;
+      border-radius: 5px;
+
+      img{
+        width: 25px;
+        height: 25px;
+      }
+
+      &:hover{
+        border-color: $colortheme;
+      }
+    }
+
+    // .login-checkbox .checkbox-field {
+    //   width: 100%;
+    //   height: 100%;
+    //   background-color: #fafafa;
+    //   position: absolute;
+    //   border: 1px solid #cfcfcf;
+    //   border-radius: 2px;
+    //   font-size: 8px;
+    //   display: inline-flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   color: #fafafa;
+    // }
+  }
+}

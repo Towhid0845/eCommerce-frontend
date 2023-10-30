@@ -1,0 +1,53 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.call {
+  background-color: $secondarytheme;
+
+  .call-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+      color: $black;
+    }
+  }
+  
+}
+.call-btn {
+  border-radius: 0;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 1;
+  margin-right: 15px;
+  background-color: $white;
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: $darktheme;
+  }
+
+  &:hover {
+    background-color: $primarytheme;
+    color: $white;
+    &::after {
+      width: 100%;
+    }
+  }
+}
