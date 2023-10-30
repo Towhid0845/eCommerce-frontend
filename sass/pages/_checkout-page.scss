@@ -2,17 +2,17 @@
 @import "../mixin/font";
 
 .isCustomer, .haveCoupon{
-  background-color: $primarytheme;
+background-color: $primarytheme;
   padding: 15px 20px;
   margin-bottom: 30px;
-  
-  h3{
+
+  h3 {
     color: $black;
     font-size: 20px;
     font-weight: 700;
   }
-  
-  a{
+
+    a {
     color: $colortheme;
     font-size: 20px;
     font-weight: 700;
@@ -20,185 +20,189 @@
 }
 
 .billing-section{
-  padding: 30px;
+padding: 30px;
   border: 2px solid $secondarytheme;
 
-  form{
-    h6{
+form {
+    h6 {
       font-weight: bold;
       margin-bottom: 24px;
     }
 
-    .input-item {
-      position: relative;
+.input-item {
+  position: relative;
 
-      i{
-        position: absolute;
-        right: 20px;
-        top: 24px;
-        color: $colortheme;
-        z-index: 1;
-      }
-    }
-
-    input[type="text"], input[type="email"], input[type="password"], input[type="submit"], textarea {
-      background-color: $white;
-      border: 2px solid;
-      border-color: $secondarytheme;
-      height: 65px;
-      box-shadow: none;
-      padding-left: 20px;
-      font-size: 16px;
-      color: black;
-      width: 100%;
-      margin-bottom: 30px;
-      border-radius: 0;
-      padding-right: 40px;
-    }
-
-    input::-webkit-input-placeholder{
-      font-size: 16px;
-      color: $secondarytheme;
-    }
-    
-    .input-item .nice-select {
-      border: 2px solid;
-      border-color: $secondarytheme;
-      border-radius: 0;
-      font-size: 14px;
-      font-weight: 400;
-      height: 65px;
-      line-height: 60px;
-      width: 100%;
-      margin-bottom: 30px;
-
-      &::after {
-        border-bottom: 2px solid $colortheme;
-        border-right: 2px solid $colortheme;
-        height: 10px;
-        width: 10px;
-      }
-
-      .list {
-        min-width: 100%;
-      }
-    }
-
-    textarea {
-      resize: vertical;
-      padding: 15px 20px;
-      min-height: 150px;
-    }
-
-    input:focus, textarea:focus{
-      border: 1px solid #3ca003;
-    }
+i {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    color: $colortheme;
+    z-index: 1;
   }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+textarea {
+  background-color: $white;
+  border: 2px solid;
+  border-color: $secondarytheme;
+  height: 65px;
+  box-shadow: none;
+  padding-left: 20px;
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 0;
+  padding-right: 40px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: $secondarytheme;
+}
+
+.input-item .nice-select {
+  border: 2px solid;
+  border-color: $secondarytheme;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  height: 65px;
+  line-height: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+
+&::after {
+    border-bottom: 2px solid $colortheme;
+    border-right: 2px solid $colortheme;
+    height: 10px;
+    width: 10px;
+  }
+
+.list {
+  min-width: 100%;
+}
+}
+
+textarea {
+  resize: vertical;
+  padding: 15px 20px;
+  min-height: 150px;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #3ca003;
+}
+}
 }
 
 .checkout-payment-method{
 
-  .card {
+.card {
     padding: 20px;
     border-radius: 0;
   }
 
-  .card:not(:last-of-type) {
-    border-bottom: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .card-body {
-    padding: 15px 30px;
-    box-shadow: 0 0 15px 0px rgba(131, 132, 135, 0.5);
-    margin-top: 15px;
-    // position: relative;
-  }
+.card:not(:last-of-type) {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
-  .card-title {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 0;
+.card-body {
+  padding: 15px 30px;
+  box-shadow: 0 0 15px 0px rgba(131, 132, 135, 0.5);
+  margin-top: 15px;
+  // position: relative;
+}
 
-    .feather-circle{
-      position: absolute;
-      left: 0;
-      top: 2px;
-      stroke-width: 1;
-    }
-    .fa-circle{
-      position: absolute;
-      left: 4px;
-      top: 6px;
-      font-size: 11px;
-    }
+.card-title {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 0;
 
-    img {
-      height: 45px;
-      margin-left: 10px;
-    }
-  }
+.feather-circle {
+    position: absolute;
+    left: 0;
+top: 13px;
+  stroke-width: 1;
+}
+.fa-circle {
+  position: absolute;
+  left: 4px;
+top: 17px;
+  font-size: 11px;
+}
 
-  .call-btn{
-    background-color: $colortheme;
-    color: $white !important;
-    font-size: 18px;
-  }
-   
+img {
+margin-left: 30px;
+height: 45px;
+}
+}
 }
 
 
 .checkout .order-table {
-  padding: 9px 30px;
+padding: 9px 30px;
   background-color: #f5f5f5;
 
-  .table> :not(caption)>*>* {
+.table> :not(caption)>*>* {
     padding: .8rem 0rem;
   }
 
-  tbody tr {
-    background-color: #fff;
-    border: 1px solid #eee;
+tbody tr {
+  background-color: #fff;
+  border: 1px solid #eee;
 
-    span {
-      color: #999;
-      padding-left: 10px;
-    }
-
-    .prd-name {
-      padding-left: 20px;
-    }
+span {
+    color: #999;
+    padding-left: 10px;
   }
 
-  tbody td {
-    color: #444;
-  }
+.prd-name {
+  padding-left: 20px;
+}
+}
 
-  .total-price {
-    color: #00A901;
-  }
+tbody td {
+  color: #444;
+}
 
-  tfoot span {
-    font-weight: 600;
-    font-size: 15px;
-  }
+.total-price {
+  color: #00A901;
+}
 
-  tfoot tr {
-    border-bottom: 1px solid #eee;
+tfoot span {
+  font-weight: 600;
+  font-size: 15px;
+}
 
-    &:last-child {
-      border-bottom: none
-    }
-  }
+tfoot tr {
+  border-bottom: 1px solid #eee;
 
-  tfoot ul {
-    padding-left: 15px;
-
-    li {
-      list-style: circle;
-      color: #999;
-    }
+&:last-child {
+    border-bottom: none
   }
 }
 
+tfoot ul {
+  padding-left: 15px;
 
+li {
+    list-style: circle;
+    color: #999;
+  }
+}
+}
+
+
+.checkout-bill .call-btn {
+  background-color: $colortheme;
+  color: $white !important;
+  font-size: 18px;
+}

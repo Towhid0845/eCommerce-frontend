@@ -17,6 +17,8 @@
         <div class="col-lg-6">
           <div class="header-right px-3 text-end">
             <ul>
+              <li class="px-3"><a href="login.php">Sign In</a></li>
+              <li class="px-3"><a href="signup.php">Sign Up</a></li>
               <li class="cart-bag position-relative">
                 <i class="fa-solid fa-cart-plus"></i>
                 <span class="count">0</span>
@@ -214,35 +216,13 @@
                   <li><a href="#">Top Promotions</a></li>
                   <li><a href="#">New Arrivals</a></li>
                   <li><a href="#">Fruits & Vegetables <i data-feather="chevron-right"></i></a>
-                    <div class="dropdown-sub-menu">
+                    <div class="dropdown-sub-mega-menu">
                       <div class="row g-0">
-                        <div class="col-lg-12">
+                        <div class="col-lg-6">
                           <div class="child-menu-item">
                             <ul>
                               <li class="list-menu-title"><b>Fruits</b></li>
-                              <li><a href="#">Apples<i data-feather="chevron-right"></i></a>
-                                <div class="dropdown-sub-menu">
-                                  <div class="row g-0">
-                                    <div class="col-lg-12">
-                                      <div class="child-menu-item">
-                                        <ul>
-                                          <li class="list-menu-title"><b>Fruits</b></li>
-                                          <li><a href="#">Apples</a></li>
-                                          <li><a href="#">Bananas</a></li>
-                                          <li><a href="#">Berries</a></li>
-                                          <li><a href="#">Oranges & Easy Peelers</a></li>
-                                          <li><a href="#">Grapes</a></li>
-                                          <li><a href="#">Lemons & Limes</a></li>
-                                          <li><a href="#">Peaches & Nectarines</a></li>
-                                          <li><a href="#">Pears</a></li>
-                                          <li><a href="#">Melon</a></li>
-                                          <li><a href="#" class="all-products">See all products</a></li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
+                              <li><a href="#">Apples</a></li>
                               <li><a href="#">Bananas</a></li>
                               <li><a href="#">Berries</a></li>
                               <li><a href="#">Oranges & Easy Peelers</a></li>
@@ -252,6 +232,21 @@
                               <li><a href="#">Pears</a></li>
                               <li><a href="#">Melon</a></li>
                               <li><a href="#" class="all-products">See all products</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="child-menu-item">
+                            <ul>
+                              <li class="list-menu-title"><b>Vegitables</b></li>
+                              <li><a href="#">Apples</a></li>
+                              <li><a href="#">Bananas</a></li>
+                              <li><a href="#">Berries</a></li>
+                              <li><a href="#">Oranges & Easy Peelers</a></li>
+                              <li><a href="#">Grapes</a></li>
+                              <li><a href="#">Lemons & Limes</a></li>
+                              <li><a href="#" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                              <li><a href="#" class="btn shadow-none">Shop Now</a></li>
                             </ul>
                           </div>
                         </div>

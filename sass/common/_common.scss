@@ -125,16 +125,16 @@ body {
 }
 
 .common-title {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 
-  span {
-    @include font(16px, 600);
-    text-transform: uppercase;
-    color: #7f8284;
-    letter-spacing: 3px;
-    // border-bottom: 2px solid $themeColor;
-    padding-bottom: 4px;
-  }
+  // span {
+    //   @include font(16px, 600);
+    //   text-transform: uppercase;
+    //   color: #7f8284;
+    //   letter-spacing: 3px;
+    //   // border-bottom: 2px solid $themeColor;
+    //   padding-bottom: 4px;
+    // }
 
   h2 {
     @include font(40px, 600);
@@ -257,4 +257,23 @@ body {
 // extra small font
 .fs-xs{
   font-size: 14px;
+}
+// common button
+
+.cmn-btn {
+  font-size: 18px;
+  color: $white;
+  background-color: $darktheme;
+  padding: 8px 15px;
+  transition: .3s ease-in-out;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $colortheme;
+  }
+}
+
+// light bg
+.second-bg {
+  background-color: $secondarytheme;
 }

@@ -88,19 +88,10 @@ body {
   .common-btn a:hover {
     background-color: #002C42; }
 
-.common-title {
-  margin-bottom: 50px; }
-  .common-title span {
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #7f8284;
-    letter-spacing: 3px;
-    padding-bottom: 4px; }
-  .common-title h2 {
-    font-size: 40px;
-    font-weight: 600;
-    padding-top: 10px; }
+.common-title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 10px; }
 
 .nice-select {
   font-size: 14px;
@@ -177,6 +168,19 @@ body {
 
 .fs-xs {
   font-size: 14px; }
+
+.cmn-btn {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #26577C;
+  padding: 8px 15px;
+  transition: .3s ease-in-out;
+  border-radius: 5px; }
+  .cmn-btn:hover {
+    background-color: #E55604; }
+
+.second-bg {
+  background-color: #B4B4B3; }
 
 header {
   width: 100%;
@@ -848,8 +852,51 @@ nav {
       border-color: transparent; }
     .dropdown-category-menu ul li:hover > .dropdown-sub-menu {
       visibility: visible;
-      opacity: 1;
-      margin-left: 2px !important; }
+      opacity: 1; }
+
+.dropdown-sub-mega-menu {
+  min-width: 530px;
+  background: url(../images/dropdown-menu-image.jpg) no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  margin-left: 15px;
+  transition: all linear .3s;
+  padding: 15px 0;
+  padding-bottom: 60px;
+  visibility: hidden;
+  opacity: 0; }
+  .dropdown-sub-mega-menu ul li {
+    border: none; }
+    .dropdown-sub-mega-menu ul li a.all-products {
+      color: #FAB528;
+      padding-top: 20px; }
+      .dropdown-sub-mega-menu ul li a.all-products i {
+        color: #FAB528; }
+    .dropdown-sub-mega-menu ul li a.fresh-drink {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 24px;
+      margin: 20px 0;
+      padding-right: 80px; }
+    .dropdown-sub-mega-menu ul li a.btn {
+      background-color: #FAB528;
+      display: inline-block;
+      width: auto !important;
+      padding: 3px 15px !important;
+      margin-left: 25px; }
+      .dropdown-sub-mega-menu ul li a.btn:hover {
+        color: #222; }
+  .dropdown-sub-mega-menu .child-menu-item:first-child {
+    border-right: 1px solid #eee; }
+
+.dropdown-category-menu ul li:hover > .dropdown-sub-mega-menu {
+  visibility: visible;
+  opacity: 1;
+  margin-left: 2px !important; }
 
 .dropdown-sub-menu {
   min-width: 265px;
@@ -858,7 +905,7 @@ nav {
   position: absolute;
   top: 0;
   left: 100%;
-  margin-left: 15px;
+  margin-left: 1px;
   transition: all linear .3s;
   visibility: hidden;
   opacity: 0; }
@@ -941,6 +988,13 @@ nav {
   margin-top: 0;
   visibility: visible !important;
   opacity: 1 !important; }
+
+.dropdown-sub-mega-menu ul li:first-child,
+.dropdown-sub-menu ul li:first-child {
+  background-color: #EBE4D1; }
+
+.dropdown-sub-menu ul li .dropdown-sub-menu {
+  margin-left: 0px; }
 
 .footer {
   background-color: #EBE4D1;
@@ -1609,7 +1663,11 @@ nav {
       top: 24px;
       color: #E55604;
       z-index: 1; }
-  .billing-section form input[type="text"], .billing-section form input[type="email"], .billing-section form input[type="password"], .billing-section form input[type="submit"], .billing-section form textarea {
+  .billing-section form input[type="text"],
+  .billing-section form input[type="email"],
+  .billing-section form input[type="password"],
+  .billing-section form input[type="submit"],
+  .billing-section form textarea {
     background-color: #ffffff;
     border: 2px solid;
     border-color: #B4B4B3;
@@ -1646,7 +1704,8 @@ nav {
     resize: vertical;
     padding: 15px 20px;
     min-height: 150px; }
-  .billing-section form input:focus, .billing-section form textarea:focus {
+  .billing-section form input:focus,
+  .billing-section form textarea:focus {
     border: 1px solid #3ca003; }
 
 .checkout-payment-method .card {
@@ -1667,20 +1726,16 @@ nav {
   .checkout-payment-method .card-title .feather-circle {
     position: absolute;
     left: 0;
-    top: 2px;
+    top: 13px;
     stroke-width: 1; }
   .checkout-payment-method .card-title .fa-circle {
     position: absolute;
     left: 4px;
-    top: 6px;
+    top: 17px;
     font-size: 11px; }
   .checkout-payment-method .card-title img {
-    height: 45px;
-    margin-left: 10px; }
-.checkout-payment-method .call-btn {
-  background-color: #E55604;
-  color: #ffffff !important;
-  font-size: 18px; }
+    margin-left: 30px;
+    height: 45px; }
 
 .checkout .order-table {
   padding: 9px 30px;
@@ -1711,6 +1766,11 @@ nav {
     .checkout .order-table tfoot ul li {
       list-style: circle;
       color: #999; }
+
+.checkout-bill .call-btn {
+  background-color: #E55604;
+  color: #ffffff !important;
+  font-size: 18px; }
 
 .wishlist {
   padding: 80px 0; }
@@ -1935,6 +1995,33 @@ nav {
     margin-top: 15px;
     font-size: 14px; }
 
+.invoice-section {
+  background-color: #f5f5f5;
+  font-size: 18px; }
+  .invoice-section .common-title .badge {
+    background-color: rgba(110, 179, 86, 0.1);
+    color: green;
+    font-size: 13px;
+    text-transform: capitalize; }
+  .invoice-section .invoice-table-sm {
+    width: 300px; }
+  .invoice-section .invoice-right a {
+    width: 80px; }
+    .invoice-section .invoice-right a img {
+      width: 100%; }
+  .invoice-section .invoice-right h5 {
+    font-weight: 700; }
+  .invoice-section .invoice-table tr td:nth-child(2) img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+  .invoice-section .footer-table {
+    background-color: #F4F6F8; }
+    .invoice-section .footer-table tr td {
+      padding: 16px 24px; }
+    .invoice-section .footer-table td:last-child span {
+      color: #E55604; }
+
 .login-section {
   display: flex;
   align-items: center;
@@ -1999,5 +2086,30 @@ nav {
       height: 25px; }
     .login-section .login-form-wrap .google-btn:hover {
       border-color: #E55604; }
+
+.section-404 .frame-circle {
+  left: 100px;
+  top: 50px; }
+.section-404 .cauliflower {
+  top: 40%;
+  left: 18%; }
+.section-404 .leaf {
+  left: 100px;
+  bottom: 100px; }
+.section-404 .pata {
+  right: 30px;
+  top: 0; }
+.section-404 .tomato-half {
+  right: -40px;
+  top: 150px; }
+.section-404 .garlic-white {
+  bottom: 50px;
+  right: 300px; }
+.section-404 .tomato-slice {
+  right: 60px;
+  top: 70%; }
+.section-404 .onion {
+  right: 130px;
+  top: 40%; }
 
 /*# sourceMappingURL=style.css.map */
