@@ -99,7 +99,7 @@ include("layout/head.php");
   <!-- service part end -->
 
   <!-- special offer part start -->
-  <section class="offer pt-100 pb-50">
+  <section class="offer pt-5 pb-50">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">

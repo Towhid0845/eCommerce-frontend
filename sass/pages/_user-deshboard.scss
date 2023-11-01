@@ -1,0 +1,16 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+.user-deshboard {
+  background-color: $lightbg1;
+
+  .account-info {
+    background-color: $white;
+
+    .image {
+      width: 130px;
+      height: 150px;
+    }
+  }
+}

@@ -1,3 +1,11 @@
+.user-deshboard {
+  background-color: #f5f5f5; }
+  .user-deshboard .account-info {
+    background-color: #ffffff; }
+    .user-deshboard .account-info .image {
+      width: 130px;
+      height: 150px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -242,11 +250,17 @@ header {
     cursor: pointer; }
     header .header-right ul li i {
       font-size: 24px; }
-  header .header-right ul li.fav-info, header .header-right ul li.cart-bag, header .header-right ul li.user-info {
+  header .header-right ul li.fav-info,
+  header .header-right ul li.cart-bag,
+  header .header-right ul li.user-info {
     margin-left: 32px; }
-    header .header-right ul li.fav-info a i, header .header-right ul li.cart-bag a i, header .header-right ul li.user-info a i {
+    header .header-right ul li.fav-info a i,
+    header .header-right ul li.cart-bag a i,
+    header .header-right ul li.user-info a i {
       color: #ffffff; }
-    header .header-right ul li.fav-info .count, header .header-right ul li.cart-bag .count, header .header-right ul li.user-info .count {
+    header .header-right ul li.fav-info .count,
+    header .header-right ul li.cart-bag .count,
+    header .header-right ul li.user-info .count {
       background-color: #E55604;
       color: #ffffff;
       font-weight: 500;
@@ -329,6 +343,40 @@ header {
       visibility: visible;
       opacity: 1;
       margin-top: 0; }
+  header .header-right ul .user-info .profile {
+    width: 200px;
+    background-color: #EBE4D1;
+    border: 1px solid #ccc;
+    top: 50px;
+    right: -25px;
+    z-index: 99;
+    transition: all linear .3s;
+    visibility: hidden;
+    opacity: 0;
+    padding-right: 0; }
+    header .header-right ul .user-info .profile ul {
+      height: 130px; }
+      header .header-right ul .user-info .profile ul li {
+        cursor: default !important;
+        border-bottom: 1px solid #eee;
+        padding: 15px;
+        color: #26577C; }
+    header .header-right ul .user-info .profile::before {
+      width: 20px;
+      height: 20px;
+      background-color: #EBE4D1;
+      position: absolute;
+      top: -10px;
+      right: 25px;
+      content: "";
+      transform: rotate(135deg);
+      border: 1px solid transparent;
+      border-left-color: #B4B4B3;
+      border-bottom-color: #B4B4B3; }
+  header .header-right ul .user-info:hover .profile {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0; }
   header .add-to-card {
     background-color: #EBE4D1;
     height: 40px;
@@ -1994,6 +2042,14 @@ nav {
     border-radius: 3px;
     margin-top: 15px;
     font-size: 14px; }
+
+.user-deshboard {
+  background-color: #f5f5f5; }
+  .user-deshboard .account-info {
+    background-color: #ffffff; }
+    .user-deshboard .account-info .image {
+      width: 130px;
+      height: 150px; }
 
 .invoice-section {
   background-color: #f5f5f5;

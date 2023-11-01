@@ -153,10 +153,22 @@
                   <span class="count">0</span>
                 </a>
               </li>
-              <li class="user-info">
-                <a href="login-and-register.html">
-                  <i class="fa-solid fa-circle-user"></i>
-                </a>
+              <li class="user-info position-relative">
+                <!-- <a href="login-and-register.html"> -->
+                <i class="fa-solid fa-circle-user"></i>
+                <div class="profile position-absolute">
+                  <ul>
+                    <li class="d-flex">
+                      <i class="fa-solid fa-user pe-3"></i>
+                      <a href="user-deshboard.php">My Account</a>
+                    </li>
+                    <li class="d-flex">
+                      <i class="fa-solid fa-arrow-right-from-bracket pe-3"></i>
+                      <a href="index.php">Sign Out</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- </a> -->
               </li>
             </ul>
           </div>
