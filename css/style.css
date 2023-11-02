@@ -1,10 +1,167 @@
+@charset "UTF-8";
 .user-deshboard {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  font-size: 18px; }
+  .user-deshboard td,
+  .user-deshboard p,
+  .user-deshboard label,
+  .user-deshboard span,
+  .user-deshboard li {
+    font-size: 17px; }
   .user-deshboard .account-info {
     background-color: #ffffff; }
     .user-deshboard .account-info .image {
-      width: 130px;
-      height: 150px; }
+      width: 150px;
+      height: 150px;
+      border: 1px solid #E55604;
+      padding: 10px;
+      border-radius: 10px; }
+    .user-deshboard .account-info .profile-inf-right .achievement-box {
+      margin-left: 48px; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon {
+        width: 56px;
+        height: 56px;
+        background-color: #e3fff1; }
+        .user-deshboard .account-info .profile-inf-right .achievement-box .icon img {
+          width: 40px;
+          height: 40px; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon.bg-color-2 {
+        background-color: #fff3db; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon.bg-color-3 {
+        background-color: #e4f7ff; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon.bg-color-4 {
+        background-color: #f2e8ff; }
+  .user-deshboard .account-nav ul li img {
+    width: 14px; }
+  .user-deshboard .account-nav .account-nav-menu li a {
+    display: block;
+    padding: 8px 24px;
+    color: #5d6374; }
+  .user-deshboard .account-nav .account-nav-menu li a.active {
+    color: #6eb356; }
+  .user-deshboard .address-book-content.border-right::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(233, 233, 233, 0.4); }
+  .user-deshboard .address-book-content a {
+    color: #6eb356; }
+  .user-deshboard .order-history-table tr td.text-secondary {
+    color: #E55604 !important; }
+  .user-deshboard .order-history-table tr td,
+  .user-deshboard .order-history-table tr th {
+    padding: 8px 24px; }
+    .user-deshboard .order-history-table tr td i,
+    .user-deshboard .order-history-table tr th i {
+      color: #E55604; }
+  .user-deshboard .order-history-table tr .thumbnail img {
+    width: 40px;
+    height: 40px;
+    background-color: #f4f6f8;
+    padding: 6px;
+    border-radius: 50%; }
+  .user-deshboard .payments-list-table tr td i {
+    color: #E55604; }
+  .user-deshboard .payments-list-table tr td span {
+    width: 70px;
+    height: 70px;
+    background-color: #f4f6f8;
+    padding: 10px; }
+    .user-deshboard .payments-list-table tr td span img {
+      max-width: 100%; }
+  .user-deshboard .payments-list-table tr td .badge {
+    height: auto !important;
+    color: #E55604;
+    background-color: rgba(255, 124, 8, 0.1); }
+  .user-deshboard .profile-form .file-upload {
+    border: 2px dashed rgba(173, 170, 170, 0.5);
+    padding: 50px 24px;
+    position: relative;
+    overflow: hidden; }
+    .user-deshboard .profile-form .file-upload input {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      cursor: pointer; }
+  .user-deshboard .label-input-field {
+    position: relative;
+    margin-top: 8px; }
+    .user-deshboard .label-input-field label {
+      position: absolute;
+      left: 14px;
+      top: -12px;
+      padding: 0 8px;
+      background-color: #fff;
+      font-weight: 600;
+      font-size: 15px; }
+    .user-deshboard .label-input-field input,
+    .user-deshboard .label-input-field textarea {
+      width: 100%;
+      padding: 16px 24px;
+      border-radius: 4px;
+      border: 1px solid #e4e4e4;
+      outline: 0; }
+  .user-deshboard #progress-bar {
+    display: table;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    table-layout: fixed;
+    padding: 0;
+    counter-reset: step; }
+    .user-deshboard #progress-bar li.tt-step {
+      list-style-type: none;
+      display: table-cell;
+      width: 25%;
+      float: left;
+      position: relative;
+      text-align: center; }
+      .user-deshboard #progress-bar li.tt-step:before {
+        width: 30px;
+        height: 30px;
+        color: #5d6374;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        font-size: 14px;
+        border: 1px solid #f4f4f4;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: #fff; }
+    .user-deshboard #progress-bar li.tt-step:not(:first-child)::after {
+      width: 100%;
+      height: 4px;
+      content: "";
+      position: absolute;
+      background-color: #f4f4f4;
+      top: 15px;
+      left: -50%;
+      z-index: -1; }
+    .user-deshboard #progress-bar li.tt-step.tt-step-done {
+      color: #22c55e; }
+      .user-deshboard #progress-bar li.tt-step.tt-step-done:before {
+        border-color: #22c55e;
+        background-color: #22c55e;
+        color: #fff;
+        content: "";
+        font-family: "FontAwesome"; }
+    .user-deshboard #progress-bar li.tt-step.tt-step-done + li:after {
+      background-color: #22c55e; }
+    .user-deshboard #progress-bar li.tt-step.active {
+      color: #22c55e; }
+      .user-deshboard #progress-bar li.tt-step.active:before {
+        border-color: #22c55e;
+        color: #22c55e;
+        font-weight: 700; }
 
 * {
   margin: 0;
@@ -183,9 +340,11 @@ body {
   background-color: #26577C;
   padding: 8px 15px;
   transition: .3s ease-in-out;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border: none; }
   .cmn-btn:hover {
-    background-color: #E55604; }
+    background-color: #E55604;
+    border: none; }
 
 .second-bg {
   background-color: #B4B4B3; }
@@ -659,7 +818,8 @@ header {
   .product-item .product-info {
     margin-top: -10px;
     padding: 25px 30px 15px;
-    height: 125px; }
+    height: 125px;
+    background-color: #ffffff; }
     .product-item .product-info .product-ratting {
       margin-bottom: 5px; }
       .product-item .product-info .product-ratting ul {
@@ -2044,12 +2204,168 @@ nav {
     font-size: 14px; }
 
 .user-deshboard {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  font-size: 18px; }
+  .user-deshboard td,
+  .user-deshboard p,
+  .user-deshboard label,
+  .user-deshboard span,
+  .user-deshboard li {
+    font-size: 17px; }
   .user-deshboard .account-info {
     background-color: #ffffff; }
     .user-deshboard .account-info .image {
-      width: 130px;
-      height: 150px; }
+      width: 150px;
+      height: 150px;
+      border: 1px solid #E55604;
+      padding: 10px;
+      border-radius: 10px; }
+    .user-deshboard .account-info .profile-inf-right .achievement-box {
+      margin-left: 48px; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon {
+        width: 56px;
+        height: 56px;
+        background-color: #e3fff1; }
+        .user-deshboard .account-info .profile-inf-right .achievement-box .icon img {
+          width: 40px;
+          height: 40px; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon.bg-color-2 {
+        background-color: #fff3db; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon.bg-color-3 {
+        background-color: #e4f7ff; }
+      .user-deshboard .account-info .profile-inf-right .achievement-box .icon.bg-color-4 {
+        background-color: #f2e8ff; }
+  .user-deshboard .account-nav ul li img {
+    width: 14px; }
+  .user-deshboard .account-nav .account-nav-menu li a {
+    display: block;
+    padding: 8px 24px;
+    color: #5d6374; }
+  .user-deshboard .account-nav .account-nav-menu li a.active {
+    color: #6eb356; }
+  .user-deshboard .address-book-content.border-right::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(233, 233, 233, 0.4); }
+  .user-deshboard .address-book-content a {
+    color: #6eb356; }
+  .user-deshboard .order-history-table tr td.text-secondary {
+    color: #E55604 !important; }
+  .user-deshboard .order-history-table tr td,
+  .user-deshboard .order-history-table tr th {
+    padding: 8px 24px; }
+    .user-deshboard .order-history-table tr td i,
+    .user-deshboard .order-history-table tr th i {
+      color: #E55604; }
+  .user-deshboard .order-history-table tr .thumbnail img {
+    width: 40px;
+    height: 40px;
+    background-color: #f4f6f8;
+    padding: 6px;
+    border-radius: 50%; }
+  .user-deshboard .payments-list-table tr td i {
+    color: #E55604; }
+  .user-deshboard .payments-list-table tr td span {
+    width: 70px;
+    height: 70px;
+    background-color: #f4f6f8;
+    padding: 10px; }
+    .user-deshboard .payments-list-table tr td span img {
+      max-width: 100%; }
+  .user-deshboard .payments-list-table tr td .badge {
+    height: auto !important;
+    color: #E55604;
+    background-color: rgba(255, 124, 8, 0.1); }
+  .user-deshboard .profile-form .file-upload {
+    border: 2px dashed rgba(173, 170, 170, 0.5);
+    padding: 50px 24px;
+    position: relative;
+    overflow: hidden; }
+    .user-deshboard .profile-form .file-upload input {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      cursor: pointer; }
+  .user-deshboard .label-input-field {
+    position: relative;
+    margin-top: 8px; }
+    .user-deshboard .label-input-field label {
+      position: absolute;
+      left: 14px;
+      top: -12px;
+      padding: 0 8px;
+      background-color: #fff;
+      font-weight: 600;
+      font-size: 15px; }
+    .user-deshboard .label-input-field input,
+    .user-deshboard .label-input-field textarea {
+      width: 100%;
+      padding: 16px 24px;
+      border-radius: 4px;
+      border: 1px solid #e4e4e4;
+      outline: 0; }
+  .user-deshboard #progress-bar {
+    display: table;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    table-layout: fixed;
+    padding: 0;
+    counter-reset: step; }
+    .user-deshboard #progress-bar li.tt-step {
+      list-style-type: none;
+      display: table-cell;
+      width: 25%;
+      float: left;
+      position: relative;
+      text-align: center; }
+      .user-deshboard #progress-bar li.tt-step:before {
+        width: 30px;
+        height: 30px;
+        color: #5d6374;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        font-size: 14px;
+        border: 1px solid #f4f4f4;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: #fff; }
+    .user-deshboard #progress-bar li.tt-step:not(:first-child)::after {
+      width: 100%;
+      height: 4px;
+      content: "";
+      position: absolute;
+      background-color: #f4f4f4;
+      top: 15px;
+      left: -50%;
+      z-index: -1; }
+    .user-deshboard #progress-bar li.tt-step.tt-step-done {
+      color: #22c55e; }
+      .user-deshboard #progress-bar li.tt-step.tt-step-done:before {
+        border-color: #22c55e;
+        background-color: #22c55e;
+        color: #fff;
+        content: "";
+        font-family: "FontAwesome"; }
+    .user-deshboard #progress-bar li.tt-step.tt-step-done + li:after {
+      background-color: #22c55e; }
+    .user-deshboard #progress-bar li.tt-step.active {
+      color: #22c55e; }
+      .user-deshboard #progress-bar li.tt-step.active:before {
+        border-color: #22c55e;
+        color: #22c55e;
+        font-weight: 700; }
 
 .invoice-section {
   background-color: #f5f5f5;

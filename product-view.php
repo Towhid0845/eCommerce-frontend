@@ -226,9 +226,9 @@ include("layout/head.php");
                 <li class="nav-item" role="presentation">
                   <button class="nav-link" id="pills-settings-tab" data-bs-toggle="pill" data-bs-target="#pills-settings" type="button" role="tab" aria-controls="pills-settings" aria-selected="false">Vendor Info</button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <!-- <li class="nav-item" role="presentation">
                   <button class="nav-link" id="pills-settings-tab" data-bs-toggle="pill" data-bs-target="#pills-setting" type="button" role="tab" aria-controls="pills-settings" aria-selected="false">More Products</button>
-                </li>
+                </li> -->
 
               </ul>
               <div class="tab-content" id="pills-tabContent">
@@ -551,300 +551,6 @@ include("layout/head.php");
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-setting" role="tabpanel" aria-labelledby="pills-setting-tab">
-                  <div class="shop-product-list">
-                    <div class="row">
-                      <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
-                        <div class="product-item text-center">
-                          <div class="product-img">
-                            <a href="product-details.html">
-                              <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                            </a>
-                            <div class="product-badge">
-                              <ul>
-                                <li class="sale-badge">-25%</li>
-                              </ul>
-                            </div>
-                            <div class="product-hover-action">
-                              <ul>
-                                <li>
-                                  <a href="#" title="Quick View">
-                                    <i class="far fa-eye"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Add to Cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Wishlist">
-                                    <i class="far fa-heart"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="product-info">
-                            <div class="product-ratting">
-                              <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                              </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html" tabindex="0">Orange Sliced Mix</a></h2>
-                            <div class="product-price">
-                              <span>$150.00</span>
-                              <del>$180.00</del>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
-                        <div class="product-item text-center">
-                          <div class="product-img">
-                            <a href="product-details.html">
-                              <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                            </a>
-                            <div class="product-badge">
-                              <ul>
-                                <li class="sale-badge">-25%</li>
-                              </ul>
-                            </div>
-                            <div class="product-hover-action">
-                              <ul>
-                                <li>
-                                  <a href="#" title="Quick View">
-                                    <i class="far fa-eye"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Add to Cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Wishlist">
-                                    <i class="far fa-heart"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="product-info">
-                            <div class="product-ratting">
-                              <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                              </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html" tabindex="0">Orange Sliced Mix</a></h2>
-                            <div class="product-price">
-                              <span>$150.00</span>
-                              <del>$180.00</del>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
-                        <div class="product-item text-center">
-                          <div class="product-img">
-                            <a href="product-details.html">
-                              <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                            </a>
-                            <div class="product-badge">
-                              <ul>
-                                <li class="sale-badge">-25%</li>
-                              </ul>
-                            </div>
-                            <div class="product-hover-action">
-                              <ul>
-                                <li>
-                                  <a href="#" title="Quick View">
-                                    <i class="far fa-eye"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Add to Cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Wishlist">
-                                    <i class="far fa-heart"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="product-info">
-                            <div class="product-ratting">
-                              <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                              </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html" tabindex="0">Orange Sliced Mix</a></h2>
-                            <div class="product-price">
-                              <span>$150.00</span>
-                              <del>$180.00</del>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
-                        <div class="product-item text-center">
-                          <div class="product-img">
-                            <a href="product-details.html">
-                              <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                            </a>
-                            <div class="product-badge">
-                              <ul>
-                                <li class="sale-badge">-25%</li>
-                              </ul>
-                            </div>
-                            <div class="product-hover-action">
-                              <ul>
-                                <li>
-                                  <a href="#" title="Quick View">
-                                    <i class="far fa-eye"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Add to Cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Wishlist">
-                                    <i class="far fa-heart"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="product-info">
-                            <div class="product-ratting">
-                              <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                              </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html" tabindex="0">Orange Sliced Mix</a></h2>
-                            <div class="product-price">
-                              <span>$150.00</span>
-                              <del>$180.00</del>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
-                        <div class="product-item text-center">
-                          <div class="product-img">
-                            <a href="product-details.html">
-                              <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                            </a>
-                            <div class="product-badge">
-                              <ul>
-                                <li class="sale-badge">-25%</li>
-                              </ul>
-                            </div>
-                            <div class="product-hover-action">
-                              <ul>
-                                <li>
-                                  <a href="#" title="Quick View">
-                                    <i class="far fa-eye"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Add to Cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Wishlist">
-                                    <i class="far fa-heart"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="product-info">
-                            <div class="product-ratting">
-                              <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                              </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html" tabindex="0">Orange Sliced Mix</a></h2>
-                            <div class="product-price">
-                              <span>$150.00</span>
-                              <del>$180.00</del>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
-                        <div class="product-item text-center">
-                          <div class="product-img">
-                            <a href="product-details.html">
-                              <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                            </a>
-                            <div class="product-badge">
-                              <ul>
-                                <li class="sale-badge">-25%</li>
-                              </ul>
-                            </div>
-                            <div class="product-hover-action">
-                              <ul>
-                                <li>
-                                  <a href="#" title="Quick View">
-                                    <i class="far fa-eye"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Add to Cart">
-                                    <i class="fas fa-shopping-cart"></i>
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href="#" title="Wishlist">
-                                    <i class="far fa-heart"></i></a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="product-info">
-                            <div class="product-ratting">
-                              <ul>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                <li><a href="#"><i class="far fa-star"></i></a></li>
-                              </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html" tabindex="0">Orange Sliced Mix</a></h2>
-                            <div class="product-price">
-                              <span>$150.00</span>
-                              <del>$180.00</del>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -854,7 +560,306 @@ include("layout/head.php");
             </div>
           </div>
         </div>
+        <div class="row mt-5">
+          <div class="title pb-3">
+            <h2>More Products</h2>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
+                <div class="product-item text-center">
+                  <div class="product-img">
+                    <!-- <a href="#"> -->
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <!-- </a> -->
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
+                    <div class="product-hover-action">
+                      <ul>
+                        <li>
+                          <a href="#" title="Quick View">
+                            <i class="far fa-eye"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Wishlist">
+                            <i class="far fa-heart"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <div class="product-ratting">
+                      <ul>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                      <del>$180.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
+                <div class="product-item text-center">
+                  <div class="product-img">
+                    <!-- <a href="#"> -->
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <!-- </a> -->
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
+                    <div class="product-hover-action">
+                      <ul>
+                        <li>
+                          <a href="#" title="Quick View">
+                            <i class="far fa-eye"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Wishlist">
+                            <i class="far fa-heart"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <div class="product-ratting">
+                      <ul>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                      <del>$180.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
+                <div class="product-item text-center">
+                  <div class="product-img">
+                    <!-- <a href="#"> -->
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <!-- </a> -->
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
+                    <div class="product-hover-action">
+                      <ul>
+                        <li>
+                          <a href="#" title="Quick View">
+                            <i class="far fa-eye"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Wishlist">
+                            <i class="far fa-heart"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <div class="product-ratting">
+                      <ul>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                      <del>$180.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
+                <div class="product-item text-center">
+                  <div class="product-img">
+                    <!-- <a href="#"> -->
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <!-- </a> -->
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
+                    <div class="product-hover-action">
+                      <ul>
+                        <li>
+                          <a href="#" title="Quick View">
+                            <i class="far fa-eye"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Wishlist">
+                            <i class="far fa-heart"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <div class="product-ratting">
+                      <ul>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                      <del>$180.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
+                <div class="product-item text-center">
+                  <div class="product-img">
+                    <!-- <a href="#"> -->
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <!-- </a> -->
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
+                    <div class="product-hover-action">
+                      <ul>
+                        <li>
+                          <a href="#" title="Quick View">
+                            <i class="far fa-eye"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Wishlist">
+                            <i class="far fa-heart"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <div class="product-ratting">
+                      <ul>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                      <del>$180.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xl-4 col-xxl-3 col-sm-6 mb-4">
+                <div class="product-item text-center">
+                  <div class="product-img">
+                    <!-- <a href="#"> -->
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <!-- </a> -->
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
+                    <div class="product-hover-action">
+                      <ul>
+                        <li>
+                          <a href="#" title="Quick View">
+                            <i class="far fa-eye"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Add to Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" title="Wishlist">
+                            <i class="far fa-heart"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="product-info">
+                    <div class="product-ratting">
+                      <ul>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                      </ul>
+                    </div>
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                      <del>$180.00</del>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
       </div>
+    </div>
   </section>
   <!--product details end-->
 

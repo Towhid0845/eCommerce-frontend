@@ -267,9 +267,11 @@ body {
   padding: 8px 15px;
   transition: .3s ease-in-out;
   border-radius: 5px;
+  border: none;
 
   &:hover {
     background-color: $colortheme;
+    border: none;
   }
 }
 

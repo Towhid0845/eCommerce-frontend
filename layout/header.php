@@ -376,19 +376,19 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="category.php">
                   <i data-feather="zap"></i>
                   Deals Today
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="category.php">
                   <i data-feather="tag"></i>
                   Special Prices
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="category.php">
                   Fresh
                   <i data-feather="chevron-down"></i>
                 </a>
@@ -400,7 +400,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#">
+                <a href="category.php">
                   Frozen
                   <i data-feather="chevron-down"></i>
                 </a>
@@ -412,15 +412,15 @@
                 </ul>
               </li>
               <li>
-                <a href="shop.html">
+                <a href="#">
                   Shop
                   <i data-feather="chevron-down"></i>
                 </a>
                 <ul>
-                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="#">Shop</a></li>
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
-                  <li><a href="product-details.html">Single Product</a></li>
+                  <li><a href="product-view.php">Single Product</a></li>
                 </ul>
               </li>
               <li>
@@ -444,11 +444,11 @@
                   <li><a href="about-us.html">About Us</a></li>
                   <li><a href="contact-us.html">Contact Us</a></li>
                   <li><a href="faq.html">FAQs</a></li>
-                  <li><a href="404-page.html">Page 404</a></li>
+                  <li><a href="404-page.php">Page 404</a></li>
                 </ul>
               </li>
               <li>
-                <a href="shop.html">
+                <a href="#">
                   Brand
                 </a>
               </li>
@@ -466,35 +466,35 @@
                 <div class="recen-view-body text-start">
                   <ul>
                     <li>
-                      <a href="product-details.html">
+                      <a href="#">
                         <div class="img">
                           <img src="images/product-list-image-1.webp" alt="product-list-image-1" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="product-details.html">
+                      <a href="#">
                         <div class="img">
                           <img src="images/product-list-image-2.webp" alt="product-list-image-2" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="product-details.html">
+                      <a href="#">
                         <div class="img">
                           <img src="images/product-list-image-3.webp" alt="product-list-image-3" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="product-details.html">
+                      <a href="#">
                         <div class="img">
                           <img src="images/product-list-image-4.webp" alt="product-list-image-4" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="product-details.html">
+                      <a href="#">
                         <div class="img">
                           <img src="images/product-list-image-5.webp" alt="product-list-image-5" class="img-fluid">
                         </div>
