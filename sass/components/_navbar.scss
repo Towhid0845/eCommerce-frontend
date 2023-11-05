@@ -20,7 +20,8 @@ li {
 	display: inline-block;
 	position: relative;
 
-a {
+a,
+	span {
 		font-weight: 600;
 		font-size: 16px;
 		margin-right: 30px;
@@ -30,9 +31,11 @@ a {
 
 &:hover {
 		color: $colortheme !important;
+		cursor: pointer;
 	}
 
 }
+
 
 ul {
 	position: absolute;

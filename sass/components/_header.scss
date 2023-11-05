@@ -216,7 +216,12 @@ span {
 
 }
 .delete i {
-	color: $denger;
+	color: $colortheme;
+	}
+	
+	button {
+		border: none;
+		background-color: transparent;
 }
 }
 

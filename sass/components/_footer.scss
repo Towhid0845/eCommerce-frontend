@@ -2,8 +2,9 @@
 @import "../mixin/font";
 
 .footer {
-	background-color: $primarytheme;
+	background-color: $darktheme;
 	border-top: 1px solid #ddd;
+	color: $white;
 	.footer-main {
 		padding: 60px 0 45px 0;
 		h3 {

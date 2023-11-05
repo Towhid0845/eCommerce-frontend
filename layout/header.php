@@ -4,12 +4,12 @@
       <div class="row py-3">
         <div class="col-lg-6">
           <div class="header-left d-flex">
-            <div class="home px-3 border-end border-white">Home</div>
+            <a href="index.php" class="home px-3 border-end border-white">Home</a>
             <div class="deliver px-3">
               <span class="d-flex align-items-center">
                 <i class="fa-solid fa-location-dot"></i>
                 <p class="px-2">Delevered to: <span>Dhaka</span></p>
-                <i class="fa-solid fa-angle-down mt-2"></i>
+                <i class="fa-solid fa-angle-down mt-1"></i>
               </span>
             </div>
           </div>
@@ -26,20 +26,20 @@
                   <ul>
                     <li class="d-flex">
                       <div class="img">
-                        <a href="#">
+                        <a href="category.php">
                           <img src="images/cart-product-image-1.webp" alt="cart-product-image-1" class="img-fluid w-100">
                         </a>
                       </div>
                       <div class="text">
                         <div class="product-name">
-                          <a href="#">Sesame Seed Bread</a>
+                          <a href="category.php">Sesame Seed Bread</a>
                         </div>
                         <div class="variation d-flex">
                           <div class="vendor">
                             <p>Vendor:</p>
                           </div>
                           <div class="vendor-name">
-                            <a href="#">MartFury</a>
+                            <a href="category.php">MartFury</a>
                           </div>
                         </div>
                         <div class="price">
@@ -47,26 +47,26 @@
                           <span>(x1)</span>
                         </div>
                       </div>
-                      <div class="delete">
+                      <button class="delete">
                         <i class="fa-regular fa-trash-can"></i>
-                      </div>
+                      </button>
                     </li>
                     <li class="d-flex">
                       <div class="img">
-                        <a href="#">
+                        <a href="category.php">
                           <img src="images/cart-product-image-2.webp" alt="cart-product-image-2" class="img-fluid w-100">
                         </a>
                       </div>
                       <div class="text">
                         <div class="product-name">
-                          <a href="#">Sesame Seed Bread</a>
+                          <a href="category.php">Sesame Seed Bread</a>
                         </div>
                         <div class="variation d-flex">
                           <div class="vendor">
                             <p>Vendor:</p>
                           </div>
                           <div class="vendor-name">
-                            <a href="#">MartFury</a>
+                            <a href="category.php">MartFury</a>
                           </div>
                         </div>
                         <div class="price">
@@ -74,26 +74,26 @@
                           <span>(x1)</span>
                         </div>
                       </div>
-                      <div class="delete">
+                      <button class="delete">
                         <i class="fa-regular fa-trash-can"></i>
-                      </div>
+                      </button>
                     </li>
                     <li class="d-flex">
                       <div class="img">
-                        <a href="#">
+                        <a href="category.php">
                           <img src="images/cart-product-image-3.webp" alt="cart-product-image-3" class="img-fluid w-100">
                         </a>
                       </div>
                       <div class="text">
                         <div class="product-name">
-                          <a href="#">Sesame Seed Bread</a>
+                          <a href="category.php">Sesame Seed Bread</a>
                         </div>
                         <div class="variation d-flex">
                           <div class="vendor">
                             <p>Vendor:</p>
                           </div>
                           <div class="vendor-name">
-                            <a href="#">MartFury</a>
+                            <a href="category.php">MartFury</a>
                           </div>
                         </div>
                         <div class="price">
@@ -101,26 +101,26 @@
                           <span>(x1)</span>
                         </div>
                       </div>
-                      <div class="delete">
+                      <button class="delete">
                         <i class="fa-regular fa-trash-can"></i>
-                      </div>
+                      </button>
                     </li>
                     <li class="d-flex">
                       <div class="img">
-                        <a href="#">
+                        <a href="category.php">
                           <img src="images/cart-product-image-3.webp" alt="cart-product-image-3" class="img-fluid w-100">
                         </a>
                       </div>
                       <div class="text">
                         <div class="product-name">
-                          <a href="#">Sesame Seed Bread</a>
+                          <a href="category.php">Sesame Seed Bread</a>
                         </div>
                         <div class="variation d-flex">
                           <div class="vendor">
                             <p>Vendor:</p>
                           </div>
                           <div class="vendor-name">
-                            <a href="#">MartFury</a>
+                            <a href="category.php">MartFury</a>
                           </div>
                         </div>
                         <div class="price">
@@ -180,7 +180,7 @@
         <div class="col-lg-12">
           <div class="header-form d-flex">
             <div class="logo">
-              <a href="index.html">
+              <a href="index.php">
                 <img src="images/logo.png" alt="header" width="90px">
               </a>
             </div>
@@ -217,33 +217,33 @@
       <div class="row">
         <div class="col-lg-2 align-self-center">
           <div class="nav-side-menu">
-            <a href="#" class="d-flex justify-content-center align-items-center">
+            <a href="category.php" class="d-flex justify-content-center align-items-center">
               <i data-feather="menu"></i>
               <span>Shop By Category</span>
             </a>
             <div class="dropdown-main pt-3">
               <div class="dropdown-category-menu">
                 <ul>
-                  <li><a href="#">Daily Deals</a></li>
-                  <li><a href="#">Top Promotions</a></li>
-                  <li><a href="#">New Arrivals</a></li>
-                  <li><a href="#">Fruits & Vegetables <i data-feather="chevron-right"></i></a>
+                  <li><a href="category.php">Daily Deals</a></li>
+                  <li><a href="category.php">Top Promotions</a></li>
+                  <li><a href="category.php">New Arrivals</a></li>
+                  <li><a href="category.php">Fruits & Vegetables <i data-feather="chevron-right"></i></a>
                     <div class="dropdown-sub-mega-menu">
                       <div class="row g-0">
                         <div class="col-lg-6">
                           <div class="child-menu-item">
                             <ul>
                               <li class="list-menu-title"><b>Fruits</b></li>
-                              <li><a href="#">Apples</a></li>
-                              <li><a href="#">Bananas</a></li>
-                              <li><a href="#">Berries</a></li>
-                              <li><a href="#">Oranges & Easy Peelers</a></li>
-                              <li><a href="#">Grapes</a></li>
-                              <li><a href="#">Lemons & Limes</a></li>
-                              <li><a href="#">Peaches & Nectarines</a></li>
-                              <li><a href="#">Pears</a></li>
-                              <li><a href="#">Melon</a></li>
-                              <li><a href="#" class="all-products">See all products</a></li>
+                              <li><a href="category.php">Apples</a></li>
+                              <li><a href="category.php">Bananas</a></li>
+                              <li><a href="category.php">Berries</a></li>
+                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                              <li><a href="category.php">Grapes</a></li>
+                              <li><a href="category.php">Lemons & Limes</a></li>
+                              <li><a href="category.php">Peaches & Nectarines</a></li>
+                              <li><a href="category.php">Pears</a></li>
+                              <li><a href="category.php">Melon</a></li>
+                              <li><a href="category.php" class="all-products">See all products</a></li>
                             </ul>
                           </div>
                         </div>
@@ -251,106 +251,106 @@
                           <div class="child-menu-item">
                             <ul>
                               <li class="list-menu-title"><b>Vegitables</b></li>
-                              <li><a href="#">Apples</a></li>
-                              <li><a href="#">Bananas</a></li>
-                              <li><a href="#">Berries</a></li>
-                              <li><a href="#">Oranges & Easy Peelers</a></li>
-                              <li><a href="#">Grapes</a></li>
-                              <li><a href="#">Lemons & Limes</a></li>
-                              <li><a href="#" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
-                              <li><a href="#" class="btn shadow-none">Shop Now</a></li>
+                              <li><a href="category.php">Apples</a></li>
+                              <li><a href="category.php">Bananas</a></li>
+                              <li><a href="category.php">Berries</a></li>
+                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                              <li><a href="category.php">Grapes</a></li>
+                              <li><a href="category.php">Lemons & Limes</a></li>
+                              <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                              <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
                             </ul>
                           </div>
                         </div>
                       </div>
                     </div>
                   </li>
-                  <li><a href="#">Breads Sweets <i data-feather="chevron-right"></i></a>
+                  <li><a href="category.php">Breads Sweets <i data-feather="chevron-right"></i></a>
                     <div class="dropdown-sub-menu">
                       <div class="row g-0">
                         <div class="col-lg-12">
                           <div class="child-menu-item">
                             <ul>
                               <li class="list-menu-title"><b>Vegitables</b></li>
-                              <li><a href="#">Apples</a></li>
-                              <li><a href="#">Bananas</a></li>
-                              <li><a href="#">Berries<i data-feather="chevron-right"></i></a>
+                              <li><a href="category.php">Apples</a></li>
+                              <li><a href="category.php">Bananas</a></li>
+                              <li><a href="category.php">Berries<i data-feather="chevron-right"></i></a>
                                 <div class="dropdown-sub-menu">
                                   <div class="row g-0">
                                     <div class="col-lg-12">
                                       <div class="child-menu-item">
                                         <ul>
                                           <li class="list-menu-title"><b>Fruits</b></li>
-                                          <li><a href="#">Apples</a>
+                                          <li><a href="category.php">Apples</a>
                                           </li>
-                                          <li><a href="#">Bananas</a></li>
-                                          <li><a href="#">Berries</a></li>
-                                          <li><a href="#">Oranges & Easy Peelers</a></li>
-                                          <li><a href="#">Grapes</a></li>
-                                          <li><a href="#">Lemons & Limes</a></li>
-                                          <li><a href="#">Peaches & Nectarines</a></li>
-                                          <li><a href="#">Pears</a></li>
-                                          <li><a href="#">Melon</a></li>
-                                          <li><a href="#" class="all-products">See all products</a></li>
+                                          <li><a href="category.php">Bananas</a></li>
+                                          <li><a href="category.php">Berries</a></li>
+                                          <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                                          <li><a href="category.php">Grapes</a></li>
+                                          <li><a href="category.php">Lemons & Limes</a></li>
+                                          <li><a href="category.php">Peaches & Nectarines</a></li>
+                                          <li><a href="category.php">Pears</a></li>
+                                          <li><a href="category.php">Melon</a></li>
+                                          <li><a href="category.php" class="all-products">See all products</a></li>
                                         </ul>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </li>
-                              <li><a href="#">Oranges & Easy Peelers</a></li>
-                              <li><a href="#">Grapes</a></li>
-                              <li><a href="#">Lemons & Limes</a></li>
-                              <li><a href="#" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
-                              <li><a href="#" class="btn shadow-none">Shop Now</a></li>
+                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                              <li><a href="category.php">Grapes</a></li>
+                              <li><a href="category.php">Lemons & Limes</a></li>
+                              <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                              <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
                             </ul>
                           </div>
                         </div>
                       </div>
                     </div>
                   </li>
-                  <li><a href="#">Frozen Seafoods</a></li>
-                  <li><a href="#">Raw Meats</a></li>
-                  <li><a href="#">Wines & Alcohol Drinks <i data-feather="chevron-right"></i></a>
+                  <li><a href="category.php">Frozen Seafoods</a></li>
+                  <li><a href="category.php">Raw Meats</a></li>
+                  <li><a href="category.php">Wines & Alcohol Drinks <i data-feather="chevron-right"></i></a>
                     <div class="dropdown-sub-menu">
                       <div class="row g-0">
                         <div class="col-lg-12">
                           <div class="child-menu-item">
                             <ul>
                               <li class="list-menu-title"><b>Fruits</b></li>
-                              <li><a href="#">Apples</a></li>
-                              <li><a href="#">Bananas</a></li>
-                              <li><a href="#">Berries</a></li>
-                              <li><a href="#">Oranges & Easy Peelers</a></li>
-                              <li><a href="#">Grapes</a></li>
-                              <li><a href="#">Lemons & Limes</a></li>
-                              <li><a href="#">Peaches & Nectarines<i data-feather="chevron-right"></i></a>
+                              <li><a href="category.php">Apples</a></li>
+                              <li><a href="category.php">Bananas</a></li>
+                              <li><a href="category.php">Berries</a></li>
+                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                              <li><a href="category.php">Grapes</a></li>
+                              <li><a href="category.php">Lemons & Limes</a></li>
+                              <li><a href="category.php">Peaches & Nectarines<i data-feather="chevron-right"></i></a>
                                 <div class="dropdown-sub-menu">
                                   <div class="row g-0">
                                     <div class="col-lg-12">
                                       <div class="child-menu-item">
                                         <ul>
                                           <li class="list-menu-title"><b>Fruits</b></li>
-                                          <li><a href="#">Apples</a>
+                                          <li><a href="category.php">Apples</a>
                                           </li>
-                                          <li><a href="#">Bananas</a></li>
-                                          <li><a href="#">Berries</a></li>
-                                          <li><a href="#">Oranges & Easy Peelers</a></li>
-                                          <li><a href="#">Grapes</a></li>
-                                          <li><a href="#">Lemons & Limes</a></li>
-                                          <li><a href="#">Peaches & Nectarines</a></li>
-                                          <li><a href="#">Pears</a></li>
-                                          <li><a href="#">Melon</a></li>
-                                          <li><a href="#" class="all-products">See all products</a></li>
+                                          <li><a href="category.php">Bananas</a></li>
+                                          <li><a href="category.php">Berries</a></li>
+                                          <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                                          <li><a href="category.php">Grapes</a></li>
+                                          <li><a href="category.php">Lemons & Limes</a></li>
+                                          <li><a href="category.php">Peaches & Nectarines</a></li>
+                                          <li><a href="category.php">Pears</a></li>
+                                          <li><a href="category.php">Melon</a></li>
+                                          <li><a href="category.php" class="all-products">See all products</a></li>
                                         </ul>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                               </li>
-                              <li><a href="#">Pears</a></li>
-                              <li><a href="#">Melon</a></li>
-                              <li><a href="#" class="all-products">See all products</a>
+                              <li><a href="category.php">Pears</a></li>
+                              <li><a href="category.php">Melon</a></li>
+                              <li><a href="category.php" class="all-products">See all products</a>
                               </li>
                             </ul>
                           </div>
@@ -358,9 +358,9 @@
                       </div>
                     </div>
                   </li>
-                  <li><a href="#">Tea & Coffee</a></li>
-                  <li><a href="#">Milks and Dairies</a></li>
-                  <li><a href="#">Pet Foods</a></li>
+                  <li><a href="category.php">Tea & Coffee</a></li>
+                  <li><a href="category.php">Milks and Dairies</a></li>
+                  <li><a href="category.php">Pet Foods</a></li>
                 </ul>
               </div>
             </div>
@@ -376,81 +376,88 @@
                 </a>
               </li>
               <li>
-                <a href="category.php">
+                <a href="#sp-offer">
                   <i data-feather="zap"></i>
-                  Deals Today
+                  Special Offer
                 </a>
               </li>
               <li>
-                <a href="category.php">
+                <a href="#best-sale">
                   <i data-feather="tag"></i>
-                  Special Prices
+                  Best Sale
                 </a>
               </li>
               <li>
                 <a href="category.php">
-                  Fresh
-                  <i data-feather="chevron-down"></i>
+                  Populer
+                  <!-- <i data-feather="chevron-down"></i> -->
                 </a>
-                <ul>
-                  <li><a href="#">Fruit</a></li>
-                  <li><a href="#">Meat & Poultry</a></li>
-                  <li><a href="#">Milk, Butter & Eggs</a></li>
-                  <li><a href="#">Vegetables</a></li>
-                </ul>
+                <!-- <ul>
+                  <li><a href="category.php">Fruit</a></li>
+                  <li><a href="category.php">Meat & Poultry</a></li>
+                  <li><a href="category.php">Milk, Butter & Eggs</a></li>
+                  <li><a href="category.php">Vegetables</a></li>
+                </ul> -->
               </li>
               <li>
                 <a href="category.php">
-                  Frozen
-                  <i data-feather="chevron-down"></i>
+                  Top Rated
+                  <!-- <i data-feather="chevron-down"></i> -->
                 </a>
-                <ul>
-                  <li><a href="#">Fruit</a></li>
-                  <li><a href="#">Meat & Poultry</a></li>
-                  <li><a href="#">Milk, Butter & Eggs</a></li>
-                  <li><a href="#">Vegetables</a></li>
-                </ul>
+                <!-- <ul>
+                  <li><a href="category.php">Fruit</a></li>
+                  <li><a href="category.php">Meat & Poultry</a></li>
+                  <li><a href="category.php">Milk, Butter & Eggs</a></li>
+                  <li><a href="category.php">Vegetables</a></li>
+                </ul> -->
               </li>
               <li>
-                <a href="#">
-                  Shop
-                  <i data-feather="chevron-down"></i>
+                <a href="#all-product">
+                  All Product
+                  <!-- <i data-feather="chevron-down"></i> -->
                 </a>
-                <ul>
-                  <li><a href="#">Shop</a></li>
+                <!-- <ul>
+                  <li><a href="category.php">Shop</a></li>
                   <li><a href="cart.php">Cart</a></li>
                   <li><a href="checkout.php">Checkout</a></li>
                   <li><a href="product-view.php">Single Product</a></li>
-                </ul>
+                </ul> -->
               </li>
               <li>
-                <a href="#">
+                <span>
                   Blog
                   <i data-feather="chevron-down"></i>
-                </a>
+                </span>
                 <ul>
-                  <li><a href="#">Fruit</a></li>
-                  <li><a href="#">Meat & Poultry</a></li>
-                  <li><a href="#">Milk, Butter & Eggs</a></li>
-                  <li><a href="#">Vegetables</a></li>
+                  <li><a href="category.php">Fruit</a></li>
+                  <li><a href="category.php">Meat & Poultry</a></li>
+                  <li><a href="category.php">Milk, Butter & Eggs</a></li>
+                  <li><a href="category.php">Vegetables</a></li>
                 </ul>
               </li>
               <li>
-                <a href="#">
+                <span>
                   Pages
                   <i data-feather="chevron-down"></i>
-                </a>
+                </span>
                 <ul>
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="faq.html">FAQs</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">FAQs</a></li>
                   <li><a href="404-page.php">Page 404</a></li>
                 </ul>
               </li>
               <li>
-                <a href="#">
+                <span>
                   Brand
-                </a>
+                  <i data-feather="chevron-down"></i>
+                </span>
+                <ul>
+                  <li><a href="#">Brand 1</a></li>
+                  <li><a href="#">Brand 2</a></li>
+                  <li><a href="#">Brand 3</a></li>
+                  <li><a href="#">Brand 4</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -466,35 +473,35 @@
                 <div class="recen-view-body text-start">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="category.php">
                         <div class="img">
-                          <img src="images/product-list-image-1.webp" alt="product-list-image-1" class="img-fluid">
+                          <img src="./images/product-list-image-1.webp" alt="product-list-image-1" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="category.php">
                         <div class="img">
                           <img src="images/product-list-image-2.webp" alt="product-list-image-2" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="category.php">
                         <div class="img">
                           <img src="images/product-list-image-3.webp" alt="product-list-image-3" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="category.php">
                         <div class="img">
                           <img src="images/product-list-image-4.webp" alt="product-list-image-4" class="img-fluid">
                         </div>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="category.php">
                         <div class="img">
                           <img src="images/product-list-image-5.webp" alt="product-list-image-5" class="img-fluid">
                         </div>

@@ -98,8 +98,153 @@ include("layout/head.php");
   ?>
   <!-- service part end -->
 
-  <!-- special offer part start -->
+  <!-- shop by category part start -->
   <section class="offer pt-5 pb-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title text-center">
+            <h1>Shop by Category</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/pr-1.png" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/pr-2.png" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/pr-3.png" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/pr-4.png" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/pr-5.png" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/vendor-info-image.webp" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/product-details-image-2.webp" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center">
+            <div class="product-img category-img">
+              <img src="./images/product-details-image-3.webp" alt="no-img">
+            </div>
+            <div class="product-info category-info d-flex flex-column align-items-start">
+              <div class="product-price">
+                <span>Vegitables</span>
+              </div>
+              <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
+              <div class="view-btn mt-auto ms-auto">
+                <a href="category.php" class="cmn-btn">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- shop by category part end -->
+
+
+  <!-- special offer part start -->
+  <section class="offer pt-5 pb-50" id="sp-offer">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -113,7 +258,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/product-details-image-1.webp" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -161,7 +306,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
+                <img src="./images/pr-2.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -209,7 +354,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -257,7 +402,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
+                <img src="./images/pr-3.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -305,7 +450,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -353,7 +498,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
+                <img src="./images/pr-4.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -401,7 +546,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -449,7 +594,7 @@ include("layout/head.php");
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-5.png" alt="no-img">
+                <img src="./images/pr-5.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -498,22 +643,70 @@ include("layout/head.php");
   </section>
   <!-- special offer part end -->
 
-  <!-- Best seller part start -->
-  <section class="offer pt-5 pb-50">
+
+  <!-- our product part start -->
+  <section class="product pt-5 pb-50" id="all-product">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-title text-center">
-            <h1>Best Seller</h1>
+            <h1>Our Products</h1>
+            <p>A highly efficient slip-ring scanner for today's diagnostic requirements.</p>
           </div>
         </div>
       </div>
       <div class="row product-slider">
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -558,10 +751,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -606,10 +845,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -654,10 +939,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -702,10 +1033,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -750,10 +1127,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -798,10 +1221,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -846,10 +1315,56 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
+          <div class="product-item text-center mb-5">
+            <div class="product-img">
+              <a href="product-view.php">
+                <img src="./images/pr-1.png" alt="no-img">
+              </a>
+              <div class="product-badge">
+                <ul>
+                  <li class="sale-badge">-25%</li>
+                </ul>
+              </div>
+              <div class="product-hover-action">
+                <ul>
+                  <li>
+                    <a href="#" title="Quick View">
+                      <i class="far fa-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Add to Cart">
+                      <i class="fas fa-shopping-cart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Wishlist">
+                      <i class="far fa-heart"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="product-info">
+              <div class="product-ratting">
+                <ul>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star"></i></a></li>
+                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                  <li><a href="#"><i class="far fa-star"></i></a></li>
+                </ul>
+              </div>
+              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+              <div class="product-price">
+                <span>$150.00</span>
+                <del>$180.00</del>
+              </div>
+            </div>
+          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-5.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -896,7 +1411,8 @@ include("layout/head.php");
       </div>
     </div>
   </section>
-  <!-- Best seller part end -->
+  <!-- our product part end -->
+
 
   <!-- category part start -->
   <section class="category pt-100 pb-50">
@@ -1007,69 +1523,22 @@ include("layout/head.php");
   <!-- category part end -->
 
 
-  <!-- our product part start -->
-  <section class="product pt-100 pb-50">
+  <!-- Best seller part start -->
+  <section class="offer pt-5 pb-50" id="best-sale">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="section-title text-center">
-            <h1>Our Products</h1>
-            <p>A highly efficient slip-ring scanner for today's diagnostic requirements.</p>
+            <h1>Best Seller</h1>
           </div>
         </div>
       </div>
       <div class="row product-slider">
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1114,56 +1583,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-2.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1208,56 +1631,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1302,56 +1679,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-3.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1396,56 +1727,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1490,56 +1775,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-4.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1584,56 +1823,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-1.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1678,56 +1871,10 @@ include("layout/head.php");
           </div>
         </div>
         <div class="col-lg-3 pb-4 px-3">
-          <div class="product-item text-center mb-5">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
-              </div>
-              <div class="product-hover-action">
-                <ul>
-                  <li>
-                    <a href="#" title="Quick View">
-                      <i class="far fa-eye"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Add to Cart">
-                      <i class="fas fa-shopping-cart"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Wishlist">
-                      <i class="far fa-heart"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="product-info">
-              <div class="product-ratting">
-                <ul>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star"></i></a></li>
-                  <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                  <li><a href="#"><i class="far fa-star"></i></a></li>
-                </ul>
-              </div>
-              <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-              <div class="product-price">
-                <span>$150.00</span>
-                <del>$180.00</del>
-              </div>
-            </div>
-          </div>
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
-                <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                <img src="./images/pr-5.png" alt="no-img">
               </a>
               <div class="product-badge">
                 <ul>
@@ -1771,11 +1918,10 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
-  <!-- our product part end -->
+  <!-- Best seller part end -->
 
   <!-- call section start -->
   <section class="call py-4">
