@@ -38,7 +38,7 @@
     padding: 8px 24px;
     color: #5d6374; }
   .user-deshboard .account-nav .account-nav-menu li a.active {
-    color: #6eb356; }
+    color: #E55604; }
   .user-deshboard .address-book-content.border-right::before {
     content: "";
     position: absolute;
@@ -48,12 +48,13 @@
     height: 100%;
     background-color: rgba(233, 233, 233, 0.4); }
   .user-deshboard .address-book-content a {
-    color: #6eb356; }
+    color: #E55604; }
   .user-deshboard .order-history-table tr td.text-secondary {
     color: #E55604 !important; }
   .user-deshboard .order-history-table tr td,
   .user-deshboard .order-history-table tr th {
-    padding: 8px 24px; }
+    padding: 8px 24px;
+    font-family: 'Bjudson'; }
     .user-deshboard .order-history-table tr td i,
     .user-deshboard .order-history-table tr th i {
       color: #E55604; }
@@ -63,6 +64,8 @@
     background-color: #f4f6f8;
     padding: 6px;
     border-radius: 50%; }
+  .user-deshboard .payments-list-table tr th {
+    font-family: 'Bjudson'; }
   .user-deshboard .payments-list-table tr td i {
     color: #E55604; }
   .user-deshboard .payments-list-table tr td span {
@@ -98,8 +101,8 @@
       top: -12px;
       padding: 0 8px;
       background-color: #fff;
-      font-weight: 600;
-      font-size: 15px; }
+      font-family: 'Bjudson';
+      font-size: 16px; }
     .user-deshboard .label-input-field input,
     .user-deshboard .label-input-field textarea {
       width: 100%;
@@ -143,7 +146,7 @@
       content: "";
       position: absolute;
       background-color: #f4f4f4;
-      top: 15px;
+      top: 13px;
       left: -50%;
       z-index: -1; }
     .user-deshboard #progress-bar li.tt-step.tt-step-done {
@@ -181,7 +184,6 @@ p {
 
 p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 28px; }
 
 span {
@@ -204,9 +206,8 @@ ol {
 
 body {
   overflow-x: hidden;
-  font-size: 15px;
-  font-weight: 400;
-  color: #002C42;
+  font-size: 16px;
+  color: #000000;
   font-family: 'Rjudson';
   position: relative; }
   body .line {
@@ -245,22 +246,19 @@ body {
     top: 100%; } }
 .common-btn a {
   font-size: 16px;
-  font-weight: 600;
   text-transform: uppercase;
   padding: 18px 30px;
   color: #ffffff;
   transition: all linear .2s; }
   .common-btn a:hover {
-    background-color: #002C42; }
+    background-color: #000000; }
 
 .common-title h2 {
   font-size: 40px;
-  font-weight: 600;
   padding-top: 10px; }
 
 .nice-select {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 16px;
   height: 50px;
   line-height: 50px;
   width: 100%;
@@ -270,12 +268,13 @@ body {
     border-right: 2px solid #E55604;
     height: 10px;
     width: 10px;
-    top: 44%;
+    top: 50%;
     right: 20px; }
   .nice-select .list {
     min-width: 100%; }
-  .nice-select:active, .nice-select.open, .nice-select:focus {
-    border: none !important; }
+
+.nice-select .option.selected {
+  font-family: 'Bjudson'; }
 
 .feather {
   width: 18px;
@@ -298,21 +297,21 @@ body {
   margin-top: 50px; }
 
 .section-title {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  border-bottom: 1px solid #B4B4B3; }
   .section-title h1 {
-    font-size: 48px; }
+    font-size: 35px;
+    padding-bottom: 20px; }
   .section-title p {
     margin-bottom: 0; }
 
 .title2 {
   margin-bottom: 30px; }
   .title2 h2 {
-    font-size: 28px;
-    font-weight: 600; }
+    font-size: 28px; }
 
 .title3 h3 {
-  font-size: 20px;
-  font-weight: 600; }
+  font-size: 20px; }
 
 .title3 .hr-line {
   height: 2px;
@@ -343,7 +342,8 @@ body {
   padding: 8px 15px;
   transition: .3s ease-in-out;
   border-radius: 5px;
-  border: none; }
+  border: none;
+  font-family: 'Bjudson'; }
   .cmn-btn:hover {
     background-color: #E55604;
     border: none; }
@@ -359,6 +359,43 @@ body {
   line-clamp: 2;
   -webkit-box-orient: vertical; }
 
+/* back to top part start */
+#button {
+  display: inline-block;
+  background-color: #E55604;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999;
+  line-height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff; }
+
+#button.show {
+  opacity: 1;
+  visibility: visible; }
+
+/* back to top part end */
+.sticky-top {
+  top: -143px;
+  transition: .5s;
+  z-index: 9999 !important;
+  background-color: #ffffff; }
+
+.shadow-lg #navbarSupportedContent {
+  margin-bottom: 0 !important; }
+
+.cmn-label {
+  font-family: 'Bjudson'; }
+
 header {
   width: 100%;
   border-bottom: 1px solid #e5e5e5;
@@ -370,7 +407,7 @@ header {
   header .header-form {
     width: 100%;
     height: 50px;
-    background-color: #EBE4D1;
+    background-color: #ffffff;
     border-radius: 5px; }
     header .header-form .logo {
       background-color: #ffffff;
@@ -382,43 +419,39 @@ header {
     header .header-form .dropdown {
       width: 25%; }
       header .header-form .dropdown .form-select {
-        height: 50px;
+        height: 45px;
         border: 0;
-        background-color: #EBE4D1; }
+        background-color: #ffffff; }
     header .header-form .input-field {
-      width: 65%;
-      position: relative; }
-      header .header-form .input-field::before {
-        width: 1px;
-        height: 25px;
-        background-color: #E55604;
-        position: absolute;
-        top: 50%;
-        left: 0;
-        transform: translateY(-50%);
-        content: ""; }
+      width: 100%;
+      border: 1px solid #26577C;
+      border-right: none;
+      border-radius: 5px 0 0 5px; }
+    header .header-form .form-control::placeholder {
+      font-size: larger; }
     header .header-form .search {
       cursor: pointer;
-      width: 10%;
-      background-color: #E55604; }
+      width: 8%;
+      background-color: #E55604;
+      border-radius: 0 5px 5px 0; }
       header .header-form .search img {
-        width: 30px;
-        height: 30px; }
+        width: 20px;
+        height: 20px; }
     header .header-form input {
       width: 100%;
-      height: 50px;
+      height: 45px;
       border-radius: 5px !important;
       border: none;
-      background-color: #EBE4D1;
+      background-color: #ffffff;
       padding: 0 60px 0 20px; }
       header .header-form input:focus {
-        background-color: #EBE4D1; }
+        background-color: #ffffff; }
   header .header-right ul li {
     display: inline-block;
     position: relative;
     cursor: pointer; }
     header .header-right ul li i {
-      font-size: 24px; }
+      font-size: 20px; }
   header .header-right ul li.fav-info,
   header .header-right ul li.cart-bag,
   header .header-right ul li.user-info {
@@ -434,8 +467,8 @@ header {
       color: #ffffff;
       font-weight: 500;
       border-radius: 3px;
-      padding: 1px 5px;
-      font-size: 12px;
+      padding: 0 3px;
+      font-size: 10px;
       position: absolute;
       top: -7px;
       right: -10px; }
@@ -604,10 +637,10 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 45px; }
+  padding: 30px; }
   .banner .left-banner-main .left-banner-item {
     width: 100%;
-    height: 490px;
+    height: 400px;
     border-radius: 10px; }
     .banner .left-banner-main .left-banner-item .img {
       height: 100%;
@@ -615,43 +648,6 @@ header {
       .banner .left-banner-main .left-banner-item .img img {
         height: 100%;
         border-radius: 10px; }
-  .banner .right-banner-image {
-    width: 100%;
-    height: 460px;
-    background-color: #FAC251;
-    border-radius: 10px; }
-    .banner .right-banner-image .img {
-      background-position: bottom right !important;
-      background-repeat: no-repeat !important;
-      width: 100%;
-      height: 100%;
-      border-radius: 10px; }
-    .banner .right-banner-image .overlay {
-      padding: 70px 0 0 50px;
-      width: 100%;
-      height: 100%;
-      z-index: 99; }
-      .banner .right-banner-image .overlay h1 {
-        margin-bottom: 33px;
-        color: #000;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 1em;
-        text-transform: uppercase; }
-      .banner .right-banner-image .overlay p {
-        color: #000;
-        font-size: 20px;
-        line-height: 30px;
-        font-weight: 500;
-        width: 180px; }
-      .banner .right-banner-image .overlay .shop-now {
-        color: #000;
-        padding: 12px 30px;
-        background-color: #fff;
-        font-size: 14px;
-        font-weight: 600;
-        border-radius: 5px;
-        margin-top: 70px; }
 
 .left-banner-main {
   position: relative; }
@@ -662,7 +658,6 @@ header {
     text-align: center;
     line-height: 35px;
     font-size: 16px;
-    font-weight: 700;
     display: inline-block;
     cursor: pointer;
     transition: all linear .2s; }
@@ -684,7 +679,7 @@ header {
     width: 100%;
     height: 100%; }
     .left-banner-main .overlay .text {
-      padding: 70px 0 0 90px; }
+      padding: 45px 0 0 75px; }
       .left-banner-main .overlay .text h2 {
         font-size: 36px;
         line-height: 48px;
@@ -694,14 +689,13 @@ header {
         color: #2a4356;
         width: 260px;
         line-height: 26px;
-        margin-top: 40px;
-        font-weight: 500; }
+        margin-top: 40px; }
       .left-banner-main .overlay .text a {
         color: #000;
         padding: 12px 30px;
         background-color: #fff;
         font-size: 14px;
-        font-weight: 600;
+        font-family: 'Bjudson';
         border-radius: 5px;
         margin-top: 70px; }
     .left-banner-main .overlay.overlay-2 h2 {
@@ -741,13 +735,12 @@ header {
     border-radius: 10px 50px;
     padding: 20px 10px; }
   .category-item .category-name {
+    font-family: 'Bjudson';
     padding: 15px 20px 5px; }
     .category-item .category-name a {
-      font-size: 18px;
-      font-weight: bold; }
+      font-size: 18px; }
     .category-item .category-name h6 {
-      font-size: 16px;
-      font-weight: bold; }
+      font-size: 16px; }
   .category-item:hover h5 {
     color: #E55604; }
 
@@ -789,7 +782,6 @@ header {
         list-style: none;
         display: inline-block;
         font-size: 13px;
-        font-weight: 700;
         background-color: #E55604;
         color: #ffffff;
         padding: 1px 12px;
@@ -826,7 +818,6 @@ header {
         .product-item .product-hover-action ul li a {
           display: block;
           background-color: #ffffff;
-          font-weight: 700;
           border-radius: 100%;
           box-shadow: rgba(54, 56, 61, 0.15); }
         .product-item .product-hover-action ul li:hover a {
@@ -862,7 +853,7 @@ header {
     .product-item .product-info .product-price {
       font-size: 20px;
       color: #26577C;
-      font-weight: 700;
+      font-family: 'Bjudson';
       margin-bottom: 12px; }
       .product-item .product-info .product-price del {
         font-size: 20px;
@@ -923,21 +914,21 @@ header {
   left: -50px; }
 
 .call {
-  background-color: #B4B4B3; }
+  background-color: #B4B4B3;
+  font-family: 'Bjudson'; }
   .call .call-inner {
     display: flex;
     justify-content: space-between;
     align-items: center; }
     .call .call-inner h2 {
       font-size: 30px;
-      font-weight: bold;
-      color: #002C42; }
+      color: #000000; }
 
 .call-btn {
   border-radius: 0;
   display: inline-block;
   font-size: 16px;
-  font-weight: 700;
+  font-family: 'Bjudson';
   padding: 15px 40px;
   text-align: center;
   cursor: pointer;
@@ -972,15 +963,16 @@ nav {
       margin-right: 5px; }
     nav .menu ul li {
       display: inline-block;
-      position: relative; }
+      position: relative;
+      font-family: 'Bjudson'; }
       nav .menu ul li a,
       nav .menu ul li span {
-        font-weight: 600;
         font-size: 16px;
         margin-right: 30px;
         transition: all linear .2s;
         line-height: 70px;
-        color: #002C42; }
+        color: #000000;
+        font-family: 'Rjudson'; }
         nav .menu ul li a:hover,
         nav .menu ul li span:hover {
           color: #E55604 !important;
@@ -1003,9 +995,8 @@ nav {
           nav .menu ul li ul li a {
             line-height: 36px !important;
             padding: 0 20px;
-            font-size: 14px;
+            font-size: 15px;
             color: #555;
-            font-weight: 400;
             width: 100%;
             display: block; }
         nav .menu ul li ul::before {
@@ -1025,29 +1016,28 @@ nav {
         visibility: visible;
         opacity: 1; }
   nav .recent-view a {
-    font-weight: 600;
     font-size: 16px;
     transition: all linear .2s;
     line-height: 70px;
-    color: #002C42; }
+    color: #000000; }
     nav .recent-view a i {
-      font-weight: 700;
       font-size: 20px;
       padding-right: 6px;
-      color: #002C42; }
+      color: #000000; }
 
 .nav-side-menu {
   width: 280px;
   height: 50px;
-  background-color: #EBE4D1;
+  background-color: #26577C;
+  border-radius: 5px;
   text-align: center;
   line-height: 50px;
   position: relative; }
   .nav-side-menu a {
     font-size: 15px;
-    font-weight: 700;
     text-transform: uppercase;
-    color: #002C42; }
+    color: #ffffff;
+    font-family: 'Bjudson'; }
     .nav-side-menu a .feather-menu {
       width: 20px;
       height: 20px;
@@ -1073,10 +1063,10 @@ nav {
   .dropdown-category-menu ul li {
     border-bottom: 1px solid #eee; }
     .dropdown-category-menu ul li a {
-      font-size: 14px !important;
+      font-family: 'Rjudson';
+      font-size: 15px !important;
       color: #222;
       text-transform: capitalize;
-      font-weight: 500;
       display: block;
       width: 100%;
       line-height: 38px;
@@ -1084,7 +1074,6 @@ nav {
       padding: 0 20px 0 25px; }
       .dropdown-category-menu ul li a:hover {
         color: #E55604;
-        font-weight: bold;
         background-color: #EBE4D1; }
       .dropdown-category-menu ul li a i {
         font-size: 12px;
@@ -1123,7 +1112,6 @@ nav {
         color: #FAB528; }
     .dropdown-sub-mega-menu ul li a.fresh-drink {
       text-transform: uppercase;
-      font-weight: 700;
       font-size: 22px;
       line-height: 24px;
       margin: 20px 0;
@@ -1166,7 +1154,6 @@ nav {
         color: #E55604; }
     .dropdown-sub-menu ul li a.fresh-drink {
       text-transform: uppercase;
-      font-weight: 700;
       font-size: 22px;
       line-height: 24px;
       margin: 20px 0;
@@ -1249,26 +1236,24 @@ nav {
   .footer .footer-main {
     padding: 60px 0 45px 0; }
     .footer .footer-main h3 {
+      font-family: 'Bjudson';
       font-size: 18px;
       text-transform: capitalize;
       padding-bottom: 33px;
       columns: #7A7A7A; }
   .footer .usefull-link ul li {
     padding-bottom: 15px;
-    transition: all linear .2s;
-    font-weight: 500; }
+    transition: all linear .2s; }
     .footer .usefull-link ul li a:hover {
       color: #FAB528; }
   .footer .help-center ul li {
     padding-bottom: 15px;
-    transition: all linear .2s;
-    font-weight: 500; }
+    transition: all linear .2s; }
     .footer .help-center ul li a:hover {
       color: #FAB528; }
   .footer .business ul li {
     padding-bottom: 15px;
-    transition: all linear .2s;
-    font-weight: 500; }
+    transition: all linear .2s; }
     .footer .business ul li a:hover {
       color: #FAB528; }
   .footer .news-letter .form {
@@ -1329,19 +1314,24 @@ nav {
       .category-page .total-filter .filter a i {
         font-size: 14px;
         padding-left: 5px; }
-  .category-page .listing-top input {
-    height: 40px;
-    width: 55px; }
-  .category-page .listing-top .nice-select {
-    border: 1px solid #002C42 !important;
-    line-height: 40px;
-    height: 40px;
-    border-radius: 3px; }
-    .category-page .listing-top .nice-select::after {
-      width: 7px;
-      height: 7px; }
-    .category-page .listing-top .nice-select:active, .category-page .listing-top .nice-select.open, .category-page .listing-top .nice-select:focus {
-      border: 1px solid #002C42 !important; }
+  .category-page .listing-top {
+    font-family: 'Bjudson'; }
+    .category-page .listing-top input {
+      height: 35px;
+      width: 55px; }
+    .category-page .listing-top .nice-select {
+      border: 1px solid #000000 !important;
+      line-height: 35px;
+      height: 35px;
+      border-radius: 3px;
+      font-family: 'Rjudson'; }
+      .category-page .listing-top .nice-select::after {
+        width: 7px;
+        height: 7px; }
+      .category-page .listing-top .nice-select:active, .category-page .listing-top .nice-select.open, .category-page .listing-top .nice-select:focus {
+        border: 1px solid #000000 !important; }
+    .category-page .listing-top .nice-select .option.selected {
+      font-family: 'Bjudson'; }
   .category-page .product-item .product-info {
     background-color: #ffffff; }
 
@@ -1409,7 +1399,7 @@ nav {
   border-radius: 5px;
   margin-bottom: 20px;
   font-size: 16px;
-  color: #002C42;
+  color: #000000;
   transition: .5s ease; }
   .price-range-search:hover {
     background-color: #E55604;
@@ -1517,6 +1507,7 @@ nav {
         background-color: #fff;
         clip-path: polygon(0 0, 0% 100%, 100% 50%); }
     .product-information-main .banner-widget .vertical-banner .offer-title {
+      font-family: 'Bjudson';
       color: red !important;
       margin-left: 15px;
       font-size: 32px; }
@@ -1528,12 +1519,11 @@ nav {
 
 .product-details-info .prd-title a {
   font-size: 24px;
-  font-weight: 700;
+  font-family: 'Bjudson';
   color: #000; }
 .product-details-info .prd-slug h3 {
-  font-size: 24px;
+  font-size: 20px;
   color: #000;
-  font-weight: 300;
   padding: 6px 0 5px 0; }
 .product-details-info .prd-rating ul li {
   display: inline-block;
@@ -1551,16 +1541,15 @@ nav {
   padding: 8px 0 20px 0;
   display: block; }
 .product-details-info .price {
-  margin: 20px 0; }
+  margin: 20px 0;
+  font-family: 'Bjudson'; }
   .product-details-info .price p {
     font-size: 20px;
-    font-weight: 600;
     color: #E55604;
     margin-right: 10px; }
   .product-details-info .price .old-price p {
     font-size: 15px;
     color: #888888;
-    font-weight: 500;
     text-decoration: line-through; }
 .product-details-info .description ul li i {
   color: #26577C; }
@@ -1581,15 +1570,14 @@ nav {
     border: 1px solid #e9e9e9;
     border-radius: 4px;
     font-size: 14px;
-    font-weight: 600; }
+    font-family: 'Bjudson'; }
 .product-details-info .stock-button p {
   padding: 0 15px;
   background-color: #EBE4D1;
   border-radius: 5px;
   margin: 0 0 0 20px;
   font-size: 14px;
-  color: #26577C;
-  font-weight: 700; }
+  color: #000000; }
 .product-details-info .quantity {
   border-bottom: 1px solid #d2d2d2; }
   .product-details-info .quantity p {
@@ -1609,8 +1597,7 @@ nav {
       width: 40px;
       text-align: center;
       font-size: 20px;
-      line-height: 50px;
-      font-weight: 500; }
+      line-height: 50px; }
     .product-details-info .qnt-number ul li i {
       width: 35px;
       height: 50px;
@@ -1622,8 +1609,7 @@ nav {
       font-size: 19px; }
 .product-details-info .categories a {
   font-size: 15px;
-  font-weight: 500;
-  color: #002C42;
+  color: #000000;
   background-color: #f5f5f5;
   margin-left: 3px;
   padding: 0 15px;
@@ -1656,7 +1642,6 @@ nav {
     font-size: 14px; }
 .prd-right-info .register-now p {
   padding-top: 30px;
-  font-weight: 500;
   text-align: center; }
   .prd-right-info .register-now p a {
     color: #E55604; }
@@ -1668,9 +1653,9 @@ nav {
     padding: 50px;
     background-color: #ffffff; }
     .product-summery .detail-descp .nav-pills button.nav-link {
-      color: #002C42;
+      color: #000000;
       font-size: 16px;
-      font-weight: 700;
+      font-family: 'Bjudson';
       border-radius: 0;
       transition: .5 ease; }
     .product-summery .detail-descp .nav-pills .nav-link.active, .product-summery .detail-descp .nav-pills .show > .nav-link {
@@ -1689,19 +1674,18 @@ nav {
   .product-summery .summery-description .summery-block-des {
     padding-bottom: 30px; }
     .product-summery .summery-description .summery-block-des h5 {
+      font-family: 'Bjudson';
       font-size: 18px;
-      font-weight: 600;
       padding-bottom: 5px; }
     .product-summery .summery-description .summery-block-des h6 {
+      font-family: 'Bjudson';
       padding-bottom: 3px; }
   .product-summery .adn-info h3 {
     font-size: 24px;
-    font-weight: 500;
     margin-bottom: 25px; }
   .product-summery .adn-info .table > :not(caption) > * > * {
     padding: .5rem 2rem; }
   .product-summery .adn-info table th {
-    font-weight: 400;
     color: #666;
     background-color: #f5f5f5; }
   .product-summery .rating-box {
@@ -1710,7 +1694,6 @@ nav {
     padding: 30px; }
     .product-summery .rating-box h3 {
       font-size: 50px;
-      font-weight: 700;
       color: #e84506;
       line-height: 1;
       margin: 0 0 10px; }
@@ -1719,18 +1702,15 @@ nav {
       color: #E55604;
       display: inline-block; }
     .product-summery .rating-box .product-rating p span {
-      font-weight: 600;
       color: #222; }
     .product-summery .rating-box .bar-rating-main {
       margin-top: 20px;
       padding-top: 20px;
       border-top: 1px solid #eee; }
     .product-summery .rating-box .bar-rating h6 {
-      font-size: 15px;
-      font-weight: 400; }
+      font-size: 15px; }
     .product-summery .rating-box .bar-rating h5 {
-      font-size: 15px;
-      font-weight: 400; }
+      font-size: 15px; }
     .product-summery .rating-box .rating-bars {
       width: 75%; }
     .product-summery .rating-box .rating-percent {
@@ -1738,7 +1718,6 @@ nav {
       text-align: center; }
   .product-summery .add-review-box h3 {
     font-size: 18px;
-    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 10px; }
   .product-summery .add-review-box p {
@@ -1749,7 +1728,6 @@ nav {
   .product-summery .add-review-box ul li {
     display: inline-block;
     margin-right: 10px;
-    font-weight: 500;
     font-size: 15px; }
     .product-summery .add-review-box ul li i {
       color: #ccc;
@@ -1767,7 +1745,8 @@ nav {
     font-size: 14px; }
   .product-summery .add-review-box .button button {
     background-color: #E55604;
-    font-weight: 600;
+    font-family: 'Bjudson';
+    color: #ffffff;
     font-size: 15px;
     padding: 10px 30px; }
   .product-summery .review-post {
@@ -1776,7 +1755,6 @@ nav {
     .product-summery .review-post h3 {
       font-size: 18px;
       color: #000;
-      font-weight: 600;
       margin: 0 0 50px; }
     .product-summery .review-post .image {
       width: 80px;
@@ -1791,7 +1769,6 @@ nav {
         font-size: 16px; }
         .product-summery .review-post .text h6 span {
           color: #999;
-          font-weight: 400;
           font-size: 14px; }
       .product-summery .review-post .text ul li span {
         color: #E55604;
@@ -1833,7 +1810,6 @@ nav {
         color: #999; }
     .product-summery .vendor-text p {
       color: #222;
-      font-weight: 500;
       margin-top: 3px; }
     .product-summery .vendor-text .social {
       position: absolute;
@@ -1865,7 +1841,6 @@ nav {
           color: #222; }
       .product-summery .vendor-text .store-info ul li {
         color: #26901b;
-        font-weight: 500;
         font-size: 15px;
         position: relative;
         padding-left: 25px;
@@ -1886,21 +1861,20 @@ nav {
 .isCustomer, .haveCoupon {
   background-color: #EBE4D1;
   padding: 15px 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-family: 'Bjudson'; }
   .isCustomer h3, .haveCoupon h3 {
-    color: #002C42;
-    font-size: 20px;
-    font-weight: 700; }
+    color: #000000;
+    font-size: 20px; }
   .isCustomer a, .haveCoupon a {
     color: #E55604;
-    font-size: 20px;
-    font-weight: 700; }
+    font-size: 20px; }
 
 .billing-section {
   padding: 30px;
   border: 2px solid #B4B4B3; }
   .billing-section form h6 {
-    font-weight: bold;
+    font-size: 20px;
     margin-bottom: 24px; }
   .billing-section form .input-item {
     position: relative; }
@@ -1935,7 +1909,6 @@ nav {
     border-color: #B4B4B3;
     border-radius: 0;
     font-size: 14px;
-    font-weight: 400;
     height: 65px;
     line-height: 60px;
     width: 100%;
@@ -2002,8 +1975,8 @@ nav {
   .checkout .order-table .total-price {
     color: #00A901; }
   .checkout .order-table tfoot span {
-    font-weight: 600;
-    font-size: 15px; }
+    font-family: 'Bjudson';
+    font-size: 16px; }
   .checkout .order-table tfoot tr {
     border-bottom: 1px solid #eee; }
     .checkout .order-table tfoot tr:last-child {
@@ -2023,13 +1996,11 @@ nav {
   padding: 80px 0; }
   .wishlist .wishlist-header h1 {
     font-size: 48px;
-    font-weight: 500;
     padding-bottom: 80px; }
   .wishlist .product-remove-msg p {
     color: #fff;
     padding: 15px 30px;
     border-radius: 3px;
-    font-weight: 500;
     margin-bottom: 30px;
     background-color: #E55604; }
   .wishlist .product-remove-msg .undo {
@@ -2039,40 +2010,35 @@ nav {
   .wishlist .product-table-list thead {
     background-color: #EBE4D1; }
     .wishlist .product-table-list thead th {
-      font-weight: 500;
-      font-size: 15px; }
+      font-family: 'Bjudson';
+      font-size: 16px; }
   .wishlist .product-table-list .bi-trash3 {
     font-size: 20px;
     color: #999; }
+    .wishlist .product-table-list .bi-trash3:hover {
+      color: #E55604; }
   .wishlist .table > :not(caption) > * > * {
     padding: .8rem 2rem; }
   .wishlist .table .unite-price {
-    font-weight: 700;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Bjudson';
+    font-size: 16px; }
   .wishlist .table .delete-prd {
     padding: 40px auto !important; }
   .wishlist .table .image {
     padding: 0 auto !important; }
   .wishlist .table .prd-name {
-    font-weight: 500;
-    font-size: 15px; }
+    font-size: 16px; }
   .wishlist .table .stock {
-    font-weight: 600;
     font-family: 'Roboto', sans-serif;
     color: #26901b;
-    font-size: 15px; }
+    font-size: 16px; }
   .wishlist .table .add-to-cart a {
     background-color: #E55604;
     padding: 10px 35px !important;
-    font-weight: 600;
     border-radius: 3px; }
   .wishlist .table td {
     vertical-align: middle; }
-  .wishlist .share-on {
-    font-weight: 600; }
   .wishlist .share-now h4 {
-    font-weight: 500;
     padding-right: 20px;
     font-size: 15px;
     color: #707070; }
@@ -2104,7 +2070,7 @@ nav {
 .cart .quantity-heading {
   padding-left: 0 !important; }
 .cart .cart-product-info {
-  font-size: 15px;
+  font-size: 16px;
   color: #999;
   margin: 3px 0; }
   .cart .cart-product-info span {
@@ -2112,19 +2078,20 @@ nav {
 .cart .quantity {
   border: 1px solid #eee;
   margin: 25px 0;
-  font-weight: 600;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   width: 180px; }
   .cart .quantity i {
     cursor: pointer; }
+.cart .quantity:nth-child(2) {
+  font-family: 'Bjudson'; }
 .cart table tr {
   border-bottom: 1px solid #B4B4B3; }
 .cart .cart-actions {
   padding-bottom: 60px; }
   .cart .cart-actions a {
-    color: #002C42;
-    font-weight: 600;
+    color: #000000;
+    font-family: 'Bjudson';
     background-color: #EBE4D1;
     border: 1px solid #B4B4B3;
     border-radius: 3px;
@@ -2140,10 +2107,9 @@ nav {
   .cart .cart-bottom-info .title h3 {
     color: #000;
     font-size: 22px;
-    font-weight: 600;
     margin-bottom: 20px; }
   .cart .cart-bottom-info .promo-code {
-    margin-right: 15px; }
+    margin-right: 16px; }
     .cart .cart-bottom-info .promo-code input {
       height: 45px;
       padding: 0 15px;
@@ -2152,7 +2118,7 @@ nav {
       background-color: #E55604;
       color: #ffffff;
       padding: 0 30px;
-      font-weight: 600;
+      font-family: 'Bjudson';
       height: 45px;
       line-height: 45px; }
   .cart .cart-bottom-info .shipping {
@@ -2162,8 +2128,6 @@ nav {
     .cart .cart-bottom-info .shipping input {
       height: 45px; }
     .cart .cart-bottom-info .shipping button {
-      color: #002C42;
-      font-weight: 600;
       background-color: #EBE4D1;
       border: 1px solid #e5e5e5;
       border-radius: 3px;
@@ -2174,13 +2138,13 @@ nav {
     background-color: #f5f5f5;
     padding: 0 30px 30px; }
     .cart .cart-bottom-info .subtotal span {
-      font-size: 15px;
+      font-size: 16px;
       color: #666; }
     .cart .cart-bottom-info .subtotal ul {
       padding: 5px 0 5px 20px; }
       .cart .cart-bottom-info .subtotal ul li {
         list-style: circle;
-        font-size: 15px;
+        font-size: 16px;
         color: #666; }
     .cart .cart-bottom-info .subtotal tr:last-child {
       border-bottom: none; }
@@ -2188,7 +2152,7 @@ nav {
       color: #00A901;
       color: #00A901; }
     .cart .cart-bottom-info .subtotal button {
-      font-weight: 600;
+      font-family: 'Bjudson';
       background-color: #E55604;
       padding: 12px 0;
       color: #ffffff; }
@@ -2214,11 +2178,9 @@ nav {
       color: #999; }
   .mobile-product-list .text h6 {
     font-size: 14px;
-    font-weight: 400;
     color: #444;
     padding-top: 5px; }
     .mobile-product-list .text h6 span {
-      font-weight: 600;
       color: #222; }
   .mobile-product-list .text .quantitys {
     border: 1px solid #eee;
@@ -2229,15 +2191,12 @@ nav {
       cursor: pointer; }
   .mobile-product-list .text h5 {
     font-size: 14px;
-    font-weight: 400;
     color: #444; }
     .mobile-product-list .text h5 span {
-      font-weight: 600;
       color: #00A901; }
   .mobile-product-list .add-to-cart a {
     background-color: #E55604;
     padding: 8px 20px !important;
-    font-weight: 500;
     border-radius: 3px;
     margin-top: 15px;
     font-size: 14px; }
@@ -2281,7 +2240,7 @@ nav {
     padding: 8px 24px;
     color: #5d6374; }
   .user-deshboard .account-nav .account-nav-menu li a.active {
-    color: #6eb356; }
+    color: #E55604; }
   .user-deshboard .address-book-content.border-right::before {
     content: "";
     position: absolute;
@@ -2291,12 +2250,13 @@ nav {
     height: 100%;
     background-color: rgba(233, 233, 233, 0.4); }
   .user-deshboard .address-book-content a {
-    color: #6eb356; }
+    color: #E55604; }
   .user-deshboard .order-history-table tr td.text-secondary {
     color: #E55604 !important; }
   .user-deshboard .order-history-table tr td,
   .user-deshboard .order-history-table tr th {
-    padding: 8px 24px; }
+    padding: 8px 24px;
+    font-family: 'Bjudson'; }
     .user-deshboard .order-history-table tr td i,
     .user-deshboard .order-history-table tr th i {
       color: #E55604; }
@@ -2306,6 +2266,8 @@ nav {
     background-color: #f4f6f8;
     padding: 6px;
     border-radius: 50%; }
+  .user-deshboard .payments-list-table tr th {
+    font-family: 'Bjudson'; }
   .user-deshboard .payments-list-table tr td i {
     color: #E55604; }
   .user-deshboard .payments-list-table tr td span {
@@ -2341,8 +2303,8 @@ nav {
       top: -12px;
       padding: 0 8px;
       background-color: #fff;
-      font-weight: 600;
-      font-size: 15px; }
+      font-family: 'Bjudson';
+      font-size: 16px; }
     .user-deshboard .label-input-field input,
     .user-deshboard .label-input-field textarea {
       width: 100%;
@@ -2386,7 +2348,7 @@ nav {
       content: "";
       position: absolute;
       background-color: #f4f4f4;
-      top: 15px;
+      top: 13px;
       left: -50%;
       z-index: -1; }
     .user-deshboard #progress-bar li.tt-step.tt-step-done {
@@ -2421,11 +2383,16 @@ nav {
     .invoice-section .invoice-right a img {
       width: 100%; }
   .invoice-section .invoice-right h5 {
-    font-weight: 700; }
+    font-family: 'Bjudson'; }
+  .invoice-section .welcome-message h4,
+  .invoice-section .shipping-address h5 {
+    font-family: 'Bjudson'; }
   .invoice-section .invoice-table tr td:nth-child(2) img {
     width: 50px;
     height: 50px;
     border-radius: 50%; }
+  .invoice-section .invoice-table tr th {
+    font-family: 'Bjudson'; }
   .invoice-section .footer-table {
     background-color: #F4F6F8; }
     .invoice-section .footer-table tr td {
@@ -2450,7 +2417,7 @@ nav {
   .login-section .login-form-wrap img {
     width: 100px; }
   .login-section .login-form-wrap h4 {
-    font-weight: 700; }
+    font-family: 'Bjudson'; }
     .login-section .login-form-wrap h4 span {
       color: #E55604; }
   .login-section .login-form-wrap .fs-xs a {
@@ -2481,17 +2448,19 @@ nav {
     border-radius: 5px;
     border: none;
     font-size: 18px;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Bjudson'; }
     .login-section .login-form-wrap .create-btn:hover {
       background-color: #E55604; }
   .login-section .login-form-wrap .google-btn {
-    color: #002C42;
+    color: #000000;
     background-color: #ffffff;
     border: 1px solid #B4B4B3;
     padding: 15px 0;
     font-weight: 500;
     text-align: center;
-    border-radius: 5px; }
+    border-radius: 5px;
+    font-family: 'Bjudson'; }
     .login-section .login-form-wrap .google-btn img {
       width: 25px;
       height: 25px; }

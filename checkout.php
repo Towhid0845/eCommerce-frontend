@@ -125,7 +125,7 @@ include("layout/head.php");
               <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
             </div>
             <div class="checkout-bill">
-              <a class="call-btn" href="contact.html">Place Order</a>
+              <a class="call-btn" href="invoice.php">Place Order</a>
             </div>
           </div>
           <div class="col-lg-6">

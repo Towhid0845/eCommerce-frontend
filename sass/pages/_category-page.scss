@@ -29,16 +29,18 @@
 
   .listing-top{
 
+    font-family: 'Bjudson';
     input{
-      height: 40px;
+      height: 35px;
       width: 55px;
     }
 
     .nice-select{
       border: 1px solid $black !important;
-      line-height: 40px;
-      height: 40px;
+      line-height: 35px;
+        height: 35px;
       border-radius: 3px;
+      font-family: 'Rjudson';
 
       &::after{
         width: 7px;
@@ -49,6 +51,9 @@
         border: 1px solid $black !important;
       }
     }
+                                .nice-select .option.selected {
+                                  font-family: 'Bjudson';
+                                }
   }
 
   .product-item{

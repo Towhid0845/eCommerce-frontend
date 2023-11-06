@@ -56,13 +56,13 @@ include("layout/head.php");
                 <div class="row justify-content-between g-5">
                     <div class="col-xl-8 col-lg-7">
                         <div class="welcome-message">
-                            <h4 class="mb-2 fw-bold">Dear Chris Gayle</h4>
+                            <h4 class="mb-2">Dear Chris Gayle</h4>
                             <p class="mb-0">Here are your order details. We thank you for your purchase.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="shipping-address">
-                            <h5 class="mb-2 fw-bold">Shipping Address</h5>
+                            <h5 class="mb-2">Shipping Address</h5>
                             <p class="mb-0">Flat-A1, Floor-3, House 12, Road-5, Dhaka 1212, Bangladesh.</p>
                         </div>
                     </div>
@@ -128,8 +128,8 @@ include("layout/head.php");
                     </table>
                 </div>
                 <div class="d-flex align-items-center justify-content-between pt-5">
-                    <a href="#" class="cmn-btn fw-bold">Print Invoice</a>
-                    <a href="#" class="cmn-btn fw-bold">Download Invoice</a>
+                    <a href="#" class="cmn-btn">Print Invoice</a>
+                    <a href="#" class="cmn-btn">Download Invoice</a>
                 </div>
             </div>
         </div>

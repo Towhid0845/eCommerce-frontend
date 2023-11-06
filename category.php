@@ -2,22 +2,9 @@
 <html lang="en">
 <?php $projectname = 'ecommerce-frontend'; ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, content=user-scalable=yes, initial-scale=1.0, maximum-scale=5, minimum-scale=1.0">
-  <title>Food Ecommerce</title>
-  <!-- all css file -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="fontawsome/css/all.min.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/nice-select.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <!-- all css file -->
-</head>
+<?php
+include("layout/head.php");
+?>
 
 <body>
   <!-- preloader start -->
@@ -55,13 +42,13 @@
               </div>
               <div class="collapse show" id="category">
                 <ul class="widget-nav mt-4">
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Apples<span class="fw-bold fs-xs total-count">08</span></a></li>
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Organic Vegetable<span class="fw-bold fs-xs total-count">09</span></a></li>
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Avocados<span class="fw-bold fs-xs total-count">06</span></a></li>
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Dried Fruits & Nuts<span class="fw-bold fs-xs total-count">10</span></a></li>
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Coffee<span class="fw-bold fs-xs total-count">11</span></a></li>
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Juice Drinks<span class="fw-bold fs-xs total-count">15</span></a></li>
-                  <li><a href="#" class="d-flex justify-content-between align-items-center">Fresh Fish<span class="fw-bold fs-xs total-count">18</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Apples<span class="fs-xs total-count">08</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Organic Vegetable<span class="fs-xs total-count">09</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Avocados<span class="fs-xs total-count">06</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Dried Fruits & Nuts<span class="fs-xs total-count">10</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Coffee<span class="fs-xs total-count">11</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Juice Drinks<span class="fs-xs total-count">15</span></a></li>
+                  <li><a href="#" class="d-flex justify-content-between align-items-center">Fresh Fish<span class="fs-xs total-count">18</span></a></li>
                 </ul>
               </div>
             </div>
@@ -126,14 +113,14 @@
                   <label class="form-check-label" for="flexCheckDefaultOne">
                     In Stock
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
                   <label class="form-check-label" for="flexCheckDefaultOne">
                     Out of Stock
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
               </div>
             </div>
@@ -160,7 +147,7 @@
                       </li>
                     </ul>
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
@@ -175,7 +162,7 @@
                       </li>
                     </ul>
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">15</span>
+                  <span class="fs-xs total-count ms-auto">15</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
@@ -190,7 +177,7 @@
                       </li>
                     </ul>
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">15</span>
+                  <span class="fs-xs total-count ms-auto">15</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
@@ -205,7 +192,7 @@
                       </li>
                     </ul>
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">15</span>
+                  <span class="fs-xs total-count ms-auto">15</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
@@ -220,7 +207,7 @@
                       </li>
                     </ul>
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">15</span>
+                  <span class="fs-xs total-count ms-auto">15</span>
                 </div>
               </div>
             </div>
@@ -239,28 +226,28 @@
                   <label class="form-check-label" for="flexCheckDefaultOne">
                     Small
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
                   <label class="form-check-label" for="flexCheckDefaultOne">
                     Medium
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
                   <label class="form-check-label" for="flexCheckDefaultOne">
                     Large
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
                 <div class="form-check d-flex">
                   <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefaultOne">
                   <label class="form-check-label" for="flexCheckDefaultOne">
                     XL
                   </label>
-                  <span class="fw-bold fs-xs total-count ms-auto">48</span>
+                  <span class="fs-xs total-count ms-auto">48</span>
                 </div>
               </div>
             </div>
@@ -287,14 +274,14 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="listing-top d-flex align-items-center justify-content-between bg-white rounded-2 px-4 py-3 mb-4">
-                <p class="mb-0 fw-bold">Showing 1-12 of 45 results</p>
+                <p class="mb-0">Showing 1-12 of 45 results</p>
                 <div class="listing-top-right text-end d-inline-flex align-items-center gap-3 flex-wrap">
                   <div class="number-count-filter d-flex align-items-center gap-3">
-                    <label class="fw-bold fs-xs text-dark flex-shrink-0">Show:</label>
+                    <label class="fs-xs text-dark flex-shrink-0">Show:</label>
                     <input type="number" value="16">
                   </div>
                   <div class="d-inline-flex align-items-center gap-3">
-                    <label class="fw-bold fs-xs text-dark flex-shrink-0">Sort by:</label>
+                    <label class="fs-xs text-dark flex-shrink-0">Sort by:</label>
                     <select class="nice-select">
                       <option>News First</option>
                       <option>Best Selling</option>
@@ -745,11 +732,6 @@
   <!-- category -->
 
   <!-- service part start -->
-  <div class="serviceFooter">
-    <?php
-    include("layout/service.php");
-    ?>
-  </div>
 
   <!-- service part end -->
 

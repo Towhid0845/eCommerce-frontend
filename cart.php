@@ -277,7 +277,7 @@ include("layout/head.php");
               </a>
             </div>
             <div class="action-right">
-            <a class="call-btn" href="contact.php"><i class="bi bi-arrow-repeat"></i>Update Cart</a>
+              <a class="call-btn" href="contact.php"><i class="bi bi-arrow-repeat"></i>Update Cart</a>
             </div>
           </div>
         </div>
@@ -325,7 +325,7 @@ include("layout/head.php");
                 <div class="input-groups mb-3">
                   <input type="text" placeholder="Zip Code" class="form-control shadow-none">
                 </div>
-                <button type="submit" class="btn shadow-none">Update</button>
+                <button type="submit" class="call-btn">Update</button>
               </form>
             </div>
           </div>

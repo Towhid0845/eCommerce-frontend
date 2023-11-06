@@ -73,7 +73,7 @@ font-size: 18px;
       }
     
       .account-nav-menu li a.active {
-        color: #6eb356;
+        color: $colortheme;
       }
     }
     
@@ -89,7 +89,7 @@ font-size: 18px;
     
     .address-book-content {
       a {
-        color: #6eb356;
+        color: $colortheme;
       }
     }
     
@@ -101,6 +101,7 @@ font-size: 18px;
       td,
       th {
         padding: 8px 24px;
+        font-family: 'Bjudson';
     
         i {
           color: $colortheme;
@@ -116,7 +117,13 @@ font-size: 18px;
       }
     }
     
-    .payments-list-table tr td {
+                                                                                                                                .payments-list-table tr {
+                                                                                                                                  th {
+                                                                                                                                    font-family: 'Bjudson';
+                                                                                                                                  }
+                                                                
+                                                                
+                                                                                                                                  td {
     
       i {
         color: $colortheme;
@@ -139,6 +146,7 @@ font-size: 18px;
         background-color: rgba(255, 124, 8, .1);
       }
     }
+                                                                }
     
     .profile-form {
     
@@ -170,8 +178,8 @@ font-size: 18px;
         top: -12px;
         padding: 0 8px;
         background-color: #fff;
-        font-weight: 600;
-        font-size: 15px;
+        font-family: 'Bjudson';
+          font-size: 16px;
       }
     
       input,
@@ -225,7 +233,7 @@ font-size: 18px;
         content: "";
         position: absolute;
         background-color: #f4f4f4;
-        top: 15px;
+        top: 13px;
         left: -50%;
         z-index: -1;
       }

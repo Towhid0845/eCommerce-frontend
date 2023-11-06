@@ -14,7 +14,7 @@ include("layout/head.php");
 
   <!-- header and navbar part start -->
   <?php
-    include("layout/header.php");
+  include("layout/header.php");
   ?>
   <!-- header and navbar part end -->
 
@@ -32,13 +32,13 @@ include("layout/head.php");
             <h4 class="mb-3">Hey there!<br>Welcome back <span>FoodPark</span>.</h4>
             <div class="row g-3">
               <div class="col-sm-12">
-                <label class="fw-bold text-dark fs-sm mb-1">Email</label>
+                <label class="cmn-label mb-1">Email</label>
                 <div class="input-field">
                   <input type="text" placeholder="First name" class="auth-input">
                 </div>
               </div>
               <div class="col-sm-12">
-                <label class="fw-bold text-dark fs-sm mb-1">Password</label>
+                <label class="cmn-label mb-1">Password</label>
                 <div class="input-field check-password">
                   <input type="password" placeholder="Password" class="auth-input">
                   <span class="eye eye-icon"><i class="fa-solid fa-eye"></i></span>
@@ -74,11 +74,11 @@ include("layout/head.php");
   </section>
   <!-- login -->
 
-<!-- footer part start -->
-<?php
+  <!-- footer part start -->
+  <?php
   include("layout/footer.php");
-?>
-<!-- footer part end -->
+  ?>
+  <!-- footer part end -->
 
 
   <!-- all js file -->

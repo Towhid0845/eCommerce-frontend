@@ -12,10 +12,10 @@ include("layout/head.php");
   </div> -->
   <!-- preloader end-->
 
-  
+
   <!-- header and navbar part start -->
   <?php
-    include("layout/header.php");
+  include("layout/header.php");
   ?>
   <!-- header and navbar part end -->
 
@@ -54,6 +54,12 @@ include("layout/head.php");
     </div>
   </section>
   <!-- category -->
+
+  <!-- footer part start -->
+  <?php
+  include("layout/footer.php");
+  ?>
+  <!-- footer part end -->
 
 
   <!-- all js file -->

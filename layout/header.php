@@ -1,9 +1,9 @@
   <!-- header part start -->
-  <header class="d-none d-xl-block">
+  <header class="d-none d-xl-block sticky-top">
     <div class="custom-container">
-      <div class="row py-3">
+      <div class="row py-2">
         <div class="col-lg-6">
-          <div class="header-left d-flex">
+          <div class="header-left d-flex align-items-center">
             <a href="index.php" class="home px-3 border-end border-white">Home</a>
             <div class="deliver px-3">
               <span class="d-flex align-items-center">
@@ -175,7 +175,7 @@
         </div>
       </div>
     </div>
-    <div class="custom-container">
+    <div class="container">
       <div class="row justify-content-center py-4">
         <div class="col-lg-12">
           <div class="header-form d-flex">
@@ -186,7 +186,7 @@
             </div>
             <form action="#">
               <div class="form-main d-flex justify-content-between">
-                <div class="dropdown rounded-start">
+                <!-- <div class="dropdown rounded-start">
                   <select class="nice-select" aria-label="Disabled select example">
                     <option selected>All Categories</option>
                     <option value="1">Breads Sweets</option>
@@ -195,7 +195,7 @@
                     <option value="3">Fizzy Drinks</option>
                     <option value="3">Coffees and Teas</option>
                   </select>
-                </div>
+                </div> -->
                 <div class="input-field">
                   <input type="text" class="form-control rounded-0 shadow-none" placeholder="I'm searching for...">
                 </div>
@@ -207,7 +207,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
   </header>
   <!-- header part end -->

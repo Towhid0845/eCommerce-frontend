@@ -51,7 +51,7 @@ include("layout/head.php");
                       <img src="./images/shopping-bag.png" alt="no-img">
                     </span>
                     <div>
-                      <h4 class="mb-1 fw-bold">4k+</h4>
+                      <h4 class="cmn-label mb-1">4k+</h4>
                       <span>Total Order</span>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ include("layout/head.php");
                       <img src="./images/recycle.png" alt="no-img">
                     </span>
                     <div>
-                      <h4 class="mb-1 fw-bold">10+</h4>
+                      <h4 class="cmn-label mb-1">10+</h4>
                       <span>Order Processing</span>
                     </div>
                   </div>
@@ -69,7 +69,7 @@ include("layout/head.php");
                       <img src="./images/delivered.png" alt="no-img">
                     </span>
                     <div>
-                      <h4 class="mb-1 fw-bold">3.5k+</h4>
+                      <h4 class="cmn-label mb-1">3.5k+</h4>
                       <span>Total Delivered</span>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ include("layout/head.php");
                       <img src="./images/deadline.png" alt="no-img">
                     </span>
                     <div>
-                      <h4 class="mb-1 fw-bold">25+</h4>
+                      <h4 class="cmn-label mb-1">25+</h4>
                       <span>Pending Orders</span>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ include("layout/head.php");
         <div class="row pb-5">
           <div class="col-xl-3">
             <div class="account-nav bg-white rounded py-5">
-              <h6 class="mb-4 px-4 fw-bold">Manage My Account</h6>
+              <h6 class="mb-4 px-4 cmn-label">Manage My Account</h6>
               <ul class="nav nav-tabs border-0 d-block account-nav-menu" role="tablist">
                 <li>
                   <a href="#dashboard" data-bs-toggle="tab" class="active" aria-selected="true" role="tab">
@@ -159,14 +159,14 @@ include("layout/head.php");
                     <div class="col-md-6">
                       <div class="address-book-content pe-md-4 border-right position-relative">
                         <div class="d-flex align-items-center gap-5 mb-4">
-                          <h6 class="mb-0 fw-bold">Address Book</h6>
+                          <h6 class="mb-0 cmn-label">Address Book</h6>
                           <a href="#">Edit</a>
                         </div>
                         <p class="text-uppercase fw-medium mb-3">
                           Default Shipping Address
                         </p>
                         <div class="address">
-                          <p class="text-dark fw-bold mb-1">Towhid Zaman</p>
+                          <p class="text-dark cmn-label mb-1">Towhid Zaman</p>
                           <p class="mb-0">
                             Rupnagar, Mirpur, Dhaka.
                             <br>
@@ -181,7 +181,7 @@ include("layout/head.php");
                           Default Billing Address
                         </p>
                         <div class="address">
-                          <p class="text-dark fw-bold mb-1">Towhid Zaman</p>
+                          <p class="text-dark cmn-label mb-1">Towhid Zaman</p>
                           <p class="mb-0">
                             Rupnagar, Mirpur, Dhaka.
                             <br>
@@ -195,12 +195,12 @@ include("layout/head.php");
               </div>
               <div class="tab-pane fade " id="order-history" role="tabpanel">
                 <div class="recent-orders bg-white rounded py-5">
-                  <h6 class="mb-4 px-4 fw-bold">Recent Orders</h6>
+                  <h6 class="mb-4 px-4 cmn-label">Recent Orders</h6>
                   <div class="table-responsive">
                     <table class="order-history-table table">
                       <tbody>
                         <tr>
-                          <th>Order Number#</th>
+                          <th>Order Number</th>
                           <th>Placed on</th>
                           <th>Method</th>
                           <th>Items</th>
@@ -216,7 +216,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -230,7 +230,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -244,7 +244,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -258,7 +258,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -272,7 +272,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -286,7 +286,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -300,7 +300,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -314,7 +314,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -328,7 +328,7 @@ include("layout/head.php");
                           </td>
                           <td class="text-secondary">$105.60</td>
                           <td class="text-center">
-                            <a href="#" class="view-invoice fs-xs">
+                            <a href="invoice.php" class="view-invoice fs-xs">
                               <i class="fas fa-eye"></i>
                             </a>
                           </td>
@@ -380,7 +380,7 @@ include("layout/head.php");
               </div> -->
               <div class="tab-pane fade" id="payments" role="tabpanel">
                 <div class="payment-methods bg-white rounded py-5 px-4">
-                  <h6 class="mb-4 fw-bold">Default Payment Methods</h6>
+                  <h6 class="mb-4 cmn-label">Default Payment Methods</h6>
                   <div class="table-responsive">
                     <table class="payments-list-table table">
                       <tbody>
@@ -396,11 +396,11 @@ include("layout/head.php");
                               <img src="./images/banking.png" alt="icon">
                             </span>
                             <p class="d-inline-block mb-0">
-                              <strong>Card</strong>
-                              youremail@domain.com
-                              <span class="badge bg-secondary-light  fw-normal ms-1">
-                                Active
-                              </span>
+                            <p class="cmn-label">Card</p>
+                            youremail@domain.com
+                            <span class="badge bg-secondary-light  fw-normal ms-1">
+                              Active
+                            </span>
                             </p>
                           </td>
                           <td>Talukdar</td>
@@ -417,8 +417,8 @@ include("layout/head.php");
                               <img src="./images/bKash.png" alt="icon">
                             </span>
                             <p class="d-inline-block mb-0">
-                              <strong>bKash</strong>
-                              youremail@domain.com
+                            <p class="cmn-label">bKash</p>
+                            youremail@domain.com
                             </p>
                           </td>
                           <td>Talukdar</td>
@@ -435,8 +435,8 @@ include("layout/head.php");
                               <img src="./images/nagad.png" alt="icon">
                             </span>
                             <p class="d-inline-block mb-0">
-                              <strong>Nagad</strong>
-                              youremail@domain.com
+                            <p class="cmn-label">Nagad</p>
+                            youremail@domain.com
                             </p>
                           </td>
                           <td>Talukdar</td>
@@ -453,8 +453,8 @@ include("layout/head.php");
                               <img src="./images/rocket.PNG" alt="icon">
                             </span>
                             <p class="d-inline-block mb-0">
-                              <strong>Rocket</strong>
-                              youremail@domain.com
+                            <p class="cmn-label">Rocket</p>
+                            youremail@domain.com
                             </p>
                           </td>
                           <td>Talukdar</td>
@@ -476,12 +476,12 @@ include("layout/head.php");
               </div>
               <div class="tab-pane fade" id="update-profile" role="tabpanel">
                 <div class="update-profile bg-white py-5 px-4">
-                  <h6 class="mb-4 fw-bold">Update Profile</h6>
+                  <h6 class="mb-4 cmn-label">Update Profile</h6>
                   <form class="profile-form">
                     <div class="file-upload text-center rounded-3 mb-5">
                       <input type="file" name="dp">
                       <img src="./images/upload-icon.svg" alt="dp" class="img-fluid">
-                      <p class="text-dark fw-bold mb-2 mt-3">
+                      <p class="text-dark cmn-label mb-2 mt-3">
                         Drop your files here or
                         <a href="#" class="text-primary">browse</a>
                       </p>
@@ -533,7 +533,7 @@ include("layout/head.php");
                   </form>
                 </div>
                 <div class="change-password bg-white py-5 px-4 mt-4 rounded">
-                  <h6 class="mb-4 fw-bold">Change Password</h6>
+                  <h6 class="mb-4 cmn-label">Change Password</h6>
                   <form class="password-reset-form">
                     <div class="row g-4">
                       <div class="col-sm-6">
@@ -569,7 +569,7 @@ include("layout/head.php");
               </div>
               <div class="tab-pane fade" id="order-tracking" role="tabpanel">
                 <div class="order-tracking-wrap bg-white rounded py-5 px-4">
-                  <h6 class="mb-4 fw-bold">Order Tracking</h6>
+                  <h6 class="mb-4 cmn-label">Order Tracking</h6>
                   <ol id="progress-bar">
                     <li class="fs-xs tt-step tt-step-done">Pending</li>
                     <li class="fs-xs tt-step tt-step-done">Processing</li>
@@ -577,11 +577,11 @@ include("layout/head.php");
                     <li class="fs-xs tt-step">Delivered</li>
                   </ol>
                   <div class="table-responsive-md mt-5">
-                    <table class="table table-bordered fs-xs">
+                    <table class="table table-bordered">
                       <thead>
                         <tr>
-                          <th scope="col">Date &amp; Time</th>
-                          <th scope="col">Status Info</th>
+                          <th class="cmn-label" scope="col">Date &amp; Time</th>
+                          <th class="cmn-label" scope="col">Status Info</th>
                         </tr>
                       </thead>
                       <tbody>

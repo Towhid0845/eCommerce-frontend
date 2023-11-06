@@ -19,10 +19,11 @@ include("layout/head.php");
   <!-- header and navbar part end -->
 
   <!-- banner part start -->
-  <section class="banner" style="background: url(images/banner-bg2.jpg);">
+  <section class="banner" style="background: url(images/bgbg.png);">
+    <!-- <section class="banner"> -->
     <div class="custom-container">
-      <div class="row justify-content-end">
-        <div class="col-lg-10 col-md-12">
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
           <div class="left-banner-main">
             <div class="left-banner-item">
               <div class="img">
@@ -74,19 +75,6 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-4">
-          <a class="full-block d-block" href="shop.html">
-            <div class="right-banner-image">
-              <div class="img" style="background: url(images/banner-right.jpg)">
-                <div class="overlay">
-                  <h1>20% Sale Off</h1>
-                  <p>Synthetic seeds Net 2.0 OZ</p>
-                  <a href="shop.html" class="shop-now shadow-none btn">Shop Now</a>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div> -->
       </div>
     </div>
   </section>
@@ -94,7 +82,7 @@ include("layout/head.php");
 
   <!-- service part start -->
   <?php
-  include("layout/service.php");
+  //  include("layout/service.php");
   ?>
   <!-- service part end -->
 
@@ -103,7 +91,7 @@ include("layout/head.php");
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-title text-center">
+          <div class="section-title text-start">
             <h1>Shop by Category</h1>
           </div>
         </div>
@@ -248,7 +236,7 @@ include("layout/head.php");
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-title text-center">
+          <div class="section-title text-start">
             <h1>Special Offers</h1>
           </div>
         </div>
@@ -645,13 +633,12 @@ include("layout/head.php");
 
 
   <!-- our product part start -->
-  <section class="product pt-5 pb-50" id="all-product">
+  <!-- <section class="product pt-5 pb-50" id="all-product">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-title text-center">
+          <div class="section-title text-start">
             <h1>Our Products</h1>
-            <p>A highly efficient slip-ring scanner for today's diagnostic requirements.</p>
           </div>
         </div>
       </div>
@@ -1410,18 +1397,17 @@ include("layout/head.php");
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- our product part end -->
 
 
   <!-- category part start -->
-  <section class="category pt-100 pb-50">
+  <!-- <section class="category pt-100 pb-50">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-title text-center">
+          <div class="section-title text-start">
             <h1>Top Categories</h1>
-            <p>A highly efficient slip-ring scanner for today's diagnostic requirements.</p>
           </div>
         </div>
       </div>
@@ -1519,16 +1505,16 @@ include("layout/head.php");
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- category part end -->
 
 
   <!-- Best seller part start -->
-  <section class="offer pt-5 pb-50" id="best-sale">
+  <!-- <section class="offer pt-5 pb-50" id="best-sale">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-title text-center">
+          <div class="section-title text-start">
             <h1>Best Seller</h1>
           </div>
         </div>
@@ -1920,7 +1906,7 @@ include("layout/head.php");
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Best seller part end -->
 
   <!-- call section start -->
@@ -1931,7 +1917,7 @@ include("layout/head.php");
           <div class="call-inner text-center">
             <h2>Get A Free Service Or Make A Call</h2>
             <div class="btn-wrapper">
-              <a class="call-btn" href="contact.php"><i class="fas fa-phone-volume"></i> MAKE A CALL</a>
+              <a class="call-btn" href="contact.php"><i class="fas fa-phone-volume me-2"></i> MAKE A CALL</a>
             </div>
           </div>
         </div>
@@ -1939,6 +1925,12 @@ include("layout/head.php");
     </div>
   </section>
   <!-- call section end -->
+
+  <!-- back to top part start -->
+  <a id="button">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+  <!-- back to top part end -->
 
   <!-- footer part start -->
   <?php

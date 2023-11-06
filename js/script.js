@@ -3,6 +3,35 @@
     $('.preloader').delay(0).fadeOut(300);
   })
 
+
+// fixed menu js
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 350) {
+    $('.sticky-top').addClass('shadow-lg').css('top', '-44px');
+  } else {
+    $('.sticky-top').removeClass('shadow-lg').css('top', '-143px');
+  }
+});
+  
+
+    // back to top js
+    let btn = $('#button');
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+  
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: 0
+      }, '300');
+    });
+
   // banner slider js
   $('.left-banner-main').slick({
     dots: false,
@@ -274,23 +303,6 @@
     $('.right-search-option').slideUp();
   })
 
-  // back to top js
-  let btn = $('#button');
-
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 300) {
-      btn.addClass('show');
-    } else {
-      btn.removeClass('show');
-    }
-  });
-
-  btn.on('click', function (e) {
-    e.preventDefault();
-    $('html, body').animate({
-      scrollTop: 0
-    }, '300');
-  });
 
   // login and register js
   $('.customer').click(function () {

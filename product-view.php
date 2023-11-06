@@ -190,14 +190,14 @@ include("layout/head.php");
                         <h3 class="mb-1">Fresh &amp; Organic Spice</h3>
                       </div>
                       <div class="d-flex align-items-center justify-content-center">
-                        <span class="hot-badge bg-danger fw-bold fs-xs position-relative text-white">HOT</span>
-                        <span class="offer-title text-danger fw-bold">30% Off</span>
+                        <span class="hot-badge bg-danger fs-xs position-relative text-white">HOT</span>
+                        <span class="offer-title text-danger">30% Off</span>
                       </div>
                       <div class="hotline">
                         <h5 class="pt-3">Hotline Order:</h5>
                         <span>Mon - Fri: 7:00 am - 18:00PM</span>
                         <h4 class="pt-4">+970 978 - 6290</h4>
-                        <a href="#" class="call-btn text-primary fw-bold">Shop Now<span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
+                        <a href="#" class="call-btn text-primary">Shop Now<span class="ms-2"><i class="fas fa-arrow-right"></i></span></a>
                       </div>
                     </div>
                   </div>
@@ -247,7 +247,7 @@ include("layout/head.php");
                       the best standards of
                       care.</p>
                     <div class="img">
-                      <img src="images/summery-description-image.webp" alt="summery-description-image" class="img-fluid w-100">
+                      <img src="images/product-details-image-1.webp" alt="summery-description-image" class="img-fluid w-100">
                     </div>
                     <div class="image-title">
                       <p class="text-center fst-italic py-3">
@@ -483,7 +483,7 @@ include("layout/head.php");
                           <h3>1 Review For This Product</h3>
                           <div class="post-list d-flex">
                             <div class="image">
-                              <img src="images/brand-image-1.jpg" alt="brand-image-1" class="img-fluid w-100">
+                              <img src="images/brand-image-2.jpg" alt="brand-image-1" class="img-fluid w-100">
                             </div>
                             <div class="text">
                               <h6>
@@ -519,7 +519,7 @@ include("layout/head.php");
                       <div class="col-lg-6 col-xl-8 col-xxl-9">
                         <div class="vendor-text">
                           <div class="mini-img">
-                            <img src="images/brand-image-3.jpg" alt="brand-image-3" class="img-fluid w-100">
+                            <img src="images/brand-image-2.jpg" alt="brand-image-3" class="img-fluid w-100">
                           </div>
                           <h3>MartFury</h3>
                           <ul>
