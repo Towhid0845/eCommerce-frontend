@@ -1,24 +1,27 @@
   <!-- header part start -->
-  <header class="d-none d-xl-block sticky-top">
+  <header class="sticky-top">
     <div class="custom-container">
       <div class="row py-2">
-        <div class="col-lg-6">
+        <div class="col col-md-2 order-1" style="width: 84px;">
           <div class="header-left d-flex align-items-center">
-            <a href="index.php" class="home px-3 border-end border-white">Home</a>
-            <div class="deliver px-3">
-              <span class="d-flex align-items-center">
-                <i class="fa-solid fa-location-dot"></i>
-                <p class="px-2">Delevered to: <span>Dhaka</span></p>
-                <i class="fa-solid fa-angle-down mt-1"></i>
-              </span>
-            </div>
+            <i data-feather="home" class="d-block d-md-none"></i>
+            <a href="index.php" class="home" style="width: 60px;">Home</a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-12 col-md-4 order-3 order-md-2">
+          <div class="deliver px-0">
+            <span class="d-flex align-items-center">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="px-2">Delevered to : <span>Dhaka</span></p>
+              <i class="fa-solid fa-angle-down mt-1"></i>
+            </span>
+          </div>
+        </div>
+        <div class="col-7 col-md-6 ms-sm-auto order-2 order-md-3">
           <div class="header-right px-3 text-end">
-            <ul>
-              <li class="px-3"><a href="login.php">Sign In</a></li>
-              <li class="px-3"><a href="signup.php">Sign Up</a></li>
+            <ul class="d-flex justify-content-end">
+              <li><a href="login.php">Sign In</a></li>
+              <li class="ps-3 d-none d-sm-block"><a href="signup.php">Sign Up</a></li>
               <li class="cart-bag position-relative">
                 <i class="fa-solid fa-cart-plus"></i>
                 <span class="count">0</span>
@@ -147,14 +150,7 @@
                   </div>
                 </div>
               </li>
-              <li class="fav-info">
-                <a href="wishlist.html">
-                  <i class="fa-regular fa-heart"></i>
-                  <span class="count">0</span>
-                </a>
-              </li>
               <li class="user-info position-relative">
-                <!-- <a href="login-and-register.html"> -->
                 <i class="fa-solid fa-circle-user"></i>
                 <div class="profile position-absolute">
                   <ul>
@@ -176,14 +172,23 @@
       </div>
     </div>
     <div class="container">
-      <div class="row justify-content-center py-4">
-        <div class="col-lg-12">
-          <div class="header-form d-flex">
-            <div class="logo">
-              <a href="index.php">
-                <img src="images/logo.png" alt="header" width="90px">
-              </a>
+      <div class="row justify-content-center py-3 py-lg-4">
+        <div class="col-2 d-md-none">
+          <div class="mobile-topbar">
+            <div class="bars">
+              <i class="fas fa-bars"></i>
             </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-1">
+          <div class="logo">
+            <a href="index.php">
+              <img src="images/logo.png" alt="header">
+            </a>
+          </div>
+        </div>
+        <div class="col-10 col-md-11 ps-md-5 ps-lg-3 ps-xl-2">
+          <div class="header-form">
             <form action="#">
               <div class="form-main d-flex justify-content-between">
                 <!-- <div class="dropdown rounded-start">
@@ -211,10 +216,10 @@
   </header>
   <!-- header part end -->
   <!-- navbar part start -->
-  <nav class="d-none d-xl-block">
-    <div class="custom-container position-relative">
+  <nav class="d-none d-md-block">
+    <div class="container position-relative">
       <div class="row">
-        <div class="col-lg-2 align-self-center">
+        <div class="col-12 col-lg-9 d-flex align-self-center">
           <div class="nav-side-menu">
             <a href="category.php" class="d-flex justify-content-center align-items-center">
               <i data-feather="menu"></i>
@@ -232,7 +237,7 @@
                         <div class="col-lg-6">
                           <div class="child-menu-item">
                             <ul>
-                              <li class="list-menu-title"><b>Fruits</b></li>
+                              <li class="list-menu-title cmn-label"><span>Fruits</span></li>
                               <li><a href="category.php">Apples</a></li>
                               <li><a href="category.php">Bananas</a></li>
                               <li><a href="category.php">Berries</a></li>
@@ -249,7 +254,7 @@
                         <div class="col-lg-6">
                           <div class="child-menu-item">
                             <ul>
-                              <li class="list-menu-title"><b>Vegitables</b></li>
+                              <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
                               <li><a href="category.php">Apples</a></li>
                               <li><a href="category.php">Bananas</a></li>
                               <li><a href="category.php">Berries</a></li>
@@ -270,7 +275,7 @@
                         <div class="col-lg-12">
                           <div class="child-menu-item">
                             <ul>
-                              <li class="list-menu-title"><b>Vegitables</b></li>
+                              <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
                               <li><a href="category.php">Apples</a></li>
                               <li><a href="category.php">Bananas</a></li>
                               <li><a href="category.php">Berries<i data-feather="chevron-right"></i></a>
@@ -279,7 +284,7 @@
                                     <div class="col-lg-12">
                                       <div class="child-menu-item">
                                         <ul>
-                                          <li class="list-menu-title"><b>Fruits</b></li>
+                                          <li class="list-menu-title cmn-label"><span>Fruits</span></li>
                                           <li><a href="category.php">Apples</a>
                                           </li>
                                           <li><a href="category.php">Bananas</a></li>
@@ -316,7 +321,7 @@
                         <div class="col-lg-12">
                           <div class="child-menu-item">
                             <ul>
-                              <li class="list-menu-title"><b>Fruits</b></li>
+                              <li class="list-menu-title cmn-label"><span>Fruits</span></li>
                               <li><a href="category.php">Apples</a></li>
                               <li><a href="category.php">Bananas</a></li>
                               <li><a href="category.php">Berries</a></li>
@@ -329,7 +334,7 @@
                                     <div class="col-lg-12">
                                       <div class="child-menu-item">
                                         <ul>
-                                          <li class="list-menu-title"><b>Fruits</b></li>
+                                          <li class="list-menu-title cmn-label"><span>Fruits</span></li>
                                           <li><a href="category.php">Apples</a>
                                           </li>
                                           <li><a href="category.php">Bananas</a></li>
@@ -364,8 +369,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-8 ps-5 align-self-center">
           <div class="menu">
             <ul>
               <li>
@@ -380,71 +383,22 @@
                   Special Offer
                 </a>
               </li>
-              <li>
-                <a href="#best-sale">
-                  <i data-feather="tag"></i>
-                  Best Sale
-                </a>
-              </li>
-              <li>
-                <a href="category.php">
-                  Populer
-                  <!-- <i data-feather="chevron-down"></i> -->
-                </a>
-                <!-- <ul>
-                  <li><a href="category.php">Fruit</a></li>
-                  <li><a href="category.php">Meat & Poultry</a></li>
-                  <li><a href="category.php">Milk, Butter & Eggs</a></li>
-                  <li><a href="category.php">Vegetables</a></li>
-                </ul> -->
-              </li>
-              <li>
+              <!-- <li>
                 <a href="category.php">
                   Top Rated
-                  <!-- <i data-feather="chevron-down"></i> -->
+                  <i data-feather="chevron-down"></i>
                 </a>
-                <!-- <ul>
+                <ul>
                   <li><a href="category.php">Fruit</a></li>
                   <li><a href="category.php">Meat & Poultry</a></li>
                   <li><a href="category.php">Milk, Butter & Eggs</a></li>
                   <li><a href="category.php">Vegetables</a></li>
-                </ul> -->
-              </li>
+                </ul>
+              </li> -->
               <li>
-                <a href="#all-product">
+                <a href="category.php">
                   All Product
-                  <!-- <i data-feather="chevron-down"></i> -->
                 </a>
-                <!-- <ul>
-                  <li><a href="category.php">Shop</a></li>
-                  <li><a href="cart.php">Cart</a></li>
-                  <li><a href="checkout.php">Checkout</a></li>
-                  <li><a href="product-view.php">Single Product</a></li>
-                </ul> -->
-              </li>
-              <li>
-                <span>
-                  Blog
-                  <i data-feather="chevron-down"></i>
-                </span>
-                <ul>
-                  <li><a href="category.php">Fruit</a></li>
-                  <li><a href="category.php">Meat & Poultry</a></li>
-                  <li><a href="category.php">Milk, Butter & Eggs</a></li>
-                  <li><a href="category.php">Vegetables</a></li>
-                </ul>
-              </li>
-              <li>
-                <span>
-                  Pages
-                  <i data-feather="chevron-down"></i>
-                </span>
-                <ul>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Contact Us</a></li>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="404-page.php">Page 404</a></li>
-                </ul>
               </li>
               <li>
                 <span>
@@ -461,7 +415,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-2 col-xxl-2 align-self-center">
+        <div class="col-lg-3 col-xxl-2 align-self-center d-none d-lg-block">
           <div class="recent-view text-end">
             <ul>
               <li>
@@ -516,3 +470,164 @@
     </div>
   </nav>
   <!-- navbar part end -->
+
+  <!-- mobile navbar part start -->
+  <div class="mobile-menu d-block d-md-none">
+
+    <div class="mobile-menu-overlay"></div>
+
+    <div class="mobile-menu-main">
+      <div class="close-m-menu text-end"><i class="fas fa-times"></i></div>
+      <div class="menu-body">
+        <div class="menu-list">
+          <ul class="list-unstyled">
+            <li class="sub-menu">
+              <a href="index.php">Home</a>
+            </li>
+            <li class="sub-menu">
+              <a href="#">About Us</a>
+            </li>
+            <li class="sub-menu">
+              <a href="category.php">Shop by Category<i class="fas fa-sort-down float-end"></i></a>
+              <!-- <div class="dropdown-main pt-3">
+                <div class="dropdown-category-menu">
+                  <ul>
+                    <li><a href="category.php">Daily Deals</a></li>
+                    <li><a href="category.php">New Arrivals</a></li>
+                    <li><a href="category.php">Fruits & Vegetables <i data-feather="chevron-right"></i></a>
+                      <div class="dropdown-sub-mega-menu">
+                        <div class="row g-0">
+                          <div class="col-lg-6">
+                            <div class="child-menu-item">
+                              <ul>
+                                <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                                <li><a href="category.php">Apples</a></li>
+                                <li><a href="category.php">Bananas</a></li>
+                                <li><a href="category.php">Pears</a></li>
+                                <li><a href="category.php">Melon</a></li>
+                                <li><a href="category.php" class="all-products">See all products</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="child-menu-item">
+                              <ul>
+                                <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
+                                <li><a href="category.php">Apples</a></li>
+                                <li><a href="category.php">Grapes</a></li>
+                                <li><a href="category.php">Lemons & Limes</a></li>
+                                <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                                <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="category.php">Breads Sweets <i data-feather="chevron-right"></i></a>
+                      <div class="dropdown-sub-menu">
+                        <div class="row g-0">
+                          <div class="col-lg-12">
+                            <div class="child-menu-item">
+                              <ul>
+                                <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
+                                <li><a href="category.php">Apples</a></li>
+                                <li><a href="category.php">Bananas</a></li>
+                                <li><a href="category.php">Berries<i data-feather="chevron-right"></i></a>
+                                  <div class="dropdown-sub-menu">
+                                    <div class="row g-0">
+                                      <div class="col-lg-12">
+                                        <div class="child-menu-item">
+                                          <ul>
+                                            <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                                            <li><a href="category.php">Apples</a>
+                                            </li>
+                                            <li><a href="category.php">Bananas</a></li>
+                                            <li><a href="category.php">Pears</a></li>
+                                            <li><a href="category.php">Melon</a></li>
+                                            <li><a href="category.php" class="all-products">See all products</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                                <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                                <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="category.php">Raw Meats</a></li>
+                    <li><a href="category.php">Wines & Alcohol Drinks <i data-feather="chevron-right"></i></a>
+                      <div class="dropdown-sub-menu">
+                        <div class="row g-0">
+                          <div class="col-lg-12">
+                            <div class="child-menu-item">
+                              <ul>
+                                <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                                <li><a href="category.php">Apples</a></li>
+                                <li><a href="category.php">Bananas</a></li>
+                                <li><a href="category.php">Peaches & Nectarines<i data-feather="chevron-right"></i></a>
+                                  <div class="dropdown-sub-menu">
+                                    <div class="row g-0">
+                                      <div class="col-lg-12">
+                                        <div class="child-menu-item">
+                                          <ul>
+                                            <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                                            <li><a href="category.php">Apples</a>
+                                            </li>
+                                            <li><a href="category.php">Bananas</a></li>
+                                            <li><a href="category.php">Pears</a></li>
+                                            <li><a href="category.php">Melon</a></li>
+                                            <li><a href="category.php" class="all-products">See all products</a></li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li><a href="category.php" class="all-products">See all products</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="category.php">Tea & Coffee</a></li>
+                  </ul>
+                </div>
+              </div> -->
+            </li>
+            <li class="sub-menu"><a href="#sp-offer">Special Offer<i class="fas fa-sort-down float-end"></i></a>
+              <ul class="list-unstyled">
+                <li><a href="">offer1</a></li>
+                <li><a href="">offer2</a></li>
+                <li><a href="">offer3</a></li>
+                <li><a href="">offer4</a></li>
+                <li><a href="">offer5</a></li>
+              </ul>
+            </li>
+            <li class="sub-menu"><a href="#">Brand<i class="fas fa-sort-down float-end"></i></a>
+              <ul class="list-unstyled">
+                <li><a href="">brand1</a></li>
+                <li><a href="">brand2</a></li>
+                <li><a href="">brand3</a></li>
+                <li><a href="">brand4</a></li>
+                <li><a href="">brand5</a></li>
+              </ul>
+            </li>
+
+            <li class="sub-menu"><a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile navbar part end -->

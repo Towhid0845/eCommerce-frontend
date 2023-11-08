@@ -6,8 +6,9 @@
 
 // fixed menu js
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 350) {
+  if ($(this).scrollTop() > 350 && screen.width > 767) {
     $('.sticky-top').addClass('shadow-lg').css('top', '-44px');
+    // console.log(screen.width)
   } else {
     $('.sticky-top').removeClass('shadow-lg').css('top', '-143px');
   }
@@ -41,8 +42,8 @@ $(window).scroll(function () {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow: '<i class="bi bi-chevron-left icon left"></i>',
-    nextArrow: '<i class="bi bi-chevron-right icon right"></i>',
+    prevArrow: '<i class="bi bi-chevron-left left"></i>',
+    nextArrow: '<i class="bi bi-chevron-right right"></i>',
     fade: true,
   });
 
@@ -472,42 +473,42 @@ $(document).ready(function () {
 // $(document).ready(function() {
 //   "use strict";
 
-  let quickViewProductSlider = new Swiper(".quickview-product-slider", {
-    slidesPerView: 1,
-    centeredSlides: true,
-    speed: 700,
-    loop: true,
-    loopedSlides: 8
-  });
-  let productThumbnailSlider = new Swiper(".product-thumbnail-slider", {
-    slidesPerView: 4,
-    speed: 700,
-    loop: true,
-    spaceBetween: 20,
-    slideToClickedSlide: true,
-    loopedSlides: 8,
-    centeredSlides: true,
-    breakpoints: {
-      0: {
-        slidesPerView: 2
-      },
-      380: {
-        slidesPerView: 3
-      },
-      576: {
-        slidesPerView: 4
-      }
-    }
-  });
-  if (quickViewProductSlider && quickViewProductSlider.length > 0) {
-    quickViewProductSlider.forEach(function (item, index) {
-      item.controller.control = productThumbnailSlider[index];
-      productThumbnailSlider[index].controller.control = item;
-    });
-  } else {
-    quickViewProductSlider.controller.control = productThumbnailSlider;
-    productThumbnailSlider.controller.control = quickViewProductSlider;
-  }
+  // let quickViewProductSlider = new Swiper(".quickview-product-slider", {
+  //   slidesPerView: 1,
+  //   centeredSlides: true,
+  //   speed: 700,
+  //   loop: true,
+  //   loopedSlides: 8
+  // });
+  // let productThumbnailSlider = new Swiper(".product-thumbnail-slider", {
+  //   slidesPerView: 4,
+  //   speed: 700,
+  //   loop: true,
+  //   spaceBetween: 20,
+  //   slideToClickedSlide: true,
+  //   loopedSlides: 8,
+  //   centeredSlides: true,
+  //   breakpoints: {
+  //     0: {
+  //       slidesPerView: 2
+  //     },
+  //     380: {
+  //       slidesPerView: 3
+  //     },
+  //     576: {
+  //       slidesPerView: 4
+  //     }
+  //   }
+  // });
+  // if (quickViewProductSlider && quickViewProductSlider.length > 0) {
+  //   quickViewProductSlider.forEach(function (item, index) {
+  //     item.controller.control = productThumbnailSlider[index];
+  //     productThumbnailSlider[index].controller.control = item;
+  //   });
+  // } else {
+  //   quickViewProductSlider.controller.control = productThumbnailSlider;
+  //   productThumbnailSlider.controller.control = quickViewProductSlider;
+  // }
   
 // });
 
@@ -529,3 +530,41 @@ $(document).ready(function () {
 //     swiper: swiper,
 //   },
 // });
+// mobile menu js
+
+// $(function () {
+
+function towhid() {
+  console.log('hello')
+}
+
+$('.mobile-topbar .bars i').click(function () {
+  $('.mobile-menu-main').addClass('show-mobile-menu')
+})
+  
+  $('.close-m-menu').click(function () {
+  $('.mobile-menu-main').removeClass('show-mobile-menu')
+  })
+  $('.mobile-topbar .bars i').click(function () {
+  $('.mobile-menu-overlay').addClass('show-mobile-menu-overlay')
+  })
+  $('.mobile-topbar .bars i').click(function () {
+  $('.mobile-menu-overlay').addClass('show-mobile-menu-overlay')
+  })
+  $('.close-m-menu').click(function () {
+  $('.mobile-menu-overlay').removeClass('show-mobile-menu-overlay')
+  })
+  $('.mobile-menu-overlay').click(function () {
+  $('.mobile-menu-overlay').removeClass('show-mobile-menu-overlay')
+  })
+  $('.mobile-menu-overlay').click(function () {
+  $('.mobile-menu-main').removeClass('show-mobile-menu')
+  })
+
+  $('.sub-menu ul').hide();
+  $(".sub-menu a").click(function () {
+  $(this).parent(".sub-menu").children("ul").slideToggle("100");
+  $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+  });
+    
+// })

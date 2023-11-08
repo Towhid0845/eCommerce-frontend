@@ -188,9 +188,13 @@ body {
 }
 
 // common margin padding
+.cmn-pt {
+  padding-top: 70px;
+}
 .pt-100{
   padding-top: 100px;
 }
+
 
 .pb-50{
   padding-bottom: 50px;
@@ -342,4 +346,15 @@ body {
 .cmn-label {
   font-family: 'Bjudson';
   // font-size: 16px;
+}
+::-webkit-input-placeholder {
+  font-size: 18px !important;
+}
+
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="text"]::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-size: 18px;
 }

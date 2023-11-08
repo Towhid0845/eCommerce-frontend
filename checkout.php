@@ -23,7 +23,7 @@ include("layout/head.php");
 
   <!-- checkout part start -->
   <div class="wrapper">
-    <section class="checkout pt-100">
+    <section class="checkout pt-100 px-4 px-sm-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -34,7 +34,7 @@ include("layout/head.php");
               <h3>Have a Coupon? <a href="#">Click here to enter your code</a></h3>
             </div>
 
-            <div class="title2">
+            <div class="title2 pt-4">
               <h2>Billing Information</h2>
             </div>
           </div>
@@ -64,22 +64,6 @@ include("layout/head.php");
                     </div>
                   </div>
                 </div>
-                <!-- <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                    <h6>Country</h6>
-                    <div class="input-item">
-                      <select class="nice-select">
-                        <option>Select Country</option>
-                        <option>Australia</option>
-                        <option>Canada</option>
-                        <option>China</option>
-                        <option>Morocco</option>
-                        <option>Saudi Arabia</option>
-                        <option>United Kingdom (UK)</option>
-                        <option>United States (US)</option>
-                      </select>
-                    </div>
-                  </div> -->
                 <div class="col-lg-12 col-md-12">
                   <h6>Address</h6>
                   <div class="row">
@@ -88,31 +72,8 @@ include("layout/head.php");
                         <input type="text" placeholder="House number and street name">
                       </div>
                     </div>
-                    <!-- <div class="col-md-12">
-                      <div class="input-item">
-                        <input type="text" placeholder="Apartment, suite, unit etc. (optional)">
-                      </div>
-                    </div> -->
                   </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6">
-                  <h6>Town / City</h6>
-                  <div class="input-item">
-                    <input type="text" placeholder="City">
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h6>State </h6>
-                  <div class="input-item">
-                    <input type="text" placeholder="State">
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                  <h6>Zip</h6>
-                  <div class="input-item">
-                    <input type="text" placeholder="Zip">
-                  </div>
-                </div> -->
                 <p class="pb-4"><label class="input-info-save mb-0"><input type="checkbox" name="agree"> Create an account?</label></p>
                 <h6>Order Notes (optional)</h6>
                 <div class="input-item input-item-textarea">
@@ -121,17 +82,11 @@ include("layout/head.php");
                 </div>
               </form>
             </div>
-            <div class="payment-note mt-5 mb-3">
-              <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
-            </div>
-            <div class="checkout-bill">
-              <a class="call-btn" href="invoice.php">Place Order</a>
-            </div>
           </div>
           <div class="col-lg-6">
             <div class="row">
               <div class="col-lg-12">
-                <div class="title2">
+                <div class="title2 pt-5">
                   <h2>Your order</h2>
                 </div>
                 <div class="order-table">
@@ -228,6 +183,16 @@ include("layout/head.php");
             </div>
           </div>
         </div>
+        <div class="row pb-5">
+          <div class="col-12 col-lg-6">
+            <div class="payment-note mt-5 mb-3">
+              <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+            </div>
+            <div class="checkout-bill">
+              <a class="call-btn" href="invoice.php">Place Order</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </div>
@@ -235,7 +200,7 @@ include("layout/head.php");
 
   <!-- service part start -->
   <?php
-  include("layout/service.php");
+  // include("layout/service.php");
   ?>
   <!-- service part end -->
 

@@ -12,11 +12,23 @@ include("layout/head.php");
   </div> -->
   <!-- preloader end-->
 
+
+  <!-- mobile menu start -->
+  <!-- <div class="mobile-topbar position-relative d-bolck d-md-none">
+    <div class="bars position-absolute">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div> -->
+  <!-- mobile menu end -->
+
+
   <!-- header and navbar part start -->
   <?php
   include("layout/header.php");
   ?>
   <!-- header and navbar part end -->
+
+
 
   <!-- banner part start -->
   <section class="banner" style="background: url(images/bgbg.png);">
@@ -30,9 +42,9 @@ include("layout/head.php");
                 <img src="images/bannr2.jpg" alt="banner-left-1" class="img-fluid w-100">
                 <div class="overlay overlay-2">
                   <div class="text">
-                    <h2>Active Summer With Juice Milk 300ml</h2>
-                    <p>New arrivals with naturre fruits, juice milks, essential for summer</p>
-                    <a href="shop.html">Shop Now</a>
+                    <h2 class="text-limit">Active Summer With Juice Milk 300ml</h2>
+                    <p class="text-limit">New arrivals with naturre fruits, juice milks, essential for summer</p>
+                    <a href="category.php">Shop Now</a>
                   </div>
                 </div>
               </div>
@@ -87,7 +99,7 @@ include("layout/head.php");
   <!-- service part end -->
 
   <!-- shop by category part start -->
-  <section class="offer pt-5 pb-50">
+  <section class="offer cmn-pt">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -97,7 +109,7 @@ include("layout/head.php");
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/pr-1.png" alt="no-img">
@@ -113,7 +125,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/pr-2.png" alt="no-img">
@@ -129,7 +141,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/pr-3.png" alt="no-img">
@@ -145,7 +157,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/pr-4.png" alt="no-img">
@@ -161,7 +173,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/pr-5.png" alt="no-img">
@@ -177,7 +189,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/vendor-info-image.webp" alt="no-img">
@@ -193,7 +205,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/product-details-image-2.webp" alt="no-img">
@@ -209,7 +221,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img category-img">
               <img src="./images/product-details-image-3.webp" alt="no-img">
@@ -232,7 +244,7 @@ include("layout/head.php");
 
 
   <!-- special offer part start -->
-  <section class="offer pt-5 pb-50" id="sp-offer">
+  <section class="offer cmn-pt" id="sp-offer">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -242,7 +254,7 @@ include("layout/head.php");
         </div>
       </div>
       <div class="row product-slider">
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -290,7 +302,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -338,7 +350,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -386,7 +398,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -434,7 +446,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -482,7 +494,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -530,7 +542,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">
@@ -578,7 +590,7 @@ include("layout/head.php");
             </div>
           </div>
         </div>
-        <div class="col-lg-3 pb-4 px-3">
+        <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <div class="product-img">
               <a href="product-view.php">

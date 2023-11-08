@@ -5,6 +5,9 @@
 .category-page{
   background-color: $lightbg1;
 
+  // .gshop-sidebar {
+    //     position: relative;
+    //   }
   .sidebar-widget{
     background-color: $white;
   }
@@ -13,6 +16,7 @@
 
     .filter{
       margin-right: 5px;
+      margin-bottom: 5px;
 
       a{
         background-color: $darktheme;
@@ -32,7 +36,7 @@
     font-family: 'Bjudson';
     input{
       height: 35px;
-      width: 55px;
+      width: 65px;
     }
 
     .nice-select{
