@@ -331,24 +331,7 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
+
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -364,6 +347,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -379,24 +372,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -412,6 +387,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -427,24 +412,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -460,6 +427,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -475,24 +452,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -508,6 +467,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -523,24 +492,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -556,6 +507,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -571,24 +532,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -604,6 +547,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -619,24 +572,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -652,6 +587,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -667,24 +612,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -700,6 +627,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -715,24 +652,6 @@ include("layout/head.php");
                       <li class="sale-badge">-25%</li>
                     </ul>
                   </div>
-                  <div class="product-hover-action">
-                    <ul>
-                      <li>
-                        <a href="product-view.php" title="Quick View">
-                          <i class="far fa-eye"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="cart.php" title="Add to Cart">
-                          <i class="fas fa-shopping-cart"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" title="Wishlist">
-                          <i class="far fa-heart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
                 <div class="product-info">
                   <div class="product-ratting">
@@ -748,6 +667,16 @@ include("layout/head.php");
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
+                  </div>
+                  <div class="add-to-cart-1">
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span>Add</span>
+                      </button>
+                      <button class="plus-btn" style="margin-left: -3px;">
+                        <i class="fa-solid fa-plus"></i>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

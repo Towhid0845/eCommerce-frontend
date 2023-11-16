@@ -534,10 +534,6 @@ $(document).ready(function () {
 
 // $(function () {
 
-function towhid() {
-  console.log('hello')
-}
-
 $('.mobile-topbar .bars i').click(function () {
   $('.mobile-menu-main').addClass('show-mobile-menu')
 })
@@ -568,3 +564,6 @@ $('.mobile-topbar .bars i').click(function () {
   });
     
 // })
+
+
+

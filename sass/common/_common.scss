@@ -358,3 +358,60 @@ input[type="text"]::-moz-placeholder,
 textarea::-moz-placeholder {
   font-size: 18px;
 }
+// add to cart
+.add-to-cart-1 {
+  // version 1
+  // .add-btn {
+  //   padding: 0 20px;
+  //   line-height: 32px;
+  //   color: $white;
+  //   border-radius: 6px 0 0 6px;
+  //   background-color: $colortheme;
+  //   font-size: 18px;
+  //   border: none;
+  // }
+
+  // version 2
+  .add-btn {
+    width: 100%;
+    line-height: 32px;
+    color: $white;
+    background-color: $colortheme;
+    font-size: 18px;
+    border: none;
+  }
+
+  .plus-btn {
+    background-color: #ffb800;
+    font-size: 16px;
+    color: $white;
+    border-radius: 6px;
+    border: none;
+
+    i {
+      line-height: 32px;
+      padding: 0 8px;
+    }
+  }
+}
+
+.add-to-cart-2 {
+  .number {
+    width: 35px;
+    line-height: 32px;
+  }
+
+  .minus-btn,
+  .plus-btn {
+    background-color: #ffb800;
+    font-size: 16px;
+    color: $white;
+    border-radius: 6px;
+    border: none;
+
+    i {
+      line-height: 32px;
+      padding: 0 8px;
+    }
+  }
+}

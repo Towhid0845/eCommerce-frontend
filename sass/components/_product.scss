@@ -70,56 +70,57 @@ margin-top: 0;
 }
 }
 
-.product-hover-action {
-top: 70%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  text-align: center;
-  transform: translateY(-50%);
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease 0s;
+// design style 01
+// .product-hover-action {
+// top: 70%;
+//   position: absolute;
+//   left: 0;
+//   right: 0;
+//   text-align: center;
+//   transform: translateY(-50%);
+//   opacity: 0;
+//   visibility: hidden;
+//   transition: all 0.3s ease 0s;
 
-ul {
-box-shadow: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+// ul {
+  //   box-shadow: none;
+  //     margin: 0;
+  //     padding: 0;
+  //     display: inline-block;
 
-li {
-border-radius: 100%;
-  margin: 0 5px;
-  height: 50px;
-  width: 50px;
-  line-height: 50px;
-  font-size: 14px;
-  text-align: center;
-  float: left;
-  list-style: none;
-  border-right: 1px solid $secondarytheme;
+// li {
+  //   border-radius: 100%;
+  //     margin: 0 5px;
+  //     height: 50px;
+  //     width: 50px;
+  //     line-height: 50px;
+  //     font-size: 14px;
+  //     text-align: center;
+  //     float: left;
+  //     list-style: none;
+  //     border-right: 1px solid $secondarytheme;
 
-a {
-display: block;
-  background-color: $white;
-// font-weight: 700;
-border-radius: 100%;
-  box-shadow: rgba(54, 56, 61, 0.15);
-  ;
-  }
+// a {
+  //   display: block;
+  //     background-color: $white;
+  //     // font-weight: 700;
+  //     border-radius: 100%;
+  //     box-shadow: rgba(54, 56, 61, 0.15);
+  //     ;
+  //   }
 
-&:hover a {
-background-color: $darktheme;
-  color: $white;
-}
+// &:hover a {
+// background-color: $darktheme;
+//   color: $white;
+// }
 
-&:last-child {
-margin-right: 0;
-  border-right: 0;
-}
-}
-}
-}
+// &:last-child {
+// margin-right: 0;
+//   border-right: 0;
+// }
+// }
+// }
+// }
 
 &:hover .product-hover-action {
 top: 55%;
@@ -127,10 +128,11 @@ top: 55%;
   visibility: visible;
 }
 
+// design style 02
 .product-info {
 margin-top: -10px;
   padding: 25px 30px 15px;
-  height: 125px;
+  height: 137px;
   background-color: $white;
 
 .product-ratting {
@@ -170,6 +172,12 @@ font-size: 20px;
   opacity: 0.6;
   margin-left: 5px;
 }
+}
+.view-btn {
+  .cmn-btn {
+    font-size: 16px;
+    padding: 5px 25px;
+  }
 }
 }
 .category-info {
