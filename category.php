@@ -334,21 +334,13 @@ include("layout/head.php");
 
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -357,7 +349,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -374,21 +373,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -397,7 +388,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -414,21 +412,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -437,7 +427,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -454,21 +451,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -477,7 +466,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -494,21 +490,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -517,7 +505,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -534,21 +529,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -557,7 +544,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -574,21 +568,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -597,7 +583,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -614,21 +607,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -637,7 +622,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -654,21 +646,13 @@ include("layout/head.php");
                   </div>
                 </div>
                 <div class="product-info">
-                  <div class="product-ratting">
-                    <ul>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star"></i></a></li>
-                      <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                      <li><a href="#"><i class="far fa-star"></i></a></li>
-                    </ul>
-                  </div>
+                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <div class="add-to-cart-1">
+                  <!-- <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
                         <span>Add</span>
@@ -677,7 +661,14 @@ include("layout/head.php");
                         <i class="fa-solid fa-plus"></i>
                       </button>
                     </div>
-                  </div>
+                  </div> -->
+                  <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <button class="add-btn">
+                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>

@@ -10,6 +10,9 @@
   .left-banner-main .overlay .text p {
     font-size: 20px;
   }
+  .product-summery .product-item .product-img {
+    height: 256px;
+  }
 }
 @media (min-width: 1400px) and (max-width: 1799px) {
   .nav-side-menu {
