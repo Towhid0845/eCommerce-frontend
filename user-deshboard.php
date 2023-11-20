@@ -18,6 +18,12 @@ include("layout/head.php");
   ?>
   <!-- header and navbar part end -->
 
+  <!-- breadcrumb part start -->
+  <?php
+  include("layout/breadcrump.php");
+  ?>
+  <!-- breadcrumb part end -->
+
 
   <!-- deshboard section start -->
   <div class="wrapper">
@@ -25,7 +31,7 @@ include("layout/head.php");
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="account-info shadow my-5 p-4 d-flex justify-content-center">
+            <div class="account-info shadow mb-5 p-4 d-flex justify-content-center">
               <div class="image">
                 <img src="./images/team-image-5.webp" class="img-fluid" alt="no-img">
               </div>
@@ -569,7 +575,20 @@ include("layout/head.php");
               </div>
               <div class="tab-pane fade" id="order-tracking" role="tabpanel">
                 <div class="order-tracking-wrap bg-white rounded py-5 px-4">
-                  <h6 class="mb-4 cmn-label">Order Tracking</h6>
+                  <!-- <h6 class="mb-4 cmn-label">Order Tracking</h6> -->
+                  <div class="header-form">
+                    <form action="#">
+                      <div class="form-main d-flex justify-content-between">
+
+                        <div class="input-field">
+                          <input type="text" class="form-control rounded-0 shadow-none" placeholder="I'm searching for...">
+                        </div>
+                        <div class="search d-flex justify-content-center align-items-center">
+                          <img src="./images/search.png" alt="not found">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                   <ol id="progress-bar">
                     <li class="fs-xs tt-step tt-step-done">Pending</li>
                     <li class="fs-xs tt-step tt-step-done">Processing</li>

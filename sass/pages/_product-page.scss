@@ -109,7 +109,7 @@
 
 .product-details-page {
 	.product-details-bg {
-		padding: 50px 0;
+		padding: 0 0 50px 0;
 		background-color: #f5f5f5;
 	}
 	.mini-side-image {
@@ -262,8 +262,6 @@
 		}
 	}
 
-	
-
   .product-radio-btn li {
     position: relative;
     display: inline-block;
@@ -312,9 +310,14 @@
 		.quantity-main {
 			button {
 				border: none;
-				background-color: $colortheme;
+				background-color: $darktheme;
 				// margin-left: 20px;
 				color: $white;
+
+				&::after {
+					background: $colortheme;
+					color: $white;
+				}
 			}
 						.order-now {
 							.call-btn::after {

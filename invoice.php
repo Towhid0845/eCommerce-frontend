@@ -19,9 +19,14 @@ include("layout/head.php");
     ?>
     <!-- header and navbar part end -->
 
+    <!-- breadcrumb part start -->
+    <?php
+    include("layout/breadcrump.php");
+    ?>
+    <!-- breadcrumb part end -->
 
     <!-- invoice section start -->
-    <section class="invoice-section py-5">
+    <section class="invoice-section pb-5">
         <div class="container">
             <div class="invoice-box bg-white rounded p-4 p-sm-6">
                 <div class="row g-5 justify-content-between">

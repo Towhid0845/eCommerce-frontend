@@ -113,7 +113,7 @@ include("layout/head.php");
                 <span>Vegitables</span>
               </div>
               <h2 class="product-title text-start"><a href="#" class="text-limit">Oranganic and fresh vegitables</a></h2>
-              <div class="view-btn mt-auto ms-auto">
+              <div class="view-btn mt-auto">
                 <a href="category.php" class="cmn-btn">View All</a>
               </div>
             </div>

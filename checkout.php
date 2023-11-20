@@ -17,8 +17,10 @@ include("layout/head.php");
   include("layout/header.php");
   ?>
   <!-- heade & navbar part end -->
-
   <!-- breadcrumb part start -->
+  <?php
+  include("layout/breadcrump.php");
+  ?>
   <!-- breadcrumb part end -->
 
   <!-- checkout part start -->

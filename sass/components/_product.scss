@@ -175,23 +175,28 @@ font-size: 20px;
 }
 }
 .view-btn {
+  width: 100%;
   .cmn-btn {
+    border-radius: 0;
+    width: 100%;
     font-size: 16px;
     padding: 5px 25px;
   }
 }
 }
 .category-info {
-padding: 20px;
-height: 160px;
+// padding: 20px 20px 0;
+height: 145px;
 
 .product-title {
 margin-bottom: 0;
+padding: 0 20px 0;
   height: 45px;
 }
 
 .product-price {
 margin-bottom: 10px;
+padding: 0 20px 0;
 }
 
 .view-btn {

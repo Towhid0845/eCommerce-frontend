@@ -18,6 +18,12 @@ include("layout/head.php");
   ?>
   <!-- heade & navbar part end -->
 
+  <!-- breadcrumb part start -->
+  <?php
+  include("layout/breadcrump.php");
+  ?>
+  <!-- breadcrumb part end -->
+
   <!-- cart page part start -->
   <section class="wishlist cart">
     <div class="container">

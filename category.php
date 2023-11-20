@@ -19,11 +19,17 @@ include("layout/head.php");
   ?>
   <!-- heade & navbar part end -->
 
+  <!-- breadcrumb part start -->
+  <?php
+  include("layout/breadcrump.php");
+  ?>
+  <!-- breadcrumb part end -->
+
   <!-- category -->
-  <section class="category-page pt-100">
+  <section class="category-page">
     <div class="custom-container">
       <div class="row">
-        <div class="col-12 col-md-4 col-xl-3">
+        <!-- <div class="col-12 col-md-4 col-xl-3">
           <div class="gshop-sidebar rounded-2 overflow-hidden">
             <div class="sidebar-widget search-widget bg-white p-4 mb-1">
               <div class="title3 d-flex">
@@ -118,7 +124,6 @@ include("layout/head.php");
                   <input type="number" min=0 max="10000" oninput="validity.valid||(value='10000');" id="max_price" class="price-range-field" />
                 </div>
                 <button class="price-range-search" id="price-range-submit">Search</button>
-                <!-- <div id="searchResults" class="search-results-block"></div> -->
               </div>
             </div>
             <div class="sidebar-widget common-widget p-4 mb-1 bg-white">
@@ -292,16 +297,12 @@ include("layout/head.php");
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-12 col-md-8 col-xl-9">
+        </div> -->
+        <div class="col-12 col-sm-12 col-md-12 col-xl-12">
           <div class="row">
             <div class="col-lg-12">
               <div class="listing-top d-flex align-items-center justify-content-between bg-white rounded-2 px-4 py-3 mb-4">
                 <p class="mb-0 d-none d-lg-block">Showing 1-12 of 45 results</p>
-                <!-- <div class="filter-icon">
-                  <i class="bi bi-sliders2-vertical"></i>
-                  <span class="ps-1">filter</span>
-                </div> -->
                 <div class="listing-top-right text-end d-inline-flex align-items-center gap-3 gap-sm-5 gap-lg-3 flex-wrap">
                   <div class="number-count-filter d-flex align-items-center gap-2 gap-sm-3">
                     <label class="text-dark flex-shrink-0">Show :</label>
@@ -320,138 +321,107 @@ include("layout/head.php");
             </div>
           </div>
           <div class="row">
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
+                </a>
+                <div class="product-info">
 
-                </div>
-                <div class="product-info">
-                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
+
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
+
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
+
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
@@ -468,107 +438,85 @@ include("layout/head.php");
                     </div>
                   </div> -->
                   <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span></i>View</span>
+                      </button>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-5.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-5.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
+
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
@@ -585,90 +533,68 @@ include("layout/head.php");
                     </div>
                   </div> -->
                   <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
+                    <div class="d-flex justify-content-center">
+                      <button class="add-btn">
+                        <span></i>View</span>
+                      </button>
                     </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 pb-4 px-5 px-sm-3">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <div class="product-img">
-                  <!-- <a href="#"> -->
-                  <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
-                  <!-- </a> -->
-                  <div class="product-badge">
-                    <ul>
-                      <li class="sale-badge">-25%</li>
-                    </ul>
+                <a href="product-view.php">
+                  <div class="product-img">
+                    <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
+                    <div class="product-badge">
+                      <ul>
+                        <li class="sale-badge">-25%</li>
+                      </ul>
+                    </div>
                   </div>
-                </div>
+                </a>
                 <div class="product-info">
-                  
                   <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                   <div class="product-price">
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
+                  <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
+                        <span></i>View</span>
                       </button>
                     </div>
-                  </div> -->
-                  <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span><i class="fa-solid fa-plus me-2"></i>Add</span>
-                        </button>
-                      </div>
-                    </div>
+                  </div>
                 </div>
               </div>
             </div>

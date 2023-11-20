@@ -503,7 +503,7 @@ textarea::-moz-placeholder {
   width: 100%;
   line-height: 32px;
   color: #ffffff;
-  background-color: #E55604;
+  background-color: #26577C;
   font-size: 18px;
   border: none;
 }
@@ -802,6 +802,49 @@ header .add-to-card {
   color: #26577C;
 }
 
+.breadcrumb {
+  background-color: #f5f5f5;
+  margin-bottom: 0;
+}
+.breadcrumb .custom-contain {
+  max-width: 1700px;
+  text-align: start;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+.breadcrumb .text h3 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.breadcrumb .text ul li {
+  display: inline-block;
+  color: #E55604;
+  font-weight: 500;
+  position: relative;
+  padding: 0 20px;
+}
+.breadcrumb .text ul li a {
+  color: #000000;
+}
+.breadcrumb .text ul li a i {
+  padding-right: 4px;
+}
+.breadcrumb .text ul li::before {
+  position: absolute;
+  top: 3px;
+  right: -8px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: "\f054";
+  font-size: 12px;
+  color: #000000;
+}
+.breadcrumb .text ul li:last-child::before {
+  display: none;
+}
+
 .service {
   width: 100%;
 }
@@ -1066,20 +1109,26 @@ header .add-to-card {
   opacity: 0.6;
   margin-left: 5px;
 }
+.product-item .product-info .view-btn {
+  width: 100%;
+}
 .product-item .product-info .view-btn .cmn-btn {
+  border-radius: 0;
+  width: 100%;
   font-size: 16px;
   padding: 5px 25px;
 }
 .product-item .category-info {
-  padding: 20px;
-  height: 160px;
+  height: 145px;
 }
 .product-item .category-info .product-title {
   margin-bottom: 0;
+  padding: 0 20px 0;
   height: 45px;
 }
 .product-item .category-info .product-price {
   margin-bottom: 10px;
+  padding: 0 20px 0;
 }
 .product-item .category-info .view-btn .cmn-btn {
   font-size: 16px;
@@ -1179,6 +1228,97 @@ header .add-to-card {
 }
 .call-btn:hover::after {
   width: 100%;
+}
+
+.food-modal .modal-content {
+  width: 700px;
+  top: 100px;
+}
+.food-modal .modal-content .modal-header {
+  background-color: #E55604;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+.food-modal .image {
+  width: 170px;
+  height: 170px;
+  margin-right: 30px;
+}
+.food-modal .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.food-modal .text {
+  width: 465px;
+}
+.food-modal .text p {
+  font-size: 20px;
+}
+.food-modal .text h3 {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #26577C;
+}
+.food-modal .text .choose .ch-1 {
+  padding: 4px 0;
+  text-align: center;
+  width: 60px;
+  border: 1px solid #26577C;
+  margin-right: 20px;
+}
+.food-modal .text .choose .ch-1:hover {
+  border: none;
+  box-shadow: 1px 1px 3px 0px #26577C;
+}
+.food-modal .text .choose .ch-selected {
+  background-color: #26577C;
+  color: #ffffff;
+}
+.food-modal .text .choose .ch-selected:hover {
+  border: 1px solid #26577C;
+  box-shadow: unset;
+}
+.food-modal .text .qnt-number ul {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+.food-modal .text .qnt-number ul li {
+  display: inline-block;
+}
+.food-modal .text .qnt-number ul li.mid-number {
+  width: 40px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 42px;
+}
+.food-modal .text .qnt-number ul li i {
+  width: 35px;
+  height: 42px;
+  line-height: 43px;
+  background-color: #f5f5f5;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+}
+.food-modal .cancel-btn {
+  border-radius: 1px;
+  background-color: #d9534f;
+  padding: 4px 15px;
+  color: #ffffff;
+}
+.food-modal .cancel-btn:hover {
+  background-color: #ac2925;
+}
+.food-modal .cart-btn {
+  border-radius: 1px;
+  background-color: #26577C;
+  padding: 4px 15px;
+  color: #ffffff;
+}
+.food-modal .cart-btn i {
+  font-weight: 700;
 }
 
 nav {
@@ -2018,7 +2158,7 @@ nav .recent-view a i {
 }
 
 .product-details-page .product-details-bg {
-  padding: 50px 0;
+  padding: 0 0 50px 0;
   background-color: #f5f5f5;
 }
 .product-details-page .mini-side-image ul li {
@@ -2172,7 +2312,11 @@ nav .recent-view a i {
 }
 .product-details-info .quantity .quantity-main button {
   border: none;
-  background-color: #E55604;
+  background-color: #26577C;
+  color: #ffffff;
+}
+.product-details-info .quantity .quantity-main button::after {
+  background: #E55604;
   color: #ffffff;
 }
 .product-details-info .quantity .quantity-main .order-now .call-btn::after {

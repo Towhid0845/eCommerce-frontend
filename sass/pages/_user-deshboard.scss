@@ -117,13 +117,13 @@ font-size: 18px;
       }
     }
     
-                                                                                                                                .payments-list-table tr {
-                                                                                                                                  th {
-                                                                                                                                    font-family: 'Bjudson';
-                                                                                                                                  }
-                                                                
-                                                                
-                                                                                                                                  td {
+.payments-list-table tr {
+th {
+font-family: 'Bjudson';
+}
+
+
+td {
     
       i {
         color: $colortheme;
@@ -146,7 +146,7 @@ font-size: 18px;
         background-color: rgba(255, 124, 8, .1);
       }
     }
-                                                                }
+ }
     
     .profile-form {
     

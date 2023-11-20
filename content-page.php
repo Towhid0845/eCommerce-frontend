@@ -18,6 +18,12 @@ include("layout/head.php");
   ?>
   <!-- heade & navbar part end -->
 
+  <!-- breadcrumb part start -->
+  <?php
+  include("layout/breadcrump.php");
+  ?>
+  <!-- breadcrumb part end -->
+
   <!-- content page start -->
   <section class="content-page">
     <div class="container">
@@ -49,7 +55,7 @@ include("layout/head.php");
                   </ul>
                 </div>
               </div>
-              
+
             </div>
             <blockquote>
               <!-- <i class="fas fa-quote-left"></i> -->
