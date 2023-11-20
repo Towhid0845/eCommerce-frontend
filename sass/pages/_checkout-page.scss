@@ -35,7 +35,7 @@ form {
 
 i {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 24px;
     color: $colortheme;
     z-index: 1;
@@ -206,4 +206,8 @@ li {
   background-color: $colortheme;
   color: $white !important;
   font-size: 18px;
+}
+
+.checkout{
+  padding-top: 80px;
 }

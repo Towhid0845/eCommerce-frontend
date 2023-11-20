@@ -17,15 +17,24 @@ include("layout/head.php");
   include("layout/header.php");
   ?>
   <!-- heade & navbar part end -->
-  <!-- breadcrumb part start -->
-  <?php
-  include("layout/breadcrump.php");
-  ?>
+   <!-- breadcrumb part start -->
+   <section class="breadcrumb pt-3 pt-md-5 pb-3">
+    <div class="container">
+    <div class="text">
+      <ul class="list-unstyled">
+        <li>
+          <a href="index.php"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>Current Page</li>
+      </ul>
+    </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
   <!-- checkout part start -->
   <div class="wrapper">
-    <section class="checkout pt-100 px-4 px-sm-0">
+    <section class="checkout px-4 px-sm-0">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">

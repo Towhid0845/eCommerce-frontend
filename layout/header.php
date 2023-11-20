@@ -145,7 +145,7 @@
                     </div>
                     <div class="button">
                       <a href="cart.php">View Cart</a>
-                      <a href="checkout.php" class="check">Checkout</a>
+                      <a href="checkout.php" class="check">Confirm Order</a>
                     </div>
                   </div>
                 </div>
@@ -378,7 +378,7 @@
                 </a>
               </li>
               <li>
-                <a href="#sp-offer">
+                <a href="category.php">
                   <i data-feather="zap"></i>
                   Special Offer
                 </a>
@@ -406,10 +406,10 @@
                   <i data-feather="chevron-down"></i>
                 </span>
                 <ul>
-                  <li><a href="#">Brand 1</a></li>
-                  <li><a href="#">Brand 2</a></li>
-                  <li><a href="#">Brand 3</a></li>
-                  <li><a href="#">Brand 4</a></li>
+                  <li><a href="category.php">Brand 1</a></li>
+                  <li><a href="category.php">Brand 2</a></li>
+                  <li><a href="category.php">Brand 3</a></li>
+                  <li><a href="category.php">Brand 4</a></li>
                 </ul>
               </li>
             </ul>

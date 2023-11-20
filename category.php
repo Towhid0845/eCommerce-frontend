@@ -19,15 +19,27 @@ include("layout/head.php");
   ?>
   <!-- heade & navbar part end -->
 
-  <!-- breadcrumb part start -->
-  <?php
-  include("layout/breadcrump.php");
-  ?>
-  <!-- breadcrumb part end -->
+
 
   <!-- category -->
   <section class="category-page">
     <div class="custom-container">
+
+      <!-- breadcrumb part start -->
+      <section class="breadcrumb pt-3 pt-md-5 pb-3">
+        <!-- <div class="container"> -->
+          <div class="text">
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.php"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li>Current Page</li>
+            </ul>
+          </div>
+        <!-- </div> -->
+      </section>
+      <!-- breadcrumb part end -->
+
       <div class="row">
         <!-- <div class="col-12 col-md-4 col-xl-3">
           <div class="gshop-sidebar rounded-2 overflow-hidden">
@@ -343,7 +355,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -372,7 +384,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -401,7 +413,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -427,20 +439,10 @@ include("layout/head.php");
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
-                    <div class="d-flex justify-content-center">
-                      <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
-                      </button>
-                    </div>
-                  </div> -->
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -468,7 +470,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -496,7 +498,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -522,20 +524,10 @@ include("layout/head.php");
                     <span>$150.00</span>
                     <del>$180.00</del>
                   </div>
-                  <!-- <div class="add-to-cart-1">
-                    <div class="d-flex justify-content-center">
-                      <button class="add-btn">
-                        <span>Add</span>
-                      </button>
-                      <button class="plus-btn" style="margin-left: -3px;">
-                        <i class="fa-solid fa-plus"></i>
-                      </button>
-                    </div>
-                  </div> -->
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -563,7 +555,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>
@@ -591,7 +583,7 @@ include("layout/head.php");
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
                       <button class="add-btn">
-                        <span></i>View</span>
+                        <span>View</span>
                       </button>
                     </div>
                   </div>

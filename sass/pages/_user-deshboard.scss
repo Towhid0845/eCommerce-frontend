@@ -263,5 +263,18 @@ td {
           font-weight: 700;
         }
     }
-                }
+}
+
+.header-form{
+  .input-field{
+width: 80%;
+  }
+  .search {
+
+    cursor: pointer;
+    width: 20%;
+    background-color: #E55604;
+    border-radius: 0 5px 5px 0;
+    }
+} 
 }

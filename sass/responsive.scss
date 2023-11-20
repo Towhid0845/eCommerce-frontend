@@ -45,17 +45,18 @@ width: 230px;
 .product-img {
     height: 223px;
   }
-
-}
 }
 // end of category
 
 .product-summery .product-item .product-img {
 	height: 202px;
 }
+.category-page .product-item .product-img {
+	height: 194px;
+}
 // end of product
 
-
+}
 
 
 // extra large device
@@ -119,12 +120,26 @@ padding-top: 50px;
 .product-summery .product-item .product-img {
 	height: 267px;
 }
+.category-page .product-item .product-img {
+	height: 259px;
 }
+// product end
 
-
+.wishlist {
+	padding: 60px 0;
+  
+  .wishlist-header h1 {
+    padding-bottom: 60px;
+  }
+}
+// cart end
+}
 
 // large device
 @media (min-width:992px) and (max-width:1199px) {
+  p {
+    line-height: 20px;
+  }
 .section-title h1 {
 font-size: 32px;
 }
@@ -178,9 +193,21 @@ header .header-form .search {
 .product-summery .product-item .product-img {
 	height: 215px;
 }
+
+.category-page .product-item .product-img {
+	height: 288px;
 }
+// product end
 
-
+.wishlist {
+	padding: 60px 0;
+  
+  .wishlist-header h1 {
+    padding-bottom: 60px;
+  }
+}
+// cart end
+}
 
 // medium device 
 @media (min-width:768px) and (max-width:991px) {
@@ -264,6 +291,9 @@ right: 70px;
 .product-summery .product-item .product-img {
 	height: 221px;
 }
+.category-page .product-item .product-img {
+	height: 214px;
+}
 // end of product
 
 .category-page {
@@ -287,6 +317,21 @@ h3 {
     padding-bottom: 20px;
   }
 }
+// footer end
+
+.wishlist {
+	padding: 40px 0;
+  
+  .wishlist-header h1 {
+    padding-bottom: 40px;
+  }
+}
+// cart end
+
+.checkout{
+  padding-top: 60px;
+}
+// checkout end
 
 }
 
@@ -394,6 +439,9 @@ input {
 .product-summery .product-item .product-img {
 	height: 250px;
 }
+.category-page .product-item .product-img {
+	height: 242px;
+}
 // end of product
 
 .billing-section form input[type="text"],
@@ -422,9 +470,42 @@ h3 {
     padding-bottom: 20px;
   }
 }
+// end of footer
+
+
+.wishlist {
+	padding: 40px 0;
+  
+  .wishlist-header h1 {
+    padding-bottom: 40px;
+  }
 }
 
+.cart {
+  .cart-actions a {
+    padding: 9px 14px;
+  }
 
+  .cart-bottom-info{
+    .shipping, .subtotal {
+      margin-left: 0;
+    }
+  } 
+
+} 
+// cart end
+
+.invoice-section .invoice-right h5 {
+	font-size: 15px;
+}
+// end of invoice
+
+.checkout{
+  padding-top: 60px;
+}
+// checkout end
+
+}
 
 // extra small device
 @media (min-width:481px) and (max-width:575px) {
@@ -544,8 +625,26 @@ input {
 
 }
 .product-summery .product-item .product-img {
-	height: 250px;
+	height: 433px;
 }
+.category-page .product-item .product-img {
+	height: 361px;
+}
+
+.product-details-info .quantity-main{
+
+  .qnt-number{
+     width: 100%;
+ 
+     ul {
+       width: 121px;
+     }
+   } 
+ 
+   .atoc, .order-now{
+     width: 50%;
+   }
+ }
 // end of product
 
 .billing-section form input[type="text"],
@@ -559,6 +658,17 @@ input {
 .billing-section form .input-item i {
   top: 17px;
 }
+
+.checkout{
+  padding-top: 60px;
+}
+.billing-section form textarea {
+	padding: 15px 30px 15px 15px;
+}
+.isCustomer h3, .haveCoupon h3, .isCustomer a, .haveCoupon a {
+	font-size: 18px;
+}
+// checkout end
 
 // end of checkout
 
@@ -578,9 +688,36 @@ h3 {
     padding-bottom: 20px;
   }
 }
+// footer end
+
+.wishlist {
+	padding: 40px 0;
+  
+  .wishlist-header h1 {
+    padding-bottom: 30px;
+  }
 }
+.cart {
+  .cart-actions a {
+    padding: 9px 14px;
+  }
+
+  .cart-bottom-info{
+    .shipping, .subtotal {
+      margin-left: 0;
+    }
+  } 
+
+} 
+// cart end
+
+.invoice-section .invoice-right h5 {
+	font-size: 15px;
+}
+// end of invoice
 
 
+}
 
 // mobile device
 @media (max-width:480px) {
@@ -723,6 +860,23 @@ h2 {
     }
   }
 }
+.product-details-info .quantity-main{
+
+ .qnt-number{
+    width: 100%;
+
+    ul {
+      width: 121px;
+    }
+  } 
+
+  .atoc, .order-now{
+    width: 50%;
+  }
+}
+.product-summery .product-item .product-img {
+	height: 327px;
+}
 // end of product
 
 
@@ -736,6 +890,16 @@ h2 {
 
 .billing-section form .input-item i {
   top: 17px;
+}
+.checkout{
+  padding-top: 60px;
+}
+.billing-section form textarea {
+	padding: 15px 30px 15px 15px;
+}
+
+.isCustomer h3, .haveCoupon h3, .isCustomer a, .haveCoupon a {
+	font-size: 18px;
 }
 
 // end of checkout
@@ -756,4 +920,32 @@ h3 {
     padding-bottom: 20px;
   }
 }
+// footer end
+
+
+.wishlist {
+	padding: 40px 0;
+  
+  .wishlist-header h1 {
+    padding-bottom: 30px;
+  }
+}
+.cart {
+  .cart-actions a {
+    padding: 9px 14px;
+  }
+
+  .cart-bottom-info{
+    .shipping, .subtotal {
+      margin-left: 0;
+    }
+  } 
+
+} 
+// cart end
+
+.invoice-section .invoice-right h5 {
+	font-size: 15px;
+}
+// end of invoice
 }

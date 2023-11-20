@@ -19,9 +19,18 @@ include("layout/head.php");
   <!-- header and navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php
-  include("layout/breadcrump.php");
-  ?>
+  <section class="breadcrumb pt-3 pt-md-5 pb-3">
+    <div class="container">
+    <div class="text">
+      <ul class="list-unstyled">
+        <li>
+          <a href="index.php"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>Current Page</li>
+      </ul>
+    </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
 
@@ -579,9 +588,8 @@ include("layout/head.php");
                   <div class="header-form">
                     <form action="#">
                       <div class="form-main d-flex justify-content-between">
-
                         <div class="input-field">
-                          <input type="text" class="form-control rounded-0 shadow-none" placeholder="I'm searching for...">
+                          <input type="text" class="form-control rounded-0 shadow-none" placeholder="search your orders here...">
                         </div>
                         <div class="search d-flex justify-content-center align-items-center">
                           <img src="./images/search.png" alt="not found">

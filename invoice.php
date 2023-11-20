@@ -19,18 +19,27 @@ include("layout/head.php");
     ?>
     <!-- header and navbar part end -->
 
-    <!-- breadcrumb part start -->
-    <?php
-    include("layout/breadcrump.php");
-    ?>
-    <!-- breadcrumb part end -->
+  <!-- breadcrumb part start -->
+  <section class="breadcrumb pt-3 pt-md-5 pb-3">
+    <div class="container">
+    <div class="text">
+      <ul class="list-unstyled">
+        <li>
+          <a href="index.php"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>Current Page</li>
+      </ul>
+    </div>
+    </div>
+  </section>
+  <!-- breadcrumb part end -->
 
     <!-- invoice section start -->
     <section class="invoice-section pb-5">
         <div class="container">
             <div class="invoice-box bg-white rounded p-4 p-sm-6">
                 <div class="row g-5 justify-content-between">
-                    <div class="col-lg-6">
+                    <div class="col-md-5 col-lg-6 order-2 order-md-1">
                         <div class="common-title d-flex align-items-center">
                             <h2>Invoice</h2>
                             <span class="badge rounded-pill fw-medium ms-3">Delivered</span>
@@ -50,24 +59,26 @@ include("layout/head.php");
                             </tr>
                         </table>
                     </div>
-                    <div class="col-lg-5 col-md-8">
-                        <div class="text-end invoice-right">
+                    <div class="col-md-7 col-lg-5 order-1 order-md-2">
+                        <div class="text-start text-md-end invoice-right">
                             <a href="#"><img src="images/logo.png" alt="logo" class="img-fluid"></a>
                             <h5 class="mb-0 mt-4">House-11, Road-8, Niketan, Gulshan 1, Dhaka 1212</h5>
                         </div>
                     </div>
                 </div>
-                <span class="my-4 w-100 d-block border-top"></span>
+                <span class="my-4 w-100 d-none d-md-block border-top"></span>
                 <div class="row justify-content-between g-5">
-                    <div class="col-xl-8 col-lg-7">
+                    <div class="col-xl-8 col-lg-7 order-2 order-md-1">
+                    <span class="mb-4 w-100 d-md-none d-block border-top"></span>
                         <div class="welcome-message">
                             <h4 class="mb-2">Dear Chris Gayle</h4>
                             <p class="mb-0">Here are your order details. We thank you for your purchase.</p>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-5">
+                    
+                    <div class="col-xl-4 col-lg-5 order-1 order-md-2">
                         <div class="shipping-address">
-                            <h5 class="mb-2">Shipping Address</h5>
+                            <h5 class="mb-2 mt-4 mt-md-0">Shipping Address</h5>
                             <p class="mb-0">Flat-A1, Floor-3, House 12, Road-5, Dhaka 1212, Bangladesh.</p>
                         </div>
                     </div>
@@ -75,12 +86,12 @@ include("layout/head.php");
                 <div class="table-responsive mt-4">
                     <table class="table invoice-table">
                         <tr>
-                            <th>SR.</th>
-                            <th>Products</th>
-                            <th>SKU</th>
-                            <th>QTY</th>
-                            <th>Item Price</th>
-                            <th>Amount</th>
+                            <th style="min-width: 60px;">SR.</th>
+                            <th style="min-width: 350px;">Products</th>
+                            <th style="min-width: 120px;">SKU</th>
+                            <th style="min-width: 100px;">QTY</th>
+                            <th style="min-width: 120px;">Item Price</th>
+                            <th style="min-width: 120px;">Amount</th>
                         </tr>
                         <tr>
                             <td>1</td>

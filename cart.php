@@ -19,14 +19,24 @@ include("layout/head.php");
   <!-- heade & navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php
-  include("layout/breadcrump.php");
-  ?>
+  <section class="breadcrumb pt-3 pt-md-5 pb-3">
+    <div class="container">
+    <div class="text">
+      <ul class="list-unstyled">
+        <li>
+          <a href="index.php"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>Current Page</li>
+      </ul>
+    </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
-
+  
   <!-- cart page part start -->
   <section class="wishlist cart">
     <div class="container">
+
       <div class="row">
         <div class="col-lg-12">
           <div class="wishlist-header text-center">
@@ -45,7 +55,7 @@ include("layout/head.php");
               </p>
             </div>
 
-            <!-- <div class="mobile-product-list d-block d-lg-none">
+            <div class="mobile-product-list d-block d-lg-none">
               <div class="mobile-product-list-item d-flex">
                 <div class="image">
                   <a href="#">
@@ -79,7 +89,8 @@ include("layout/head.php");
                   </h5>
                 </div>
                 <div class="delete-btn text-end">
-                  <i class="bi bi-trash3"></i>
+                  <!-- <i class="bi bi-trash3"></i> -->
+                  <a href="#" class="remove"><span>Remove</span></a>
                 </div>
               </div>
               <div class="mobile-product-list-item d-flex">
@@ -115,7 +126,8 @@ include("layout/head.php");
                   </h5>
                 </div>
                 <div class="delete-btn text-end">
-                  <i class="bi bi-trash3"></i>
+                  <!-- <i class="bi bi-trash3"></i> -->
+                  <a href="#" class="remove"><span>Remove</span></a>
                 </div>
               </div>
               <div class="mobile-product-list-item d-flex">
@@ -151,11 +163,10 @@ include("layout/head.php");
                   </h5>
                 </div>
                 <div class="delete-btn text-end">
-                  <i class="bi bi-trash3"></i>
+                  <a href="#" class="remove"><span>Remove</span></a>
                 </div>
               </div>
-            </div> -->
-
+            </div>
 
             <div class="product-table-list table-responsive d-none d-lg-block">
               <table class="table">
@@ -198,7 +209,7 @@ include("layout/head.php");
                     </td>
                     <td class="unite-price">$11.57</td>
                     <td class="delete-prd">
-                      <a href="#"><i class="bi bi-trash3"></i></a>
+                      <a href="#" class="remove"><span>Remove</span></a>
                     </td>
                   </tr>
                   <tr>
@@ -229,7 +240,7 @@ include("layout/head.php");
                     </td>
                     <td class="unite-price">$11.57</td>
                     <td class="delete-prd">
-                      <a href="#"><i class="bi bi-trash3"></i></a>
+                      <a href="#" class="remove"><span>Remove</span></a>
                     </td>
                   </tr>
                   <tr>
@@ -260,7 +271,7 @@ include("layout/head.php");
                     </td>
                     <td class="unite-price">$11.57</td>
                     <td class="delete-prd">
-                      <a href="#"><i class="bi bi-trash3"></i></a>
+                      <a href="#" class="remove"><span>Remove</span></a>
                     </td>
                   </tr>
                 </tbody>
@@ -277,21 +288,21 @@ include("layout/head.php");
                 <i class="bi bi-arrow-left"></i>
                 Continue Shopping
               </a>
-              <a href="index.html">
+              <a href="index.html" class="mt-3 mt-md-0">
                 <i class="bi bi-house"></i>
                 Back to Home
               </a>
             </div>
             <div class="action-right">
-              <a class="call-btn" href="contact.php"><i class="bi bi-arrow-repeat"></i>Update Cart</a>
+              <a class="call-btn" href="contact.php" style="width: 160px;"><i class="bi bi-arrow-repeat"></i>Update Cart</a>
             </div>
           </div>
         </div>
       </div>
       <div class="cart-bottom-info">
         <div class="row">
-          <div class="col-lg-4">
-            <div class="promo-code">
+          <div class="col-md-7 col-lg-4">
+            <div class="promo-code mb-5 mb-lg-0">
               <div class="title">
                 <h3>Using A Promo Code?</h3>
                 <form action="#">
@@ -303,7 +314,7 @@ include("layout/head.php");
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <div class="shipping">
               <div class="title">
                 <h3>Calculate shipping</h3>
@@ -335,8 +346,8 @@ include("layout/head.php");
               </form>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="subtotal">
+          <div class="col-md-6 col-lg-4">
+            <div class="subtotal mt-5 mt-md-0">
               <table class="table table-borderless">
                 <tbody>
                   <tr>
@@ -358,7 +369,7 @@ include("layout/head.php");
                   </tr>
                 </tbody>
               </table>
-              <button type="submit" class="btn w-100 shadow-none">Proceed to checkout
+              <button type="submit" class="btn w-100 shadow-none">Make Payment
               </button>
             </div>
           </div>

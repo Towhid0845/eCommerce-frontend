@@ -24,11 +24,13 @@
   .category-page .product-img {
     height: 223px;
   }
+  .product-summery .product-item .product-img {
+    height: 202px;
+  }
+  .category-page .product-item .product-img {
+    height: 194px;
+  }
 }
-.product-summery .product-item .product-img {
-  height: 202px;
-}
-
 @media (min-width: 1200px) and (max-width: 1399px) {
   .cmn-pt {
     padding-top: 50px;
@@ -76,8 +78,20 @@
   .product-summery .product-item .product-img {
     height: 267px;
   }
+  .category-page .product-item .product-img {
+    height: 259px;
+  }
+  .wishlist {
+    padding: 60px 0;
+  }
+  .wishlist .wishlist-header h1 {
+    padding-bottom: 60px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  p {
+    line-height: 20px;
+  }
   .section-title h1 {
     font-size: 32px;
   }
@@ -117,6 +131,15 @@
   }
   .product-summery .product-item .product-img {
     height: 215px;
+  }
+  .category-page .product-item .product-img {
+    height: 288px;
+  }
+  .wishlist {
+    padding: 60px 0;
+  }
+  .wishlist .wishlist-header h1 {
+    padding-bottom: 60px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -180,6 +203,9 @@
   .product-summery .product-item .product-img {
     height: 221px;
   }
+  .category-page .product-item .product-img {
+    height: 214px;
+  }
   .category-page .product-img {
     height: 213px;
   }
@@ -191,6 +217,15 @@
   }
   .footer .footer-main h3 {
     padding-bottom: 20px;
+  }
+  .wishlist {
+    padding: 40px 0;
+  }
+  .wishlist .wishlist-header h1 {
+    padding-bottom: 40px;
+  }
+  .checkout {
+    padding-top: 60px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -270,6 +305,9 @@
   .product-summery .product-item .product-img {
     height: 250px;
   }
+  .category-page .product-item .product-img {
+    height: 242px;
+  }
   .billing-section form input[type=text],
   .billing-section form input[type=email],
   .billing-section form input[type=password],
@@ -289,6 +327,24 @@
   }
   .footer .footer-main h3 {
     padding-bottom: 20px;
+  }
+  .wishlist {
+    padding: 40px 0;
+  }
+  .wishlist .wishlist-header h1 {
+    padding-bottom: 40px;
+  }
+  .cart .cart-actions a {
+    padding: 9px 14px;
+  }
+  .cart .cart-bottom-info .shipping, .cart .cart-bottom-info .subtotal {
+    margin-left: 0;
+  }
+  .invoice-section .invoice-right h5 {
+    font-size: 15px;
+  }
+  .checkout {
+    padding-top: 60px;
   }
 }
 @media (min-width: 481px) and (max-width: 575px) {
@@ -378,7 +434,19 @@
     margin-right: 20px;
   }
   .product-summery .product-item .product-img {
-    height: 250px;
+    height: 433px;
+  }
+  .category-page .product-item .product-img {
+    height: 361px;
+  }
+  .product-details-info .quantity-main .qnt-number {
+    width: 100%;
+  }
+  .product-details-info .quantity-main .qnt-number ul {
+    width: 121px;
+  }
+  .product-details-info .quantity-main .atoc, .product-details-info .quantity-main .order-now {
+    width: 50%;
   }
   .billing-section form input[type=text],
   .billing-section form input[type=email],
@@ -389,6 +457,15 @@
   }
   .billing-section form .input-item i {
     top: 17px;
+  }
+  .checkout {
+    padding-top: 60px;
+  }
+  .billing-section form textarea {
+    padding: 15px 30px 15px 15px;
+  }
+  .isCustomer h3, .haveCoupon h3, .isCustomer a, .haveCoupon a {
+    font-size: 18px;
   }
   .call .call-inner h2 {
     font-size: 22px;
@@ -402,6 +479,21 @@
   }
   .footer .footer-main h3 {
     padding-bottom: 20px;
+  }
+  .wishlist {
+    padding: 40px 0;
+  }
+  .wishlist .wishlist-header h1 {
+    padding-bottom: 30px;
+  }
+  .cart .cart-actions a {
+    padding: 9px 14px;
+  }
+  .cart .cart-bottom-info .shipping, .cart .cart-bottom-info .subtotal {
+    margin-left: 0;
+  }
+  .invoice-section .invoice-right h5 {
+    font-size: 15px;
   }
 }
 @media (max-width: 480px) {
@@ -501,6 +593,18 @@
   .big-side-image #NZoomContainer img {
     width: 100% !important;
   }
+  .product-details-info .quantity-main .qnt-number {
+    width: 100%;
+  }
+  .product-details-info .quantity-main .qnt-number ul {
+    width: 121px;
+  }
+  .product-details-info .quantity-main .atoc, .product-details-info .quantity-main .order-now {
+    width: 50%;
+  }
+  .product-summery .product-item .product-img {
+    height: 327px;
+  }
   .billing-section form input[type=text],
   .billing-section form input[type=email],
   .billing-section form input[type=password],
@@ -510,6 +614,15 @@
   }
   .billing-section form .input-item i {
     top: 17px;
+  }
+  .checkout {
+    padding-top: 60px;
+  }
+  .billing-section form textarea {
+    padding: 15px 30px 15px 15px;
+  }
+  .isCustomer h3, .haveCoupon h3, .isCustomer a, .haveCoupon a {
+    font-size: 18px;
   }
   .call .call-inner h2 {
     font-size: 26px;
@@ -523,6 +636,21 @@
   }
   .footer .footer-main h3 {
     padding-bottom: 20px;
+  }
+  .wishlist {
+    padding: 40px 0;
+  }
+  .wishlist .wishlist-header h1 {
+    padding-bottom: 30px;
+  }
+  .cart .cart-actions a {
+    padding: 9px 14px;
+  }
+  .cart .cart-bottom-info .shipping, .cart .cart-bottom-info .subtotal {
+    margin-left: 0;
+  }
+  .invoice-section .invoice-right h5 {
+    font-size: 15px;
   }
 }
 

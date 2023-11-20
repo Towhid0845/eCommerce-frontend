@@ -202,6 +202,15 @@
   color: #22c55e;
   font-weight: 700;
 }
+.user-deshboard .header-form .input-field {
+  width: 80%;
+}
+.user-deshboard .header-form .search {
+  cursor: pointer;
+  width: 20%;
+  background-color: #E55604;
+  border-radius: 0 5px 5px 0;
+}
 
 * {
   margin: 0;
@@ -535,6 +544,13 @@ textarea::-moz-placeholder {
 .add-to-cart-2 .plus-btn i {
   line-height: 32px;
   padding: 0 8px;
+}
+
+.remove {
+  padding: 3px 10px;
+  background-color: rgba(255, 0, 0, 0.1764705882);
+  color: #ff3b3b;
+  border-radius: 6px;
 }
 
 header {
@@ -2004,6 +2020,9 @@ nav .recent-view a i {
 .category-page .listing-top .nice-select .option.selected {
   font-family: "Bjudson";
 }
+.category-page .product-item .product-img {
+  height: 247px;
+}
 .category-page .product-item .product-info {
   background-color: #ffffff;
   height: 120px;
@@ -2711,7 +2730,7 @@ nav .recent-view a i {
 }
 .billing-section form .input-item i {
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: 24px;
   color: #E55604;
   z-index: 1;
@@ -2849,6 +2868,10 @@ nav .recent-view a i {
   background-color: #E55604;
   color: #ffffff !important;
   font-size: 18px;
+}
+
+.checkout {
+  padding-top: 80px;
 }
 
 .wishlist {
@@ -3329,6 +3352,15 @@ nav .recent-view a i {
   border-color: #22c55e;
   color: #22c55e;
   font-weight: 700;
+}
+.user-deshboard .header-form .input-field {
+  width: 80%;
+}
+.user-deshboard .header-form .search {
+  cursor: pointer;
+  width: 20%;
+  background-color: #E55604;
+  border-radius: 0 5px 5px 0;
 }
 
 .invoice-section {
