@@ -207,6 +207,11 @@ header .header-form .search {
   }
 }
 // cart end
+
+.tab-content{
+  margin-top: 30px;
+}
+// user deshboard end
 }
 
 // medium device 
@@ -332,6 +337,22 @@ h3 {
   padding-top: 60px;
 }
 // checkout end
+
+.user-deshboard .account-info .image {
+	margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.profile-achievements {
+  gap: 32px;
+}
+.user-deshboard .account-info .profile-inf-right .achievement-box {
+	margin-left: 0;
+}
+.tab-content{
+  margin-top: 30px;
+}
+// user deshboard end
 
 }
 
@@ -504,6 +525,27 @@ h3 {
   padding-top: 60px;
 }
 // checkout end
+
+.user-deshboard .account-info .image {
+	margin-right: auto;
+  margin-bottom: 30px;
+}
+.profile-achievements {
+  gap: 24px;
+  .achievement-box {
+    width: calc(50% - 16px);
+  }
+}
+.user-deshboard .account-info .profile-inf-right .achievement-box {
+	margin-left: 0;
+}
+.address-book-content{
+  padding-top: 40px;
+}
+.tab-content{
+  margin-top: 30px;
+}
+// user deshboard end
 
 }
 
@@ -716,6 +758,23 @@ h3 {
 }
 // end of invoice
 
+.user-deshboard .account-info .image {
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.profile-achievements .achievement-box {
+  width: 100%;
+}
+.user-deshboard .account-info .profile-inf-right .achievement-box {
+	margin-left: 0;
+}
+.address-book-content{
+  padding-top: 40px;
+}
+.tab-content{
+  margin-top: 30px;
+}
+// end of user deshboard
 
 }
 
@@ -948,4 +1007,23 @@ h3 {
 	font-size: 15px;
 }
 // end of invoice
+
+.user-deshboard .account-info .image {
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.profile-achievements .achievement-box {
+  width: 100%;
+}
+
+.user-deshboard .account-info .profile-inf-right .achievement-box {
+	margin-left: 0;
+}
+.address-book-content{
+  padding-top: 40px;
+}
+.tab-content{
+  margin-top: 30px;
+}
+// end of user deshboard
 }

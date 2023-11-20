@@ -200,13 +200,15 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          <span></i>View</span>
-                        </button>
+                        <!-- <a href="product-view.php" class="add-btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <span>View</span>
+                        </a> -->
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -229,43 +231,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
-                <div class="product-item text-center">
-                  <a href="product-view.php">
-                    <div class="product-img">
-                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                      <div class="product-badge">
-                        <ul>
-                          <li class="sale-badge">-25%</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="product-info">
-
-                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-                    <div class="product-price">
-                      <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
-                    </div>
-                    <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -289,13 +260,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -319,13 +289,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -349,13 +318,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -379,13 +347,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -409,13 +376,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -439,13 +405,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -469,13 +434,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -499,13 +463,12 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -529,13 +492,41 @@ include("layout/head.php");
                     <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
                     <div class="product-price">
                       <span>$150.00</span>
-                      <!-- <del>$180.00</del> -->
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                <div class="product-item text-center">
+                  <a href="product-view.php">
+                    <div class="product-img">
+                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                      <div class="product-badge">
+                        <ul>
+                          <li class="sale-badge">-25%</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="product-info">
+
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                    </div>
+                    <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -543,7 +534,8 @@ include("layout/head.php");
                 </div>
               </div>
             </div>
-            <div class="modal fade food-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- modal for cart -->
+            <!-- <div class="modal fade food-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -584,9 +576,8 @@ include("layout/head.php");
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
-          <!-- <div class="col-lg-3"></div> -->
         </div>
 
         <div class="row mt-4">
@@ -595,50 +586,6 @@ include("layout/head.php");
           </div>
           <div class="col-lg-12">
             <div class="row">
-              <!-- previous desing start-->
-              <!-- <div class="col-lg-4 col-xl-2 col-sm-6 mb-4">
-                <div class="product-item text-center">
-                  <div class="product-img">
-                
-                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                    
-                    <div class="product-badge">
-                      <ul>
-                        <li class="sale-badge">-25%</li>
-                      </ul>
-                    </div>
-
-                  </div>
-                  <div class="product-info">
-                    <div class="product-ratting">
-                      <ul>
-                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                        <li><a href="#"><i class="fas fa-star"></i></a></li>
-                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                        <li><a href="#"><i class="far fa-star"></i></a></li>
-                      </ul>
-                    </div>
-                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-                    <div class="product-price">
-                      <span>$150.00</span>
-                      <del>$180.00</del>
-                    </div>
-                    <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span>Add</span>
-                        </button>
-                        <button class="plus-btn" style="margin-left: -3px;">
-                          <i class="fa-solid fa-plus"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- previous desing end-->
-
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
                 <div class="product-item text-center">
                   <a href="product-view.php">
@@ -660,9 +607,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -689,9 +636,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -719,9 +666,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -749,9 +696,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -779,9 +726,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -809,9 +756,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -839,9 +786,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -869,9 +816,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -899,9 +846,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -929,9 +876,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -959,9 +906,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>
@@ -989,9 +936,9 @@ include("layout/head.php");
                     </div>
                     <div class="add-to-cart-1">
                       <div class="d-flex justify-content-center">
-                        <button class="add-btn">
-                          <span></i>View</span>
-                        </button>
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
 
                       </div>
                     </div>

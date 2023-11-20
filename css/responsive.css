@@ -141,6 +141,9 @@
   .wishlist .wishlist-header h1 {
     padding-bottom: 60px;
   }
+  .tab-content {
+    margin-top: 30px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .section-title h1 {
@@ -226,6 +229,19 @@
   }
   .checkout {
     padding-top: 60px;
+  }
+  .user-deshboard .account-info .image {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .profile-achievements {
+    gap: 32px;
+  }
+  .user-deshboard .account-info .profile-inf-right .achievement-box {
+    margin-left: 0;
+  }
+  .tab-content {
+    margin-top: 30px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -345,6 +361,25 @@
   }
   .checkout {
     padding-top: 60px;
+  }
+  .user-deshboard .account-info .image {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .profile-achievements {
+    gap: 24px;
+  }
+  .profile-achievements .achievement-box {
+    width: calc(50% - 16px);
+  }
+  .user-deshboard .account-info .profile-inf-right .achievement-box {
+    margin-left: 0;
+  }
+  .address-book-content {
+    padding-top: 40px;
+  }
+  .tab-content {
+    margin-top: 30px;
   }
 }
 @media (min-width: 481px) and (max-width: 575px) {
@@ -494,6 +529,22 @@
   }
   .invoice-section .invoice-right h5 {
     font-size: 15px;
+  }
+  .user-deshboard .account-info .image {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .profile-achievements .achievement-box {
+    width: 100%;
+  }
+  .user-deshboard .account-info .profile-inf-right .achievement-box {
+    margin-left: 0;
+  }
+  .address-book-content {
+    padding-top: 40px;
+  }
+  .tab-content {
+    margin-top: 30px;
   }
 }
 @media (max-width: 480px) {
@@ -651,6 +702,22 @@
   }
   .invoice-section .invoice-right h5 {
     font-size: 15px;
+  }
+  .user-deshboard .account-info .image {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .profile-achievements .achievement-box {
+    width: 100%;
+  }
+  .user-deshboard .account-info .profile-inf-right .achievement-box {
+    margin-left: 0;
+  }
+  .address-book-content {
+    padding-top: 40px;
+  }
+  .tab-content {
+    margin-top: 30px;
   }
 }
 

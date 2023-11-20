@@ -354,9 +354,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -383,9 +383,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -412,9 +412,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -441,9 +441,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -469,9 +469,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -497,9 +497,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -526,9 +526,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -554,9 +554,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -582,9 +582,9 @@ include("layout/head.php");
                   </div>
                   <div class="add-to-cart-1">
                     <div class="d-flex justify-content-center">
-                      <button class="add-btn">
+                      <a href="product-view.php" class="add-btn">
                         <span>View</span>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>

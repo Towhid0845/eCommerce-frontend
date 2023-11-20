@@ -40,13 +40,13 @@ include("layout/head.php");
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="account-info shadow mb-5 p-4 d-flex justify-content-center">
+            <div class="account-info shadow mb-5 p-4 d-flex flex-wrap flex-lg-nowrap justify-content-center">
               <div class="image">
-                <img src="./images/team-image-5.webp" class="img-fluid" alt="no-img">
+                <img src="./images/team-image-5.webp" alt="no-img">
               </div>
               <div class="profile-inf-right">
-                <h4 class="mb-2 ms-5">Towhid Zaman</h4>
-                <div class="info-meta d-flex align-items-center ms-5 gap-2 gap-md-4 fs-xs flex-wrap">
+                <h4 class="mb-2 ms-lg-5">Towhid Zaman</h4>
+                <div class="info-meta d-flex align-items-center ms-lg-5 gap-2 gap-md-4 fs-xs flex-wrap">
                   <span>
                     <i class="fa-solid fa-location-pin me-2"></i>
                     Rupnagar, Mirpur, Dhaka
@@ -584,8 +584,8 @@ include("layout/head.php");
               </div>
               <div class="tab-pane fade" id="order-tracking" role="tabpanel">
                 <div class="order-tracking-wrap bg-white rounded py-5 px-4">
-                  <!-- <h6 class="mb-4 cmn-label">Order Tracking</h6> -->
-                  <div class="header-form">
+                  <h6 class="mb-4 cmn-label">Order Tracking</h6>
+                  <div class="header-form mx-auto">
                     <form action="#">
                       <div class="form-main d-flex justify-content-between">
                         <div class="input-field">

@@ -13,14 +13,20 @@
   background-color: #ffffff;
 }
 .user-deshboard .account-info .image {
-  width: 150px;
+  min-width: 150px;
   height: 150px;
   border: 1px solid #E55604;
   padding: 10px;
   border-radius: 10px;
 }
+.user-deshboard .account-info .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .user-deshboard .account-info .profile-inf-right .achievement-box {
   margin-left: 48px;
+  margin-bottom: 10px;
 }
 .user-deshboard .account-info .profile-inf-right .achievement-box .icon {
   width: 56px;
@@ -202,14 +208,22 @@
   color: #22c55e;
   font-weight: 700;
 }
-.user-deshboard .header-form .input-field {
+.user-deshboard .header-form {
   width: 80%;
+  margin-bottom: 30px;
+}
+.user-deshboard .header-form .input-field {
+  width: 90%;
 }
 .user-deshboard .header-form .search {
   cursor: pointer;
-  width: 20%;
+  width: 10%;
   background-color: #E55604;
   border-radius: 0 5px 5px 0;
+}
+.user-deshboard .header-form .search img {
+  width: 20px;
+  height: 20px;
 }
 
 * {
@@ -1091,7 +1105,7 @@ header .add-to-card {
 .product-item .product-info {
   margin-top: -10px;
   padding: 25px 0 0;
-  height: 137px;
+  height: 123px;
   background-color: #ffffff;
 }
 .product-item .product-info .product-ratting {
@@ -3164,14 +3178,20 @@ nav .recent-view a i {
   background-color: #ffffff;
 }
 .user-deshboard .account-info .image {
-  width: 150px;
+  min-width: 150px;
   height: 150px;
   border: 1px solid #E55604;
   padding: 10px;
   border-radius: 10px;
 }
+.user-deshboard .account-info .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .user-deshboard .account-info .profile-inf-right .achievement-box {
   margin-left: 48px;
+  margin-bottom: 10px;
 }
 .user-deshboard .account-info .profile-inf-right .achievement-box .icon {
   width: 56px;
@@ -3353,14 +3373,22 @@ nav .recent-view a i {
   color: #22c55e;
   font-weight: 700;
 }
-.user-deshboard .header-form .input-field {
+.user-deshboard .header-form {
   width: 80%;
+  margin-bottom: 30px;
+}
+.user-deshboard .header-form .input-field {
+  width: 90%;
 }
 .user-deshboard .header-form .search {
   cursor: pointer;
-  width: 20%;
+  width: 10%;
   background-color: #E55604;
   border-radius: 0 5px 5px 0;
+}
+.user-deshboard .header-form .search img {
+  width: 20px;
+  height: 20px;
 }
 
 .invoice-section {
