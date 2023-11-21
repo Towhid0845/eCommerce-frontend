@@ -39,14 +39,23 @@ include("layout/head.php");
           <div class="row mx-0">
             <div class="col-lg-12">
               <div class="row prd-left-details">
-                <div class="col-sm-12 col-lg-10 col-xl-6 col-md-10">
+                <div class="col-lg-1 col-md-2">
+                  <div class="mini-side-image">
+                    <ul>
+                      <li class="zoom-child-image active"><img src="images/product-details-image-1.webp" alt="product-details-image-1" class="img-fluid w-100"></li>
+                      <li class="zoom-child-image"><img src="images/product-details-image-2.webp" alt="product-details-image-2" class="img-fluid w-100"></li>
+                      <li class="zoom-child-image"><img src="images/product-details-image-3.webp" alt="product-details-image-3" class="img-fluid w-100"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-lg-10 col-xl-5 col-md-10">
                   <div class="big-side-image">
                     <img id="NZoomImg" data-NZoomscale="2" src="images/pr-2.png" alt="product-details-image-1" class="img-fluid w-100">
                   </div>
                   <p class="text-center pt-3"><i class="bi bi-zoom-in me-1"></i> Mouse over to zoom in</p>
                 </div>
                 <div class="col-sm-12 col-xl-6 col-md-12">
-                  <div class="product-details-info">
+                  <div class="product-details-info py-5 py-xl-0">
                     <div class="prd-title">
                       <a href="#">MartFury</a>
                     </div>
@@ -984,6 +993,13 @@ include("layout/head.php");
 
 </div> -->
   <!-- service part end -->
+
+
+    <!-- back to top part start -->
+    <a id="button">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+  <!-- back to top part end -->
 
   <!-- footer part start -->
   <?php

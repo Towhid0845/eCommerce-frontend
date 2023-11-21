@@ -25,7 +25,7 @@ include("layout/head.php");
         <div class="col-lg-5 col-12 login-img" style="background-image: url(./images/signup.jpg);"></div>
 
         <div class="col-lg-5 col-12 bg-white d-flex p-0 shadow">
-          <form class="login-form-wrap p-3 p-md-6 p-lg-6 w-100">
+          <form class="login-form-wrap px-3 py-5 w-100">
             <div class="text-center mb-4">
               <a href="index.php"><img src="./images/logo.png" alt="logo"></a>
             </div>

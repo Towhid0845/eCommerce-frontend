@@ -3,7 +3,7 @@
 
 .call {
   background-color: $secondarytheme;
-  font-family: 'Bjudson';
+  font-family: 'RobotoB';
 
   .call-inner {
     display: flex;
@@ -13,7 +13,7 @@
     h2{
       font-size: 30px;
       // font-weight: bold;
-      color: $black;
+      color: $white;
     }
   }
   
@@ -23,7 +23,7 @@
   display: inline-block;
   font-size: 16px;
   // font-weight: 700;
-    font-family: 'Bjudson';
+    font-family: 'RobotoM';
   padding: 15px 40px;
   text-align: center;
   cursor: pointer;

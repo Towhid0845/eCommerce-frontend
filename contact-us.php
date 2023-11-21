@@ -134,6 +134,12 @@ include("layout/head.php");
   </div>
   <!-- map part end -->
 
+    <!-- back to top part start -->
+    <a id="button">
+    <i class="bi bi-chevron-up"></i>
+  </a>
+  <!-- back to top part end -->
+
   <!-- footer part start -->
   <?php
   include("layout/footer.php");

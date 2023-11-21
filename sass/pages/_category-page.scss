@@ -33,7 +33,7 @@
 
   .listing-top{
 
-    font-family: 'Bjudson';
+    font-family: 'RobotoM';
     input{
       height: 35px;
       width: 65px;
@@ -44,7 +44,8 @@
       line-height: 35px;
         height: 35px;
       border-radius: 3px;
-      font-family: 'Rjudson';
+      // font-family: 'Rjudson';
+      font-family: 'RobotoR';
 
       &::after{
         width: 7px;
@@ -56,7 +57,7 @@
       }
     }
                                 .nice-select .option.selected {
-                                  font-family: 'Bjudson';
+                                  font-family: 'RobotoB';
                                 }
   }
 
@@ -66,7 +67,7 @@
     }
     .product-info{
       background-color: $white;
-      height: 120px;
+      height: 118px;
     }
   }
 }

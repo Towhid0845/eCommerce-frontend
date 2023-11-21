@@ -1,5 +1,5 @@
 /* judson font */
-@font-face {
+/* @font-face {
   font-family: "Rjudson";
     src: url(../fonts/Judson/Judson-Regular.ttf);
   }
@@ -7,7 +7,7 @@
   @font-face {
     font-family: "Bjudson";
     src: url(../fonts/Judson/Judson-Bold.ttf);
-  }
+  } */
   
   
   /* judson font */
@@ -28,8 +28,8 @@
   src: url(../fonts/roboto/Roboto-Black.ttf);
 } */
 
-/* @font-face {
-  font-family: "Roboto";
+@font-face {
+  font-family: "RobotoR";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "RobotoM";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -45,14 +45,14 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "RobotoB";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/roboto/Roboto-Bold.ttf);
 }
 
-@font-face {
+/* @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;

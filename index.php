@@ -103,7 +103,7 @@ include("layout/head.php");
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-0">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
             <a href="category.php" class="w-100">
               <div class="product-img category-img">
