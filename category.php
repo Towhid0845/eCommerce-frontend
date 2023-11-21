@@ -335,9 +335,9 @@ include("layout/head.php");
           <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
-                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                     <div class="product-badge">
                       <ul>
                         <li class="sale-badge">-25%</li>
@@ -364,7 +364,7 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
                     <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
                     <div class="product-badge">
@@ -393,9 +393,9 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
-                    <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
+                    <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                     <div class="product-badge">
                       <ul>
                         <li class="sale-badge">-25%</li>
@@ -422,7 +422,7 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
                     <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
                     <div class="product-badge">
@@ -451,7 +451,7 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
                     <img class="img-fluid" src="./images/pr-5.png" alt="no-img">
                     <div class="product-badge">
@@ -479,9 +479,9 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
-                    <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                    <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                     <div class="product-badge">
                       <ul>
                         <li class="sale-badge">-25%</li>
@@ -507,7 +507,7 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
                     <img class="img-fluid" src="./images/pr-2.png" alt="no-img">
                     <div class="product-badge">
@@ -536,9 +536,9 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
-                    <img class="img-fluid" src="./images/pr-3.png" alt="no-img">
+                    <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                     <div class="product-badge">
                       <ul>
                         <li class="sale-badge">-25%</li>
@@ -564,7 +564,7 @@ include("layout/head.php");
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-xl-3 col-xxl-2 pb-4 px-5 px-sm-3">
               <div class="product-item text-center">
-                <a href="product-view.php">
+                <a href="product-view.php" class="w-100">
                   <div class="product-img">
                     <img class="img-fluid" src="./images/pr-4.png" alt="no-img">
                     <div class="product-badge">

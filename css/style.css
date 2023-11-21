@@ -1049,30 +1049,31 @@ header .add-to-card {
 .product-item:hover {
   box-shadow: 0 0 15px 0px rgba(131, 132, 135, 0.5);
 }
-.product-item .product-img {
+.product-item a {
+  width: 100%;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+.product-item a .product-img {
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 294px;
 }
-.product-item .product-img a {
-  display: inline-block;
-  transition: all 0.3s ease 0s;
-}
-.product-item .product-img a img {
+.product-item a .product-img img {
   position: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: all 3.5s ease 0s;
-  z-index: -1;
+  z-index: 0;
 }
 .product-item .category-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: all 3.5s ease 0s;
-  z-index: -1;
+  z-index: 0;
 }
 .product-item .product-badge {
   position: absolute;

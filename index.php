@@ -39,7 +39,7 @@ include("layout/head.php");
           <div class="left-banner-main">
             <div class="left-banner-item">
               <div class="img">
-                <img src="images/bannr2.jpg" alt="banner-left-1" class="img-fluid w-100">
+                <img src="https://placehold.co/1656x400" alt="banner-left-1" class="img-fluid w-100">
                 <div class="overlay overlay-2">
                   <div class="text">
                     <h2 class="text-limit">Active Summer With Juice Milk 300ml</h2>
@@ -103,11 +103,11 @@ include("layout/head.php");
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
+        <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-0">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
-                <img src="./images/pr-1.png" alt="no-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
               </div>
             </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
@@ -123,7 +123,7 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
                 <img src="./images/pr-2.png" alt="no-img">
               </div>
@@ -141,9 +141,9 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
-                <img src="./images/pr-3.png" alt="no-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
               </div>
             </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
@@ -159,7 +159,7 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
                 <img src="./images/pr-4.png" alt="no-img">
               </div>
@@ -177,9 +177,9 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
-                <img src="./images/pr-5.png" alt="no-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
               </div>
             </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
@@ -195,7 +195,7 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
                 <img src="./images/vendor-info-image.webp" alt="no-img">
               </div>
@@ -213,7 +213,7 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
                 <img src="./images/product-details-image-2.webp" alt="no-img">
               </div>
@@ -231,9 +231,9 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <a href="category.php">
+            <a href="category.php" class="w-100">
               <div class="product-img category-img">
-                <img src="./images/product-details-image-3.webp" alt="no-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
               </div>
             </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
@@ -266,16 +266,16 @@ include("layout/head.php");
       <div class="row product-slider">
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/product-details-image-1.webp" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
               <div class="product-price">
@@ -290,16 +290,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-2.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="./images/cabbage.png" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
               <div class="product-price">
@@ -314,16 +314,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
               <div class="product-price">
@@ -338,17 +338,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-3.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="./images/banner33.jpg" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-
-            </div>
+            </a>
             <div class="product-info">
               <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
               <div class="product-price">
@@ -363,16 +362,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="https://placehold.co/294x294" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
               <div class="product-price">
@@ -387,16 +386,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-4.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="./images/cart-product-image-3.webp" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
               <div class="product-price">
@@ -411,16 +410,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-1.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="./images/cart-product-image-2.webp" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <div class="product-ratting">
                 <ul>
@@ -444,16 +443,16 @@ include("layout/head.php");
         </div>
         <div class="col-lg-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img">
-              <a href="product-view.php">
-                <img src="./images/pr-5.png" alt="no-img">
-              </a>
-              <div class="product-badge">
-                <ul>
-                  <li class="sale-badge">-25%</li>
-                </ul>
+            <a href="product-view.php">
+              <div class="product-img">
+                <img src="./images/cart-product-image-1.webp" alt="no-img">
+                <div class="product-badge">
+                  <ul>
+                    <li class="sale-badge">-25%</li>
+                  </ul>
+                </div>
               </div>
-            </div>
+            </a>
             <div class="product-info">
               <div class="product-ratting">
                 <ul>

@@ -193,7 +193,7 @@ include("layout/head.php");
                 <div class="product-item text-center">
                   <a href="product-view.php">
                     <div class="product-img">
-                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                      <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                       <div class="product-badge">
                         <ul>
                           <li class="sale-badge">-25%</li>
@@ -282,7 +282,94 @@ include("layout/head.php");
                 <div class="product-item text-center">
                   <a href="product-view.php">
                     <div class="product-img">
+                      <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
+                      <div class="product-badge">
+                        <ul>
+                          <li class="sale-badge">-25%</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="product-info">
+
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                    </div>
+                    <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                <div class="product-item text-center">
+                  <a href="product-view.php">
+                    <div class="product-img">
                       <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                      <div class="product-badge">
+                        <ul>
+                          <li class="sale-badge">-25%</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="product-info">
+
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                    </div>
+                    <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                <div class="product-item text-center">
+                  <a href="product-view.php">
+                    <div class="product-img">
+                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                      <div class="product-badge">
+                        <ul>
+                          <li class="sale-badge">-25%</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="product-info">
+
+                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
+                    <div class="product-price">
+                      <span>$150.00</span>
+                    </div>
+                    <div class="add-to-cart-1">
+                      <div class="d-flex justify-content-center">
+                        <a href="product-view.php" class="add-btn">
+                          <span>View</span>
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
+                <div class="product-item text-center">
+                  <a href="product-view.php">
+                    <div class="product-img">
+                      <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                       <div class="product-badge">
                         <ul>
                           <li class="sale-badge">-25%</li>
@@ -398,94 +485,7 @@ include("layout/head.php");
                 <div class="product-item text-center">
                   <a href="product-view.php">
                     <div class="product-img">
-                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                      <div class="product-badge">
-                        <ul>
-                          <li class="sale-badge">-25%</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="product-info">
-
-                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-                    <div class="product-price">
-                      <span>$150.00</span>
-                    </div>
-                    <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <a href="product-view.php" class="add-btn">
-                          <span>View</span>
-                        </a>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
-                <div class="product-item text-center">
-                  <a href="product-view.php">
-                    <div class="product-img">
-                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                      <div class="product-badge">
-                        <ul>
-                          <li class="sale-badge">-25%</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="product-info">
-
-                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-                    <div class="product-price">
-                      <span>$150.00</span>
-                    </div>
-                    <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <a href="product-view.php" class="add-btn">
-                          <span>View</span>
-                        </a>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
-                <div class="product-item text-center">
-                  <a href="product-view.php">
-                    <div class="product-img">
-                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
-                      <div class="product-badge">
-                        <ul>
-                          <li class="sale-badge">-25%</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </a>
-                  <div class="product-info">
-
-                    <h2 class="product-title"><a href="#" tabindex="0">Orange Sliced Mix</a></h2>
-                    <div class="product-price">
-                      <span>$150.00</span>
-                    </div>
-                    <div class="add-to-cart-1">
-                      <div class="d-flex justify-content-center">
-                        <a href="product-view.php" class="add-btn">
-                          <span>View</span>
-                        </a>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-2 mb-4">
-                <div class="product-item text-center">
-                  <a href="product-view.php">
-                    <div class="product-img">
-                      <img class="img-fluid" src="./images/pr-1.png" alt="no-img">
+                      <img class="img-fluid" src="https://placehold.co/294x294" alt="no-img">
                       <div class="product-badge">
                         <ul>
                           <li class="sale-badge">-25%</li>
