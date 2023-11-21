@@ -101,6 +101,21 @@
 	}
 }
 
+.footer-main .social a {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: $white;
+	color: #949494;
+	line-height: 53px;
+	font-size: 18px;
+	text-align: center;
+	transition: all linear .2s;
+	margin-left: 6px; }
+	.footer-main .social a:hover {
+		background-color: $colortheme;
+		color: $white; }
+
 /* footer bottom part start */
 .footer-bottom {
 	background-color: $black;

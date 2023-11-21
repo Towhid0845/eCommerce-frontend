@@ -243,6 +243,9 @@
   .tab-content {
     margin-top: 30px;
   }
+  .contact-page .contact-box .contact-box-content .contact-box-title {
+    font-size: 25px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .section-title h1 {
@@ -380,6 +383,9 @@
   }
   .tab-content {
     margin-top: 30px;
+  }
+  .contact-page .contact-box .contact-box-content .contact-box-title {
+    font-size: 25px;
   }
 }
 @media (min-width: 481px) and (max-width: 575px) {
@@ -545,6 +551,9 @@
   }
   .tab-content {
     margin-top: 30px;
+  }
+  .contact-page .contact-box .contact-box-content .contact-box-title {
+    font-size: 25px;
   }
 }
 @media (max-width: 480px) {
@@ -718,6 +727,9 @@
   }
   .tab-content {
     margin-top: 30px;
+  }
+  .contact-page .contact-box .contact-box-content .contact-box-title {
+    font-size: 25px;
   }
 }
 

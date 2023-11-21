@@ -22,6 +22,7 @@
             <div class="help-center pt-4 pt-sm-0">
               <h3>Help Center</h3>
               <ul>
+                <li><a href="contact-us.php">Contact Us</a></li>
                 <li><a href="#">Payments</a></li>
                 <li><a href="#">Shipping</a></li>
                 <li><a href="#">Product Returns</a></li>
@@ -51,10 +52,17 @@
                 </div>
               </ul>
             </div>
+            <!-- <div class="col-lg-4 text-start text-lg-end"> -->
+            <div class="social text-start pt-4">
+              <a href="https://www.facebook.com/profile.php?id=100091585325239" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.youtube.com/channel/UCWu7Y2HVTluc8mY56W47m7A" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://twitter.com/MasudGroup" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/msbbl/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <!-- </div> -->
           </div>
         </div>
       </div>
-    </div>
   </footer>
   <!-- footer part end -->
 

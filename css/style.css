@@ -2038,6 +2038,24 @@ nav .recent-view a i {
   padding-left: 20px;
 }
 
+.footer-main .social a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #949494;
+  line-height: 53px;
+  font-size: 18px;
+  text-align: center;
+  transition: all linear 0.2s;
+  margin-left: 6px;
+}
+
+.footer-main .social a:hover {
+  background-color: #E55604;
+  color: #ffffff;
+}
+
 /* footer bottom part start */
 .footer-bottom {
   background-color: #000000;
@@ -3894,6 +3912,163 @@ nav .recent-view a i {
   border: 0;
   padding: 5px 10px;
   color: #ffffff;
+}
+
+.contact-page {
+  padding-top: 80px;
+}
+.contact-page .common--subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 70px 0px;
+  background-color: #26577C;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.contact-page .send-btn {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #26577C;
+  padding: 10px 40px;
+  color: #0A0B0F;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  margin-top: 30px;
+  color: #ffffff;
+  border: none;
+}
+.contact-page .send-btn:hover {
+  color: #ffffff;
+  background-color: #E55604;
+}
+.contact-page .contact--title {
+  margin-bottom: 60px;
+}
+.contact-page .contact-box {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 45px 30px;
+  border-radius: 10px;
+  min-height: 100%;
+}
+.contact-page .contact-box .contact-box-icon {
+  margin-bottom: 15px;
+}
+.contact-page .contact-box .contact-box-icon i {
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #26577C;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  transition: all 0.3s ease-in-out;
+}
+.contact-page .contact-box .contact-box-icon i:hover {
+  background-color: #E55604;
+  color: #ffffff;
+}
+.contact-page .contact-box .contact-box-content .contact-box-title {
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 36px;
+  font-weight: 700;
+}
+.contact-page .contact-form {
+  padding: 80px 0;
+}
+.contact-page .contact-form .image {
+  width: 100%;
+  height: 600px;
+}
+.contact-page .contact-form .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.contact-page .contact-form .description {
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 9;
+  position: relative;
+  margin: 10px 0 0 0;
+}
+.contact-page .contact-form .contact-us-form input,
+.contact-page .contact-form .contact-us-form select {
+  margin-bottom: 20px;
+}
+.contact-page .contact-form input,
+.contact-page .contact-form input.form-control {
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #000000;
+  width: 100%;
+  float: none;
+  font-size: 16px;
+  padding: 0 15px;
+  height: 54px;
+  line-height: 54px;
+  outline: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+}
+.contact-page .contact-form select,
+.contact-page .contact-form select.form-control {
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #000000;
+  width: 100%;
+  padding: 0 30px 0 15px;
+  height: 54px;
+}
+.contact-page .contact-form textarea {
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #000000;
+  width: 100%;
+  float: none;
+  padding: 10px 15px;
+  outline: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  height: 150px;
+}
+.contact-page .contact-form input:focus,
+.contact-page .contact-form input:hover,
+.contact-page .contact-form textarea:focus,
+.contact-page .contact-form textarea:hover,
+.contact-page .contact-form .form-control:focus {
+  border-color: #E55604;
+  outline: none;
+  box-shadow: none;
+}
+
+.map iframe {
+  width: 100%;
+  border: 0;
+  height: 450px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -105,9 +105,11 @@ include("layout/head.php");
       <div class="row">
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/pr-1.png" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/pr-1.png" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -121,9 +123,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/pr-2.png" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/pr-2.png" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -137,9 +141,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/pr-3.png" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/pr-3.png" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -153,9 +159,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/pr-4.png" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/pr-4.png" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -169,9 +177,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/pr-5.png" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/pr-5.png" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -185,9 +195,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/vendor-info-image.webp" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/vendor-info-image.webp" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -201,9 +213,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/product-details-image-2.webp" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/product-details-image-2.webp" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
@@ -217,9 +231,11 @@ include("layout/head.php");
         </div>
         <div class="col-sm-6 col-lg-4 col-xl-3 pb-4 px-5 px-sm-3">
           <div class="product-item text-center">
-            <div class="product-img category-img">
-              <img src="./images/product-details-image-3.webp" alt="no-img">
-            </div>
+            <a href="category.php">
+              <div class="product-img category-img">
+                <img src="./images/product-details-image-3.webp" alt="no-img">
+              </div>
+            </a>
             <div class="product-info category-info d-flex flex-column align-items-start">
               <div class="product-price">
                 <span>Vegitables</span>
