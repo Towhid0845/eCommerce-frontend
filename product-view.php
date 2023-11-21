@@ -19,16 +19,22 @@ include("layout/head.php");
   <!-- heade & navbar part end -->
 
 
-  <!-- breadcrumb part start -->
-  <?php
-  include("layout/breadcrump.php");
-  ?>
-  <!-- breadcrumb part end -->
+
 
   <!--product details start-->
   <section class="product-details-page">
     <div class="product-details-bg">
       <div class="custom-container">
+        <section class="breadcrumb pt-3 pt-md-5 pb-3">
+          <div class="text">
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.php"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li>Current Page</li>
+            </ul>
+          </div>
+        </section>
         <div class="product-information-main">
           <div class="row mx-0">
             <div class="col-lg-12">
@@ -950,9 +956,23 @@ include("layout/head.php");
           <!-- <div class="col-lg-3"></div> -->
         </div>
 
-
-
-
+        <div class="pagination py-4 d-flex justify-content-end">
+          <ul class="list-unstyled">
+            <li class="arrow">
+              <a href="#"><i class="fas fa-chevron-left"></i></a>
+            </li>
+            <li class="mid-pagi">
+              <a href="#"><span>2</span></a>
+              <a href="#"><span>3</span></a>
+              <a class="active" href="#"><span>4</span></a>
+              <a href="#"><span>6</span></a>
+              <a href="#"><span>7</span></a>
+            </li>
+            <li class="arrow">
+              <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
