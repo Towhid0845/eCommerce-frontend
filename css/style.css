@@ -1510,24 +1510,25 @@ nav .recent-view a i {
   text-align: center;
   position: relative;
 }
-.nav-side-menu a {
+.nav-side-menu .shop-by {
   font-size: 15px;
   text-transform: uppercase;
   color: #E55604;
   font-family: "RobotoB";
   line-height: 70px;
+  cursor: pointer;
 }
-.nav-side-menu a .feather-menu {
+.nav-side-menu .shop-by .feather-menu {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
-.nav-side-menu:hover .dropdown-category-menu {
+.nav-side-menu:hover .dropdown-side-menu {
   opacity: 1;
   visibility: visible;
 }
 
-.dropdown-category-menu {
+.dropdown-side-menu {
   width: 280px;
   min-height: 440px;
   background-color: #fff;
@@ -1535,17 +1536,17 @@ nav .recent-view a i {
   top: 100%;
   left: 0;
   z-index: 99;
-  visibility: hidden;
-  transition: all linear 0.3s;
-  opacity: 0;
   border-top: 2px solid #E55604;
   text-align: left;
   border: 2px solid #eee;
+  transition: all linear 0.3s;
+  visibility: hidden;
+  opacity: 0;
 }
-.dropdown-category-menu ul li {
+.dropdown-side-menu > ul > li {
   border-bottom: 1px solid #eee;
 }
-.dropdown-category-menu ul li a {
+.dropdown-side-menu > ul > li a {
   font-family: "RobotoR";
   font-size: 15px !important;
   color: #222;
@@ -1556,81 +1557,36 @@ nav .recent-view a i {
   transition: all linear 0.2s;
   padding: 0 20px 0 25px;
 }
-.dropdown-category-menu ul li a:hover {
+.dropdown-side-menu > ul > li a:hover {
   color: #E55604;
   background-color: #EBE4D1;
 }
-.dropdown-category-menu ul li a i {
+.dropdown-side-menu > ul > li a i {
   font-size: 12px;
   color: #999;
 }
-.dropdown-category-menu ul li a .feather {
+.dropdown-side-menu > ul > li a .feather {
   float: right;
   padding-right: 0;
   margin: 8px auto;
   stroke-width: 1.5;
 }
-.dropdown-category-menu ul li:last-child {
-  border-color: transparent;
-}
-.dropdown-category-menu ul li:hover > .dropdown-sub-menu {
-  visibility: visible;
-  opacity: 1;
-}
-
-.dropdown-sub-mega-menu {
-  min-width: 530px;
-  background: url(../images/dropdown-menu-image.jpg) no-repeat;
-  background-position: right bottom;
-  background-size: cover;
+.dropdown-side-menu > ul > li > ul {
+  border-bottom: 1px solid #eee;
+  border-right: 2px solid #eee;
+  min-width: 265px;
+  min-height: 440px;
+  background-color: #ffffff;
   position: absolute;
-  top: 0;
+  top: -2px;
   left: 100%;
-  margin-left: 15px;
+  margin-left: 1px;
   transition: all linear 0.3s;
-  padding: 15px 0;
-  padding-bottom: 60px;
   visibility: hidden;
   opacity: 0;
 }
-.dropdown-sub-mega-menu ul li {
-  border: none;
+.dropdown-side-menu > ul > li > ul > li > ul {
   border-bottom: 1px solid #eee;
-}
-.dropdown-sub-mega-menu ul li a.all-products {
-  color: #E55604;
-  padding-top: 20px;
-}
-.dropdown-sub-mega-menu ul li a.all-products i {
-  color: #E55604;
-}
-.dropdown-sub-mega-menu ul li a.fresh-drink {
-  text-transform: uppercase;
-  font-size: 22px;
-  line-height: 24px;
-  margin: 20px 0;
-  padding-right: 80px;
-}
-.dropdown-sub-mega-menu ul li a.btn {
-  background-color: #E55604;
-  display: inline-block;
-  width: auto !important;
-  padding: 3px 15px !important;
-  margin-left: 25px;
-  color: #ffffff;
-}
-.dropdown-sub-mega-menu .child-menu-item:first-child {
-  border-right: 1px solid #eee;
-  margin-top: -17px;
-}
-
-.dropdown-category-menu ul li:hover > .dropdown-sub-mega-menu {
-  visibility: visible;
-  opacity: 1;
-  margin-left: 2px !important;
-}
-
-.dropdown-sub-menu {
   min-width: 265px;
   min-height: 440px;
   background-color: #ffffff;
@@ -1642,28 +1598,30 @@ nav .recent-view a i {
   visibility: hidden;
   opacity: 0;
 }
-.dropdown-sub-menu ul li {
-  border: none;
-  border-bottom: 1px solid #eee;
-}
-.dropdown-sub-menu ul li:first-child {
-  border-bottom: 1px solid #B4B4B3;
-}
-.dropdown-sub-menu ul li a.all-products {
+.dropdown-side-menu > ul > li > ul > li > ul > li > a.all-products {
   color: #E55604;
   padding-top: 20px;
 }
-.dropdown-sub-menu ul li a.all-products i {
+.dropdown-side-menu > ul > li > ul > li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+.dropdown-side-menu > ul > li > ul > li > a.all-products {
+  color: #E55604;
+  padding-top: 20px;
+}
+.dropdown-side-menu > ul > li > ul > li > a.all-products i {
   color: #E55604;
 }
-.dropdown-sub-menu ul li a.fresh-drink {
+.dropdown-side-menu > ul > li > ul > li > a.fresh-drink {
   text-transform: uppercase;
   font-size: 22px;
+  font-weight: 600;
   line-height: 24px;
   margin: 20px 0;
   padding-right: 80px;
 }
-.dropdown-sub-menu ul li a.btn {
+.dropdown-side-menu > ul > li > ul > li > a.btn {
   background-color: #E55604;
   display: inline-block;
   width: auto !important;
@@ -1671,14 +1629,37 @@ nav .recent-view a i {
   margin-left: 25px;
   color: #ffffff;
 }
-
-.child-menu-item:first-child {
-  border-right: 1px solid #eee;
+.dropdown-side-menu > ul > li > ul > li > a.btn:hover {
+  color: #222;
 }
-.child-menu-item ul li:hover .dropdown-category-menu {
-  opacity: 1;
+.dropdown-side-menu > ul > li > ul + ul {
+  min-width: 265px;
+  min-height: 440px;
+  background-color: #ffffff;
+  position: absolute;
+  top: -2px;
+  left: 196%;
+  margin-left: 1px;
+  transition: all linear 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+.dropdown-side-menu > ul > li:last-child {
+  border-color: transparent;
+}
+.dropdown-side-menu > ul > li:hover > ul {
   visibility: visible;
-  margin-top: 11px;
+  opacity: 1;
+}
+
+.dropdown-side-menu > ul > li:first-child a {
+  line-height: 40px;
+}
+
+.dropdown-side-menu > ul > li > ul li:first-child {
+  background-color: #EBE4D1;
+  line-height: 41px;
+  border-bottom: 1px solid #B4B4B3;
 }
 
 .list-menu-title {
@@ -1736,17 +1717,6 @@ nav .recent-view a i {
   margin-top: 0;
   visibility: visible !important;
   opacity: 1 !important;
-}
-
-.dropdown-sub-mega-menu ul li:first-child,
-.dropdown-sub-menu ul li:first-child {
-  background-color: #EBE4D1;
-  line-height: 41px;
-  border-bottom: 1px solid #B4B4B3;
-}
-
-.dropdown-sub-menu ul li .dropdown-sub-menu {
-  margin-left: 0px;
 }
 
 .logo {

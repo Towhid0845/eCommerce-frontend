@@ -221,152 +221,108 @@
       <div class="row">
         <div class="col-12 col-lg-9 d-flex align-self-center">
           <div class="nav-side-menu">
-            <a href="category.php" class="d-flex justify-content-center align-items-center">
+            <div class="shop-by d-flex justify-content-center align-items-center">
               <i data-feather="menu"></i>
               <span>Shop By Category</span>
-            </a>
-            <div class="dropdown-main pt-3">
-              <div class="dropdown-category-menu">
-                <ul>
-                  <li><a href="category.php">Daily Deals</a></li>
-                  <li><a href="category.php">Top Promotions</a></li>
-                  <li><a href="category.php">New Arrivals</a></li>
-                  <li><a href="category.php">Fruits & Vegetables <i data-feather="chevron-right"></i></a>
-                    <div class="dropdown-sub-mega-menu">
-                      <div class="row g-0">
-                        <div class="col-lg-6">
-                          <div class="child-menu-item">
-                            <ul>
-                              <li class="list-menu-title cmn-label"><span>Fruits</span></li>
-                              <li><a href="category.php">Apples</a></li>
-                              <li><a href="category.php">Bananas</a></li>
-                              <li><a href="category.php">Berries</a></li>
-                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
-                              <li><a href="category.php">Grapes</a></li>
-                              <li><a href="category.php">Lemons & Limes</a></li>
-                              <li><a href="category.php">Peaches & Nectarines</a></li>
-                              <li><a href="category.php">Pears</a></li>
-                              <li><a href="category.php">Melon</a></li>
-                              <li><a href="category.php" class="all-products">See all products</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="child-menu-item">
-                            <ul>
-                              <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
-                              <li><a href="category.php">Apples</a></li>
-                              <li><a href="category.php">Bananas</a></li>
-                              <li><a href="category.php">Berries</a></li>
-                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
-                              <li><a href="category.php">Grapes</a></li>
-                              <li><a href="category.php">Lemons & Limes</a></li>
-                              <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
-                              <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="category.php">Breads Sweets <i data-feather="chevron-right"></i></a>
-                    <div class="dropdown-sub-menu">
-                      <div class="row g-0">
-                        <div class="col-lg-12">
-                          <div class="child-menu-item">
-                            <ul>
-                              <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
-                              <li><a href="category.php">Apples</a></li>
-                              <li><a href="category.php">Bananas</a></li>
-                              <li><a href="category.php">Berries<i data-feather="chevron-right"></i></a>
-                                <div class="dropdown-sub-menu">
-                                  <div class="row g-0">
-                                    <div class="col-lg-12">
-                                      <div class="child-menu-item">
-                                        <ul>
-                                          <li class="list-menu-title cmn-label"><span>Fruits</span></li>
-                                          <li><a href="category.php">Apples</a>
-                                          </li>
-                                          <li><a href="category.php">Bananas</a></li>
-                                          <li><a href="category.php">Berries</a></li>
-                                          <li><a href="category.php">Oranges & Easy Peelers</a></li>
-                                          <li><a href="category.php">Grapes</a></li>
-                                          <li><a href="category.php">Lemons & Limes</a></li>
-                                          <li><a href="category.php">Peaches & Nectarines</a></li>
-                                          <li><a href="category.php">Pears</a></li>
-                                          <li><a href="category.php">Melon</a></li>
-                                          <li><a href="category.php" class="all-products">See all products</a></li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
-                              <li><a href="category.php">Grapes</a></li>
-                              <li><a href="category.php">Lemons & Limes</a></li>
-                              <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
-                              <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="category.php">Frozen Seafoods</a></li>
-                  <li><a href="category.php">Raw Meats</a></li>
-                  <li><a href="category.php">Wines & Alcohol Drinks <i data-feather="chevron-right"></i></a>
-                    <div class="dropdown-sub-menu">
-                      <div class="row g-0">
-                        <div class="col-lg-12">
-                          <div class="child-menu-item">
-                            <ul>
-                              <li class="list-menu-title cmn-label"><span>Fruits</span></li>
-                              <li><a href="category.php">Apples</a></li>
-                              <li><a href="category.php">Bananas</a></li>
-                              <li><a href="category.php">Berries</a></li>
-                              <li><a href="category.php">Oranges & Easy Peelers</a></li>
-                              <li><a href="category.php">Grapes</a></li>
-                              <li><a href="category.php">Lemons & Limes</a></li>
-                              <li><a href="category.php">Peaches & Nectarines<i data-feather="chevron-right"></i></a>
-                                <div class="dropdown-sub-menu">
-                                  <div class="row g-0">
-                                    <div class="col-lg-12">
-                                      <div class="child-menu-item">
-                                        <ul>
-                                          <li class="list-menu-title cmn-label"><span>Fruits</span></li>
-                                          <li><a href="category.php">Apples</a>
-                                          </li>
-                                          <li><a href="category.php">Bananas</a></li>
-                                          <li><a href="category.php">Berries</a></li>
-                                          <li><a href="category.php">Oranges & Easy Peelers</a></li>
-                                          <li><a href="category.php">Grapes</a></li>
-                                          <li><a href="category.php">Lemons & Limes</a></li>
-                                          <li><a href="category.php">Peaches & Nectarines</a></li>
-                                          <li><a href="category.php">Pears</a></li>
-                                          <li><a href="category.php">Melon</a></li>
-                                          <li><a href="category.php" class="all-products">See all products</a></li>
-                                        </ul>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                              <li><a href="category.php">Pears</a></li>
-                              <li><a href="category.php">Melon</a></li>
-                              <li><a href="category.php" class="all-products">See all products</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="category.php">Tea & Coffee</a></li>
-                  <li><a href="category.php">Milks and Dairies</a></li>
-                  <li><a href="category.php">Pet Foods</a></li>
-                </ul>
-              </div>
+            </div>
+            <div class="dropdown-side-menu">
+              <ul>
+                <li><a href="category.php">Daily Deals</a></li>
+                <li><a href="category.php">Top Promotions</a></li>
+                <li><a href="category.php">New Arrivals</a></li>
+                <li><a href="category.php">Fruits & Vegetables <i data-feather="chevron-right"></i></a>
+                  <!-- <div class="sub-mega-menu"> -->
+                  <ul>
+                    <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                    <li><a href="category.php">Apples</a></li>
+                    <li><a href="category.php">Bananas</a></li>
+                    <li><a href="category.php">Berries</a></li>
+                    <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                    <li><a href="category.php">Grapes</a></li>
+                    <li><a href="category.php">Lemons & Limes</a></li>
+                    <li><a href="category.php">Peaches & Nectarines</a></li>
+                    <li><a href="category.php">Pears</a></li>
+                    <li><a href="category.php">Melon</a></li>
+                    <li><a href="category.php" class="all-products">See all products</a></li>
+                  </ul>
+                  <ul>
+                    <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
+                    <li><a href="category.php">Apples</a></li>
+                    <li><a href="category.php">Bananas</a></li>
+                    <li><a href="category.php">Berries</a></li>
+                    <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                    <li><a href="category.php">Grapes</a></li>
+                    <li><a href="category.php">Lemons & Limes</a></li>
+                    <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                    <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
+                  </ul>
+                  <!-- </div> -->
+                </li>
+                <li><a href="category.php">Breads Sweets <i data-feather="chevron-right"></i></a>
+                  <ul>
+                    <li class="list-menu-title cmn-label"><span>Vegitables</span></li>
+                    <li><a href="category.php">Apples</a></li>
+                    <li><a href="category.php">Bananas</a></li>
+                    <li><a href="category.php">Berries<i data-feather="chevron-right"></i></a>
+                      <ul>
+                        <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                        <li><a href="category.php">Apples</a>
+                        </li>
+                        <li><a href="category.php">Bananas</a></li>
+                        <li><a href="category.php">Berries</a></li>
+                        <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                        <li><a href="category.php">Grapes</a></li>
+                        <li><a href="category.php">Lemons & Limes</a></li>
+                        <li><a href="category.php">Peaches & Nectarines</a></li>
+                        <li><a href="category.php">Pears</a></li>
+                        <li><a href="category.php">Melon</a></li>
+                        <li><a href="category.php" class="all-products">See all products</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                    <li><a href="category.php">Grapes</a></li>
+                    <li><a href="category.php">Lemons & Limes</a></li>
+                    <li><a href="category.php" class="fresh-drink">FRESHLY DRINK ORANGE JUICE.</a></li>
+                    <li><a href="category.php" class="btn shadow-none">Shop Now</a></li>
+                  </ul>
+                </li>
+                <li><a href="category.php">Frozen Seafoods</a></li>
+                <li><a href="category.php">Raw Meats</a></li>
+                <li><a href="category.php">Wines & Alcohol Drinks <i data-feather="chevron-right"></i></a>
+                  <ul>
+                    <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                    <li><a href="category.php">Apples</a></li>
+                    <li><a href="category.php">Bananas</a></li>
+                    <li><a href="category.php">Berries</a></li>
+                    <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                    <li><a href="category.php">Grapes</a></li>
+                    <li><a href="category.php">Lemons & Limes</a></li>
+                    <li><a href="category.php">Peaches & Nectarines<i data-feather="chevron-right"></i></a>
+                      <ul>
+                        <li class="list-menu-title cmn-label"><span>Fruits</span></li>
+                        <li><a href="category.php">Apples</a>
+                        </li>
+                        <li><a href="category.php">Bananas</a></li>
+                        <li><a href="category.php">Berries</a></li>
+                        <li><a href="category.php">Oranges & Easy Peelers</a></li>
+                        <li><a href="category.php">Grapes</a></li>
+                        <li><a href="category.php">Lemons & Limes</a></li>
+                        <li><a href="category.php">Peaches & Nectarines</a></li>
+                        <li><a href="category.php">Pears</a></li>
+                        <li><a href="category.php">Melon</a></li>
+                        <li><a href="category.php" class="all-products">See all products</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="category.php">Pears</a></li>
+                    <li><a href="category.php">Melon</a></li>
+                    <li><a href="category.php" class="all-products">See all products</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="category.php">Tea & Coffee</a></li>
+                <li><a href="category.php">Milks and Dairies</a></li>
+                <li><a href="category.php">Pet Foods</a></li>
+              </ul>
             </div>
           </div>
           <div class="menu">
