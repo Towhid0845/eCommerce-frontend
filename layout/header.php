@@ -440,11 +440,18 @@
             <li class="sub-menu">
               <a href="index.php">Home</a>
             </li>
-            <li class="sub-menu">
+            <!-- <li class="sub-menu">
               <a href="#">About Us</a>
-            </li>
+            </li> -->
             <li class="sub-menu">
-              <a href="category.php">Shop by Category<i class="fas fa-sort-down float-end"></i></a>
+              <a href="#">Shop by Category<i class="fas fa-sort-down float-end"></i></a>
+              <ul class="list-unstyled">
+                <li><a href="category.php">category 01</a></li>
+                <li><a href="category.php">category 02</a></li>
+                <li><a href="category.php">category 03</a></li>
+                <li><a href="category.php">category 04</a></li>
+                <li><a href="category.php">category 05</a></li>
+              </ul>
               <!-- <div class="dropdown-main pt-3">
                 <div class="dropdown-category-menu">
                   <ul>
@@ -559,15 +566,8 @@
                 </div>
               </div> -->
             </li>
-            <li class="sub-menu"><a href="#sp-offer">Special Offer<i class="fas fa-sort-down float-end"></i></a>
-              <ul class="list-unstyled">
-                <li><a href="">offer1</a></li>
-                <li><a href="">offer2</a></li>
-                <li><a href="">offer3</a></li>
-                <li><a href="">offer4</a></li>
-                <li><a href="">offer5</a></li>
-              </ul>
-            </li>
+            <li class="sub-menu"><a href="category.php">Special Offer</a></li>
+            <li class="sub-menu"><a href="category.php">All Product</a></li>
             <li class="sub-menu"><a href="#">Brand<i class="fas fa-sort-down float-end"></i></a>
               <ul class="list-unstyled">
                 <li><a href="">brand1</a></li>
@@ -578,7 +578,7 @@
               </ul>
             </li>
 
-            <li class="sub-menu"><a href="#">Contact Us</a>
+            <li class="sub-menu"><a href="contact-us.php">Contact Us</a>
             </li>
           </ul>
         </div>
