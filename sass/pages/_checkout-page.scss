@@ -20,11 +20,10 @@ background-color: $primarytheme;
   }
 }
 
-.billing-section{
+form {
+  .billing-section {
 padding: 30px;
   border: 2px solid $secondarytheme;
-
-form {
     h6 {
       font-size: 20px;
       margin-bottom: 24px;

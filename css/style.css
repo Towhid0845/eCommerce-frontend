@@ -2786,29 +2786,29 @@ nav .recent-view a i {
   font-size: 20px;
 }
 
-.billing-section {
+form .billing-section {
   padding: 30px;
   border: 2px solid #B4B4B3;
 }
-.billing-section form h6 {
+form .billing-section h6 {
   font-size: 20px;
   margin-bottom: 24px;
 }
-.billing-section form .input-item {
+form .billing-section .input-item {
   position: relative;
 }
-.billing-section form .input-item i {
+form .billing-section .input-item i {
   position: absolute;
   right: 10px;
   top: 24px;
   color: #E55604;
   z-index: 1;
 }
-.billing-section form input[type=text],
-.billing-section form input[type=email],
-.billing-section form input[type=password],
-.billing-section form input[type=submit],
-.billing-section form textarea {
+form .billing-section input[type=text],
+form .billing-section input[type=email],
+form .billing-section input[type=password],
+form .billing-section input[type=submit],
+form .billing-section textarea {
   background-color: #ffffff;
   border: 2px solid;
   border-color: #B4B4B3;
@@ -2822,11 +2822,11 @@ nav .recent-view a i {
   border-radius: 0;
   padding-right: 40px;
 }
-.billing-section form input::-webkit-input-placeholder {
+form .billing-section input::-webkit-input-placeholder {
   font-size: 16px;
   color: #B4B4B3;
 }
-.billing-section form .input-item .nice-select {
+form .billing-section .input-item .nice-select {
   border: 2px solid;
   border-color: #B4B4B3;
   border-radius: 0;
@@ -2836,22 +2836,22 @@ nav .recent-view a i {
   width: 100%;
   margin-bottom: 30px;
 }
-.billing-section form .input-item .nice-select::after {
+form .billing-section .input-item .nice-select::after {
   border-bottom: 2px solid #E55604;
   border-right: 2px solid #E55604;
   height: 10px;
   width: 10px;
 }
-.billing-section form .input-item .nice-select .list {
+form .billing-section .input-item .nice-select .list {
   min-width: 100%;
 }
-.billing-section form textarea {
+form .billing-section textarea {
   resize: vertical;
   padding: 15px 20px;
   min-height: 150px;
 }
-.billing-section form input:focus,
-.billing-section form textarea:focus {
+form .billing-section input:focus,
+form .billing-section textarea:focus {
   border: 1px solid #3ca003;
 }
 
