@@ -173,42 +173,45 @@
     </div>
     <div class="container">
       <div class="row justify-content-center py-3 py-lg-4">
-        <div class="col-2 d-md-none">
+        <!-- <div class="col-1 col-sm-1 d-md-none">
           <div class="mobile-topbar">
             <div class="bars">
               <i class="fas fa-bars"></i>
             </div>
           </div>
-        </div>
-        <div class="col-10 col-md-1">
+        </div> -->
+        <!-- <div class="col-10 col-md-2">
           <div class="logo">
             <a href="index.php">
-              <img src="images/logo.png" alt="header">
+              <img src="images/main-logo.png" alt="header">
             </a>
           </div>
-        </div>
-        <div class="col-10 col-md-11 ps-md-5 ps-lg-3 ps-xl-2">
-          <div class="header-form">
-            <form action="#">
-              <div class="form-main d-flex justify-content-between">
-                <!-- <div class="dropdown rounded-start">
-                  <select class="nice-select" aria-label="Disabled select example">
-                    <option selected>All Categories</option>
-                    <option value="1">Breads Sweets</option>
-                    <option value="2">Chocolate</option>
-                    <option value="3">Stouffer</option>
-                    <option value="3">Fizzy Drinks</option>
-                    <option value="3">Coffees and Teas</option>
-                  </select>
-                </div> -->
-                <div class="input-field">
-                  <input type="text" class="form-control rounded-0 shadow-none" placeholder="I'm searching for...">
-                </div>
-                <div class="search d-flex justify-content-center align-items-center">
-                  <img src="./images/search.png" alt="not found">
-                </div>
+        </div> -->
+        <!-- <div class="col-11 col-sm-11 col-md-12 ps-md-5 ps-lg-3 ps-xl-2"> -->
+        <div class="col-12">
+          <div class="logo-wrapper w-100 d-flex flex-wrap flex-sm-nowrap">
+            <div class="mobile-topbar d-md-none me-4">
+              <div class="bars">
+                <i class="fas fa-bars"></i>
               </div>
-            </form>
+            </div>
+            <div class="logo me-sm-2">
+              <a href="index.php">
+                <img src="images/main-logo.png" alt="header">
+              </a>
+            </div>
+            <div class="header-form">
+              <form action="#">
+                <div class="form-main d-flex justify-content-between">
+                  <div class="input-field">
+                    <input type="text" class="form-control rounded-0 shadow-none" placeholder="I'm searching for...">
+                  </div>
+                  <div class="search d-flex justify-content-center align-items-center">
+                    <img src="./images/search.png" alt="not found">
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

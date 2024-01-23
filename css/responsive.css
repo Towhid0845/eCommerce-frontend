@@ -173,7 +173,7 @@
     width: 70px;
   }
   header .header-form input {
-    height: 40px;
+    height: 45px;
   }
   .slick-arrow {
     width: 40px;
@@ -248,6 +248,9 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  .logo a img {
+    height: 45px;
+  }
   .section-title h1 {
     font-size: 30px;
     padding-bottom: 10px;
@@ -389,6 +392,9 @@
   }
 }
 @media (min-width: 481px) and (max-width: 575px) {
+  .logo a img {
+    height: 40px;
+  }
   .section-title h1 {
     font-size: 30px;
   }
@@ -557,6 +563,9 @@
   }
 }
 @media (max-width: 480px) {
+  .logo a img {
+    height: 40px;
+  }
   .section-title h1 {
     font-size: 30px;
   }

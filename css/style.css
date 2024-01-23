@@ -1724,11 +1724,11 @@ nav .recent-view a i {
   padding-bottom: 0px;
 }
 .logo a img {
-  width: 80px;
+  width: auto;
+  height: 50px;
 }
 
 .mobile-topbar {
-  width: 40px;
   background-color: #ffffff;
   z-index: 99999;
 }

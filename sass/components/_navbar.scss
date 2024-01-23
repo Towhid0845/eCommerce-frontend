@@ -364,7 +364,8 @@ background-color: $white;
 	padding-bottom: 0px;
 
 a img {
-		width: 80px;
+		width: auto;
+		height: 50px;
 	}
 }
 
@@ -421,7 +422,6 @@ a img {
 // }
 // mobile nav start
 .mobile-topbar {
-width: 40px;
 	background-color: #ffffff;
 	z-index: 99999;
 }
