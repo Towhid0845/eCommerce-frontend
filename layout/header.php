@@ -173,21 +173,6 @@
     </div>
     <div class="container">
       <div class="row justify-content-center py-3 py-lg-4">
-        <!-- <div class="col-1 col-sm-1 d-md-none">
-          <div class="mobile-topbar">
-            <div class="bars">
-              <i class="fas fa-bars"></i>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div class="col-10 col-md-2">
-          <div class="logo">
-            <a href="index.php">
-              <img src="images/main-logo.png" alt="header">
-            </a>
-          </div>
-        </div> -->
-        <!-- <div class="col-11 col-sm-11 col-md-12 ps-md-5 ps-lg-3 ps-xl-2"> -->
         <div class="col-12">
           <div class="logo-wrapper w-100 d-flex flex-wrap flex-sm-nowrap">
             <div class="mobile-topbar d-md-none me-4">

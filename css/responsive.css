@@ -392,6 +392,12 @@
   }
 }
 @media (min-width: 481px) and (max-width: 575px) {
+  .category-page .listing-top .search {
+    padding: 0 15px;
+}
+.category-page .listing-top .search img {
+    height: 20px;
+}
   .logo a img {
     height: 40px;
   }
@@ -563,6 +569,12 @@
   }
 }
 @media (max-width: 480px) {
+  .category-page .listing-top .search {
+    padding: 0 15px;
+}
+.category-page .listing-top .search img {
+    height: 20px;
+}
   .logo a img {
     height: 40px;
   }

@@ -2069,6 +2069,7 @@ nav .recent-view a i {
   font-family: "RobotoM";
 }
 .category-page .listing-top input {
+  border: 1px solid #000000 !important;
   height: 35px;
   width: 65px;
 }
@@ -2078,6 +2079,16 @@ nav .recent-view a i {
   height: 35px;
   border-radius: 3px;
   font-family: "RobotoR";
+}
+.category-page .listing-top .search {
+  padding: 0 25px;
+  border-radius: 5px;
+  height: 37px;
+  border: none;
+  background-color: red;
+}
+.category-page .listing-top .search img {
+  height: 25px;
 }
 .category-page .listing-top .nice-select::after {
   width: 7px;
